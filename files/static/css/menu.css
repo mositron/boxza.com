@@ -1,0 +1,90 @@
+
+#mm_wrap ul {list-style: none;margin:5px 0px;}
+#mm_wrap ul li ul {padding: 0px}
+#main_list {
+	background-color: #f5f5f5;
+	padding: 0px 0px 25px 0px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	border: 1px solid #d5d5d5;
+}
+#main_list .default_row {display: none;}
+#main_list .mm_head {
+	color: #333333;
+	font-size: 11px;
+	font-weight: bold;
+	text-shadow: 0px 1px 0px #fff;
+	border-bottom: 1px solid #ccc;
+	width: 100%;
+	text-align:center;
+}
+
+#main_list .mm_head div {
+	float: left;
+	margin: 0;
+	padding: 5px 0px;
+	font-size: 18px;
+	text-align:center;
+}
+#main_list .mm_head #action {width: 202px;}
+#main_list .mm_head #name {width: 180px;}
+#main_list .mm_head #desc {width: 150px;}
+#main_list .mm_head #link {width: 150px;}
+#main_list .mm_row {
+	clear: both;
+	width: 100%;
+	text-align:left;
+}
+#main_list .mm_row .mm_margin{
+	width:500px;
+	margin:0px auto;
+	text-align:left;
+}
+#main_list .row_o {background-color: #fff;}
+#main_list .row_e {background-color: #EDECEB;}
+#main_list .mm_row input{
+	margin: 8px 4px;
+	padding: 2px 0px;
+	width:140px;
+	float:left;
+}
+
+#main_list .mm_row select {
+	margin: 8px 6px;
+	padding: 3px 4px;
+	width:110px;
+	float:left
+}
+
+#main_list .mm_actions {
+	float: left;
+	text-indent: -9999px;
+	margin: 4px 6px;
+	width: 32px;
+	height: 32px;
+	cursor:pointer;
+}
+#main_list .disabled{cursor:default !important}
+#main_list .mm_delete {
+	background: transparent url("../images/mm/delete_32.gif") no-repeat;
+}
+
+#main_list .mm_left {background: transparent url("../images/mm/left_32.gif") no-repeat;}
+#main_list .mm_right {background: transparent url("../images/mm/right_32.gif") no-repeat;}
+#main_list .mm_up {background: transparent url("../images/mm/up_32.gif") no-repeat;}
+#main_list .mm_down {background: transparent url("../images/mm/down_32.gif") no-repeat;}
+#main_list .menu_name_wrap {float: left;}
+
+#main_list .menu_name_wrap .indent {
+	height: 38px;
+	float: left;
+	background: transparent url(../images/mm/indent.gif) no-repeat right center;
+}
+.cl{clear:both}
+
+
+
+
+#menulist li{height:26px; line-height:26px; padding:0px 5px 0px 10px;}
+#menulist li span{float:right; margin:5px 1px 0px 1px; width:16px; height:16px; line-height:16px;}

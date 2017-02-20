@@ -1,0 +1,25 @@
+
+body{background:#fff;}
+
+.head-logo h1 a {width:300px; height:108px; background:none;}
+
+.hbar.navbar .nav>li>a{padding-left:15px; padding-right:15px;}
+
+.container{margin-bottom:-1px;}
+.dropdown-menu > li{display:block}
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+	table.tbweather th:nth-child(2),
+	table.tbweather th:nth-child(3),
+	table.tbweather th:nth-child(4),
+	table.tbweather th:nth-child(5),
+	table.tbweather td:nth-child(2),
+	table.tbweather td:nth-child(3),
+	table.tbweather td:nth-child(4),
+	table.tbweather td:nth-child(5){display: none;}
+}

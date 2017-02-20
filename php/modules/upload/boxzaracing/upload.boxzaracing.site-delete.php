@@ -1,0 +1,25 @@
+<?php
+/*
+if($_POST['file'])
+{
+	$f=UPLOAD_PATH.'gallery/'.$_POST['data']['fd'].'/';
+	if($_POST['data']['f'])
+	{
+		$file=$f.$_POST['data']['f'];
+		if(file_exists($file))
+		{
+			unlink($file);
+		}
+	}
+	if($_POST['data']['s'])
+	{
+		$file=$f.$_POST['data']['s'];
+		if(file_exists($file))
+		{
+			unlink($file);
+		}
+	}
+	$status=array('status'=>'OK');
+}
+*/
+?>

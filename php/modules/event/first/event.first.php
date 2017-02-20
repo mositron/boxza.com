@@ -1,0 +1,25 @@
+<?php
+define('EVENT_KEY','first');
+define('EVENT_ENABLED',2);
+define('EVENT_HOUR',3);
+
+$template=_::template();
+if(is_numeric(_::$path[0]))
+{
+	require_once(__DIR__.'/event.first.view.php');
+}
+elseif(in_array(_::$path[0],['apply','list','score']))
+{
+	require_once(__DIR__.'/event.first.'._::$path[0].'.php');
+}
+elseif(!_::$path[0])
+{
+	require_once(__DIR__.'/event.first.home.php');
+}
+else
+{
+	_::move('/first');
+}
+$template->assign('content',$content);
+_::$content=$template->fetch('first');
+?>

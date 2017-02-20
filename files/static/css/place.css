@@ -1,0 +1,40 @@
+body{background:#fff;}
+
+
+.head-logo h1 a {width:300px; height:18px; background:none;}
+
+.hbar.navbar{margin:0px -5px 5px;}
+.hbar.navbar .navbar-inner{border-radius:0px;background:#26D1FE;background-image: -webkit-linear-gradient(top,#00A3E0,#26D1FE);background-image: -moz-linear-gradient(top,#00A3E0,#26D1FE);background-image: -ms-linear-gradient(top,#DDDDDD,#FFFFFF);background-image: -o-linear-gradient(top,#00A3E0,#26D1FE);background-image: linear-gradient(top,#00A3E0,#26D1FE); border:none; border-top:1px solid #26D1FE;}
+.hbar.navbar .brand,.hbar.navbar .nav>li>a{color:#000;}
+
+.ab{padding:10px; margin:0px; background:#f0f0f0;}
+.ab-ha{background:#FAAF40; height:30px; line-height:30px; color:#000; margin:0px 0px 10px; padding:0px 10px;}
+.ab-hb{ padding:3px 10px; margin:0px;}
+.ab-hb a{color:#f80; text-decoration:none;}
+.ab-hc{padding:0px 10px;margin:0px 5px;height:30px; line-height:30px;background:#25C6F2; color:#000; border-radius:3px;}
+.ab-img{background:#fff; text-align:center; padding:5px 0px; display:block;}
+.ab-ul{margin:0px;}
+.ab-ul li{margin:5px 0px 0px 5px; }
+.ab-ul li.l{border-radius:5px; padding:5px; background:#fff;}
+
+.ab-news{margin:0px 5px;}
+.ab-news li{ margin:5px 0px 0px; height:60px; overflow:hidden;}
+.ab-news li a{display:block; color:#444;}
+.ab-news li a>img{float:left; margin-right:5px; width:80px;}
+.ab-news li a p{margin:0px;}
+
+.icn-fb{display:inline-block; width:20px; height:20px; vertical-align:middle; background:url(http://s0.boxza.com/static/images/star/icon.png) -66px -111px no-repeat;}
+.icn-in{display:inline-block; width:20px; height:20px; vertical-align:middle; background:url(http://s0.boxza.com/static/images/star/icon.png) -90px -110px no-repeat;}
+
+
+.bcd{margin:0px}
+.bcd ul{margin-left:-5px; margin-bottom:5px;}
+.bcd li{background:#fff;margin:5px 0px 0px 5px}
+.bcd li a{display:block; color:#58595B; overflow:hidden;line-height:0px;height:127px}
+.bcd li a.i1{height:235px;}
+.bcd li p{line-height:19px;font-size:13px; text-indent:5px; color:#555; }
+
+@media (max-width: 767px) {
+  .bcd li a{ height:auto !important;}
+  .bcd li a > img{float:left; margin-right:10px;}
+}

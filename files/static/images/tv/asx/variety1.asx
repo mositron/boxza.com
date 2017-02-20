@@ -1,0 +1,10 @@
+<ASX Version="3.0">
+<entry>
+<title>Variety One TV - phukettech.com</title>
+<author>phukettech.com</author>
+<copyright>phukettech.com</copyright>
+<Ref href="rtsp://203.150.230.228/LiveTVB-VARIETYONE"/>
+<Ref href="rtsp://streaming.livetv.co.th/LiveTVB-VARIETYONE"/>
+<MoreInfo href="http://www.phukettech.com"/>
+</entry>
+</asx>

@@ -1,0 +1,81 @@
+/* ----------------   FOOT BAR -----------------*/
+
+#fdock {position: fixed;bottom: 0; left: 0;z-index: 9999;background: #e3e2e2;border: 1px solid #c3c3c3;border-bottom: none;width: 94%;margin: 0 3%; min-width:800px; font-size:12px; font-family:Tahoma; color:#333;}
+#fdock a{color:#333;}
+*html #fdock {
+	margin-top: -1px; /*--prevents IE6 from having an infinity scroll bar - due to 1px border on #fdock--*/
+	position: absolute;
+	top:expression(eval(document.compatMode &&document.compatMode=='CSS1Compat') ?documentElement.scrollTop+(documentElement.clientHeight-this.clientHeight) : document.body.scrollTop +(document.body.clientHeight-this.clientHeight));
+}
+#fdock #fpanel{min-width:800px;}
+#fdock ul {padding: 0; margin: 0;float: left;width: 100%;list-style: none;border-top: 1px solid #fff;font-size: 1.1em;}
+#fdock ul li{padding: 0; margin: 0;float: left;position: relative;}
+#fdock ul li a{padding: 5px;float: left;height: 16px; width: 16px;text-decoration: none;color: #333;position: relative;}
+html #fdock ul li a:hover{background-color: #fff; }
+html #fdock ul li a.active,html #fdock ul li a.cactive{background-color: #555;height: 16px;margin-top: -2px; padding-top:7px; z-index: 200;position: relative; color:#fff;}
+
+#fdock a.home{width: 20px;text-indent: 0;text-align:center;}
+#fdock .cpanelli li a.l1{background-color:#f8f8f8}
+#fdock .cpanelli li a{display:block; height:24px; line-height:24px; padding:0px 5px 0px 10px;}
+#fdock .cpanelli li a:hover{background-color:#f0f0f0; text-decoration:none}
+#fdock .cpanelli li a img{vertical-align:text-bottom; margin:0px 5px 0px 0px;}
+#fdock .cpanelli li { } 
+#fdock .cpanelli li span {padding: 5px 5px 5px 10px;background:#fff;color: #9c9c9c;display:block;}
+
+#fdock .cpanelli li small{padding:0px 8px; background:#ff0000; color:#fff; margin:0px 5px 0px 0px;border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; font-size:12px;border:1px solid #ff0000}
+#fdock .cpanelli li small.alert{background-color:#fff; color:#ff0000;}
+#fdock #cbg li a{ height:96px; display:block; line-height:inherit; margin:5px; text-align:center;}
+#fdock #cbg li.view a{ height:24px; line-height:24px; display:block; background-color:#f0f0f0; margin:0px; text-align:center;}
+#fdock #conline a.online{width: 150px;padding-left: 0px;text-indent: 0; text-align:left;}
+#fdock #conline a.online img{vertical-align:text-bottom; margin:0px 5px}
+#fdock #conline.cpanelli li{position:relative}
+#fdock #conline.cpanelli li a {display:inline-block;height: 24px;line-height: 24px;width:110px;overflow:hidden;margin: 0px;white-space:nowrap;text-overflow:ellipsis;}
+#fdock #conline.cpanelli li a:hover{background:none}
+#fdock #conline.cpanelli li a.addchat {position:absolute;right:25px;top:2px;display:inline;width:16px;}
+
+#fdock .cchat a{width:100px; text-align:left; white-space:nowrap; height:16px; line-height:16px;text-overflow:ellipsis; overflow:hidden}
+#fdock .cchat a span{width:90px; text-align:left; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; display:block}
+#fdock .cchat a img{vertical-align:text-bottom; margin:0px 5px 0px 0px}
+#fdock .cchat .subchat{width:200px; left:auto; right:0px;}
+#fdock .cchat .chat_message{height:200px; overflow:auto; background-color:#fff;}
+#fdock .cchat .chat_message p{ padding:1px 5px; line-height:16px; font-size:12px;}
+#fdock .cchat .chat_input{text-align:center;border-top:1px solid #f5f5f5; background-color:#fff}
+#fdock .cchat .chat_input input{width:188px; margin:3px auto; text-align:left; }
+#fdock .cchat .chat_close{position:absolute; top:4px; right:0px; width:14px; height:14px; padding:0px; margin:0px}
+#fdock .cright{	float: right;} 
+#fdock .linel{border-left:1px solid #bbb;}
+#fdock .liner{border-right:1px solid #bbb;}
+
+#fdock ul li div a {text-indent: 0;width: auto;height: auto;padding: 0;float: none;color: #333;position: static;}
+
+#fdock .subpanel,#fdock .subchat {position: absolute;left: 0; bottom: 27px;width: 170px;border: 1px solid #555;overflow: hidden;padding-bottom: 0px;}
+#fdock h3 {background:#555;padding: 5px 10px;color: #fff;font-size: 12px;cursor: pointer; -moz-opacity:0.65;filter:alpha(opacity=65);opacity:0.65;}
+#fdock h3 span{font-size: 1.5em;float: right;line-height: 0.6em;font-weight: normal; width:14px; text-align:center; margin-left:4px;}
+#fdock .subpanel ul,#fdock .subchat ul{padding: 0; margin: 0;background: #fff;width: 100%;overflow: auto;}
+#fdock .subpanel li,#fdock .subchat li{ float: none;display: block;padding: 0; margin: 0;overflow: hidden;clear: both;background: #fff;position: static;font-size: 12px;}
+#fdock ul li.ctext a {padding:5px 20px}
+#fdock #conline .subpanel{width:163px}
+#fdock .subpanel li.hr{height:1px !important; overflow:hidden} 
+#fdock .subpanel li hr{ width:90%;margin:0px 5%;size:0px;color:#fff; border-top:1px solid #f0f0f0;}
+#fdock #cnoti .noti{text-align:center; color:#999;font-weight:bold; }
+/*#fdock #cnoti a.count{width:21px; height:21px; padding:3px;}*/
+/*#fdock #cnoti a.count span{ display:block; background:#ff0000; margin:auto; font-size:12px; width:20px; line-height:20px; height:20px; color:#fff; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px}*/
+#fdock #cnoti{width:28px;}
+#fdock #cnoti a.count span{ display:block; background:#ff0000; font-size:12px; line-height:1.5em;  color:#fff; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px}
+html #fdock  #cnoti li a.active.count{}
+#fdock #cnoti .subpanel,#fdock #cbg .subpanel { right: 0; left: auto; /*--Reset left positioning and make it right positioned--*/ }
+
+#fdock li.ctext a{width:auto; display:inline-block; line-height:16px;}
+#fdock li.ctext a img{ vertical-align:text-bottom}
+	
+#fdock #conline li.google{background:url(../images/browser/google.gif) 95% 50% no-repeat}
+#fdock #conline li.googlebot{background:url(../images/browser/googlebot.gif) 95% 50% no-repeat}
+#fdock #conline li.msnbot{background:url(../images/browser/msnbot.gif) right center no-repeat}
+#fdock #conline li.alexa{background:url(../images/browser/alexa.gif) 95% 50% no-repeat}
+#fdock #conline li.opera{background:url(../images/browser/opera.gif) 95% 50% no-repeat}
+#fdock #conline li.msie{background:url(../images/browser/msie.gif) 95% 50% no-repeat}
+#fdock #conline li.firefox{background:url(../images/browser/firefox.gif) 95% 50% no-repeat}
+#fdock #conline li.safari{background:url(../images/browser/safari.gif) 95% 50% no-repeat}
+#fdock #conline li.chrome{background:url(../images/browser/chrome.gif) 95% 50% no-repeat}
+
+#fdock .tbox{padding:3px;scrollbar-face-color: #dddddd;scrollbar-highlight-color: #ffffff;scrollbar-shadow-color: #dddddd;scrollbar-3dlight-color: #ddddddd;scrollbar-arrow-color: #c4c4c4;scrollbar-track-color: #f5f5f5;scrollbar-darkshadow-color: #c4c4c4;background-color: #F9F9F9;color:#0099CC;border-top:1px solid #c4c4c4; border-left:1px solid #c4c4c4; border-right:1px solid #f6f6f6; border-bottom:1px solid #f6f6f6;font-size:12px; border-radius:4px}

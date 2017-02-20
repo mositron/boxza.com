@@ -1,0 +1,19 @@
+<?php
+
+if(_::$path[0])
+{
+	if(in_array(_::$path[0],array('new','list')))
+	{
+		$mod=_::$path[0];
+	}
+	else
+	{
+		_::move('/team');
+	}
+}
+else
+{
+	$mod='home';
+}
+require_once(__DIR__.'/racing.team.'.$mod.'.php');
+?>

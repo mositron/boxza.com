@@ -1,0 +1,20 @@
+body{background:#F4F8FB url(../images/glitter/bg.png) left top fixed repeat;}
+
+._ct{color: #555; box-shadow:none}
+
+
+.head-logo h1 a {width:306px; height:10px;}
+
+
+
+.fbapp li{padding: 5px 0px;margin-top: 0px;margin-bottom: 0px;border-bottom: 1px dashed #ddd;}
+.fbapp li>a{display:block; line-height:1.55em; height:86px; overflow:hidden; padding:0px; text-decoration:none;}
+.fbapp li>a:hover{text-decoration:none; box-shadow:none; background:#f8f8f8;}
+.fbapp li>a>img{width:80px; height:80px; float:left; margin-right:8px; border-radius:10px; border:3px solid #222;}
+.fbapp li div{margin:0px; max-height:43px; overflow:hidden;}
+.fbapp li p{margin:0px; color:#888; overflow:hidden;}
+.fbapp li p.do{color:#bbb;white-space:nowrap; height:20px; line-height:20px;text-overflow:ellipsis;}
+
+
+.ht{background:#f0f0f0; padding:3px 5px; margin:5px 0px 3px; color:#333; text-shadow:1px 1px 0px #fff;}
+.ht a{color:#F60;}

@@ -1,0 +1,74 @@
+<?php
+
+$user=_::user();
+$cache=_::cache();
+$prof = false;
+if(count(_::$path)>1)
+{
+	_::move('/user/'._::$path[0]);
+}
+if(_::$path[0]=='me')
+{
+	if(_::$my)
+	{
+		_::move('/user/'._::$my['link']);
+	}
+	else
+	{
+		_::move(array('sub'=>'oauth','path'=>'/login/?redirect_uri='.urlencode('http://social.boxza.com/me')));
+	}
+}
+elseif(preg_match('/^(\_)?([0-9]+)$/',_::$path[0],$c))
+{
+	if($c[1])
+	{
+		$p=_::$path;
+		array_shift($p);
+		_::move('/user/'.$c[2],true);
+	}
+	$prof=$user->get($c[2],true);
+	if($prof['link'] && !is_numeric($prof['link']))
+	{
+		array_shift(_::$path);
+		_::move('/user/'.$prof['link'],true);
+	}
+}
+elseif(_::$path[0])
+{
+	if(!$pid=$cache->get('ca1','profile-link-'._::$path[0]))
+	{
+		if($prof=_::db()->findOne('user',array('if.lk'=>_::$path[0]),array('_id'=>1)))
+		{
+			$cache->set('ca1','profile-link-'._::$path[0], $prof['_id'], false, 2592000);
+			$prof=$user->get($prof['_id'],true);
+		}
+		else
+		{
+			_::move('/user',true);
+		}
+	}
+	else
+	{
+		$prof=$user->get($pid,true);
+	}
+}
+if(_::$profile = $prof)
+{
+	$st=intval(_::$profile['st']);
+	if($st<0||$st>1)
+	{
+		_::move('/user',true);	
+	}
+	_::$meta['image']=_::$profile['img-n']='http://s1.boxza.com/profile/'._::$profile['if']['fd'].'/n.'.(_::$profile['pf']['av']?_::$profile['pf']['av']:'jpg');
+	require_once(__DIR__.'/www.user.view.php');
+}
+elseif(_::$path[0])
+{
+	_::move('/user',true);	
+}
+else
+{
+	require_once(__DIR__.'/www.user.home.php');
+}
+_::$content=$template->fetch('user');
+?>

@@ -1,0 +1,48 @@
+
+html,body,div,p,h1,h2,h3,h4,h5,h6 {margin: 0px;padding: 0px;border: 0px;}
+body{ font-family:Tahoma; font-size: 16px; line-height: 1.6em; color: #555; background:#e8e8e8; padding:0px;margin:0px; padding-top:53px;}
+a{ text-decoration:none; color:#09F}
+.clear{clear:both;}
+
+.apps-list{list-style:none;margin:5px; padding:0px;}
+.apps-list li{border-bottom:1px solid #ccc; overflow:hidden; background:#fff;}
+.apps-list li:nth-child(odd){ background:#f4f4f4;}
+.apps-list li a{height:62px;display:block;color: #333; text-decoration: none; padding:0px 5px;}
+.apps-list li a img{float:left; width:50px; height:50px; background:#ccc; margin:5px 10px 0px 0px;border-radius:4px; border:1px solid #000;}
+.apps-list h1{font-size:24px; color:#333; padding:10px 0px 0px; margin:0px;}
+.apps-list h2{font-size:14px; color:#888; font-weight:normal; margin:0px;}
+
+
+.bar{height:50px; line-height:50px; background:#F72B00; position:fixed; width:100%; left:0px; top:0px;border-bottom: 3px solid #D62D00;}
+.bar>div{position:relative;}
+.bar-back,.bar-refresh,.bar-print{width:40px; height:40px; display:inline-block;position:absolute;top:5px; background:url(http://s0.boxza.com/static/images/mobile/football.png) 0px 0px no-repeat; border-radius:4px;}
+.bar-back{ left:5px;}
+.bar-refresh{right:10px; background-position:-40px 0px;}
+.bar-print{right:55px; background-position:-80px 0px;}
+.bar-title{ margin:0px 55px; text-align:center; color:#fff; font-size:26px; line-height:50px; height:50px;}
+.bar-title span {width: 1px;height: 1px;overflow: hidden;display: inline-block;}
+
+.tabs{height:50px;overflow: scroll;overflow-y: hidden;-webkit-overflow-scrolling: touch;white-space:nowrap; background:#B2B200; margin:0px; padding:0px; list-style:none; text-align:center;}
+.tabs li{display:inline-block; height:50px;}
+.tabs li a{display:inline-block; height:50px;min-width:100px;text-align:center;}
+.tabs li a.active{border-bottom: 5px solid #F72B00;height: 45px;}
+.tabs li a span{display:block; height:30px; line-height:30px; margin:10px 0px; font-size:18px; border-left:1px solid #959200; color:#f3f3f3;padding:0px 30px;}
+.tabs li:first-child a span{border-left:none;}
+
+
+.seamsee-list{list-style:none;margin:0px; padding:0px;text-shadow:1px 1px 0px #fff;}
+.seamsee-list li{border-bottom:1px solid #ccc; overflow:hidden;}
+.seamsee-list li:nth-child(even){background:#f7f7f7;}
+.seamsee-list li a{height:72px;display:block;color:#090; text-decoration: none; padding:0px 5px;}
+.seamsee-list a>img{float: left;margin: 5px 10px 5px 0px;width: 60px;height: 60px; border-radius:30px;}
+.seamsee-list h1{font-size:24px; color:#444; padding:10px 0px 5px; margin:0px;}
+.seamsee-list h2{font-size:14px; color:#888; font-weight:normal; margin:0px;}
+
+.seamsee-bar{padding: 5px 20px;background: #fff;margin: 0px;height: 32px;line-height: 32px; border-bottom:1px solid #ccc;}
+
+.semasee-img{padding:10px 0px; text-align:center;}
+
+.seamsee-view{padding:10px; background:#fff;}
+.seamsee-master{padding: 10px;background: #f5f5f5;text-shadow: 1px 1px 0px #fff;border-radius: 5px;}
+
+.btn {display: inline-block;padding: 6px 20px;margin-bottom: 0;font-size: 16px;line-height: 1.5; border-radius:6px;text-align: center;vertical-align: middle;cursor: pointer;color: #ffffff;background:#bdc3c7;border:none;border-bottom:4px solid #acb2b7; text-shadow:0 1px 2px rgba(0, 0, 0, 0.25);background-color: #f39c12;border-color: #e8930c; font-weight:bold;font-size:30px;}

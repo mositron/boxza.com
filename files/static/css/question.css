@@ -1,0 +1,28 @@
+._hd-bt{margin-bottom:42px;}
+._ct{background-color:#fff;}
+
+.pf{width:908px; border:1px solid #E6E7E7; border-radius:5px; background-color:#fff; margin:10px 0px 0px 60px; min-height:600px;}
+.pf-l{width:710px; margin:0px 0px 10px 10px; min-height:800px; overflow:hidden}
+.pf-r{ width:250px; padding:5px 0px 5px 0px; border-left:1px solid #E6E7E7}
+.pf-f{width:220px; margin:10px 0px 0px 0px;}
+.pf-fa{width:210px;border:1px solid #E6E7E7; background:#fff;border-radius:5px; position:fixed; top:50px; overflow:auto;}
+.pf-lo{padding-bottom:20px}
+
+._box {margin-bottom: 10px;padding: 5px 0px 5px 5px;}
+
+.cp {background:#f5f5f5;border-top: 1px solid #00ADEE;height: 22px;line-height: 22px;padding-left: 5px;border-bottom: 5px solid #DDD;font-size: 12px;}
+.cp span {float: right;display: block;width: 100px;text-align: center;background:#00ADEE;height: 24px;line-height: 24px;margin: -1px -5px -1px 6px;}
+.cp p{clear:both}
+.cp,.cp a{color: #333;text-shadow: 1px 1px 0px #fff;}
+.cp span a {color:#fff;text-shadow: none;display: block;text-decoration: none;}
+.cp span a:hover{background-color:#0099D2}
+
+
+.error{background:#fff; color:#f00;}
+
+
+.navbar .brand{color:#fff;}
+.navbar .nav > li > a{color:#eee; padding:11px 10px 9px}
+
+
+.breadcrumb .dropdown-menu li{display:block;}

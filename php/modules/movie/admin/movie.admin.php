@@ -1,0 +1,23 @@
+<?php
+_::session()->logged();
+
+if(_::$my['am'])
+{
+	if(is_numeric(_::$path[0]))
+	{
+		require_once(__DIR__.'/movie.admin.update.php');
+	}
+	elseif(_::$path[0]=='box-office')
+	{
+		require_once(__DIR__.'/movie.admin.box-office.php');
+	}
+	else
+	{
+		require_once(__DIR__.'/movie.admin.home.php');
+	}
+}
+else
+{
+	_::$content=$template->fetch('admin.permission');
+}
+?>

@@ -1,0 +1,102 @@
+
+html,body,div,p {margin: 0px;padding: 0px;border: 0px;}
+body{ font-family:Tahoma; font-size: 16px; line-height: 1.6em; color: #555; background:#f4f4f4; padding:0px; text-shadow:1px 1px 0px #fff; margin:0px; padding-top:53px;}
+a{ text-decoration:none; color:#09F}
+
+.apps-list{list-style:none;margin:5px; padding:0px;}
+.apps-list li{border-bottom:1px solid #ccc; overflow:hidden; background:#fff;}
+.apps-list li:nth-child(odd){ background:#f4f4f4;}
+.apps-list li a{height:62px;display:block;color: #333; text-decoration: none; padding:0px 5px;}
+.apps-list li a img{float:left; width:50px; height:50px; background:#ccc; margin:5px 10px 0px 0px;border-radius:4px; border:1px solid #000;}
+.apps-list h1{font-size:24px; color:#333; padding:10px 0px 5px; margin:0px;}
+.apps-list h2{font-size:14px; color:#888; font-weight:normal; margin:0px;}
+
+
+.bar{height:50px; line-height:50px; background:#E8E8E8; position:fixed; width:100%; left:0px; top:0px;border-bottom: 3px solid #09F;}
+.bar>div{position:relative;}
+.bar-back,.bar-refresh,.bar-print{width:40px; height:40px; display:inline-block;position:absolute;top:5px; background:url(http://s0.boxza.com/static/images/mobile/lotto.png) 0px 0px no-repeat; border-radius:4px;}
+.bar-back{ left:5px;}
+.bar-refresh{right:10px; background-position:-40px 0px;}
+.bar-print{right:55px; background-position:-80px 0px;}
+.bar-title{ margin:0px 55px; text-align:center; color:#000; font-size:26px; line-height:50px; height:50px; text-shadow:none;}
+.bar-title span {width: 1px;height: 1px;overflow: hidden;display: inline-block;}
+
+.tabs{height:50px;overflow: scroll;overflow-y: hidden;-webkit-overflow-scrolling: touch;white-space:nowrap; background:#d6d6d6; margin:0px; padding:0px; list-style:none; text-align:center;border-bottom: 1px solid #ababab;box-shadow: 0px 1px 5px #ababab; margin-bottom:2px;}
+.tabs li{display:inline-block; height:50px;}
+.tabs li a{display:inline-block; height:50px;min-width:100px;text-align:center;}
+.tabs li a.active{border-bottom: 5px solid #09F;height: 45px;}
+.tabs li a span{display:block; height:30px; line-height:30px; margin:10px 0px; font-size:18px; border-left:1px solid #c0c0c0; color:#000;padding:0px 30px;}
+.tabs li:first-child a span{border-left:none;}
+
+.home-list{list-style:none;margin:0px; padding:0px;}
+.home-list li{border-bottom:1px solid #ccc; overflow:hidden;}
+.home-list li:nth-child(even){background:#fff;}
+.home-list li a{height:62px;display:block;color: #333; text-decoration: none; padding:0px 5px;}
+.home-list .icon{display:inline-block; float:left; width:50px; height:50px; background:#ccc; margin:5px 10px 0px 0px;border-radius:4px; border:1px solid #000; background:url(http://s0.boxza.com/static/images/mobile/lotto.png) 0px 0px no-repeat;}
+.home-list .icon-1{background-position:0px -40px;}
+.home-list .icon-2{background-position:-50px -40px;}
+.home-list .icon-3{background-position:-100px -40px;}
+.home-list .icon-4{background-position:-150px -40px;}
+.home-list .icon-5{background-position:-200px -40px;}
+.home-list h1{font-size:24px; color:#333; padding:10px 0px 5px; margin:0px;}
+.home-list h2{font-size:14px; color:#888; font-weight:normal; margin:0px; white-space:nowrap; overflow:hidden;text-overflow:ellipsis;}
+
+.lotto-bar{padding: 5px 20px;background: #fff;margin: 0px;height: 32px;line-height: 32px; border-bottom:1px solid #ccc;}
+
+.lotto-list h1{font-size:24px; text-align:left; padding:0px 0px 0px 10px; margin:0px; text-align:center; background:#fff; height:36px; line-height:36px;}
+.lotto-list h1 a{color: #09c;text-decoration: none;}
+.lotto-list strong{display: block;font-weight: normal;font-size: 16px;background: #ddd;border-radius: 5px; margin:5px 0px 0px 0px;}
+.lotto-list span{display:inline-block; margin:2px 5px; font-weight:bold}
+.lotto-list > div{border-bottom:1px dashed #ccc;text-align:center; font-size:20px; line-height:1.6em; padding:10px;}
+.lotto-list > div:nth-child(even){background:#fff;}
+.lotto-list > div:nth-child(even) h1{background:#f0f0f0;}
+
+.lotto-list .l1{float:left; width:25%}
+.lotto-list .l2{float:left; width:48%; margin-left:1%;}
+.lotto-list .l3{float:right; width:25%}
+.lotto-list .l4{float:right; width:74%}
+.lotto-list .l5{}
+.lotto-list p{clear:both; margin:0px; padding:0px;}
+
+.lotto-set td,.lotto-set th{text-align:center;}
+.lotto-set th{font-size:18px;font-size: 18px;border-bottom: 1px solid #ddd;border-right: 1px solid #ddd;}
+.lotto-set th:last-child{border-right:none;}
+.lotto-set td{font-size:16px; border-bottom:1px dashed #ccc;}
+.lotto-set tr:nth-child(odd) td{background:#fff;}
+.lotto-set tr td{border-right:1px dashed #ddd;}
+.lotto-set tr td:last-child{border-right:none;}
+
+
+
+
+.lotto-news ul{margin:0px; padding:0px; list-style:none;}
+.lotto-news li{background:#fff;margin:5px 0px 0px 5px}
+.lotto-news li a{display:block; color:#58595B; overflow:hidden;line-height:0px; text-decoration:none !important;}
+.lotto-news li p,.lotto-news li div{line-height: 18px;font-size: 18px;text-indent: 5px;color: #555;max-height: 53px;overflow: hidden;margin-top: 5px;}
+.lotto-news li div {font-size: 14px;color: #ccc;}
+.lotto-news li a{ height:auto !important;}
+.lotto-news li a > img{float:left; margin-right:10px !important;}
+
+.news-h1{font-size:24px; padding:5px 10px; margin:0px; line-height:1.4em;}
+.news-detail{padding: 5px;font-size: 16px;line-height: 1.6em; background:#fff;}
+.news-detail img{max-width:100%;}
+
+.flex-video {position: relative;padding-top: 25px;padding-bottom: 67.5%;height: 0;margin-bottom: 16px;overflow: hidden;}
+.flex-video.widescreen { padding-bottom: 57.25%; }
+.flex-video.vimeo { padding-top: 0; }
+.flex-video iframe,.flex-video object,.flex-video embed {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
+@media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
+  .flex-video { padding-top: 0; }
+}
+
+
+@media (max-width: 767px) {
+
+
+}
+
+@media (max-width: 460px){
+.lotto-list h1{font-size:18px;}
+.lotto-list strong{font-size:14px}
+.lotto-list > div{ font-size:16px;}
+}

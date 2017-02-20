@@ -1,0 +1,121 @@
+
+html,body,div,p,h1,h2,h3,h4,h5,h6 {margin: 0px;padding: 0px;border: 0px;}
+body{ font-family:Tahoma; font-size: 16px; line-height: 1.6em; color: #555; background:#f4f4f4; padding:0px; text-shadow:1px 1px 0px #fff; margin:0px; padding-top:53px;}
+a{ text-decoration:none; color:#ff8800}
+.clear{clear:both;}
+
+.apps-list{list-style:none;margin:5px; padding:0px;}
+.apps-list li{border-bottom:1px solid #ccc; overflow:hidden; background:#fff;}
+.apps-list li:nth-child(odd){ background:#f4f4f4;}
+.apps-list li a{height:62px;display:block;color: #333; text-decoration: none; padding:0px 5px;}
+.apps-list li a img{float:left; width:50px; height:50px; background:#fff; margin:5px 10px 0px 0px;border-radius:4px; border:1px solid #999;}
+.apps-list h1{font-size:18px; color:#333; padding:5px 0px 0px; margin:0px;white-space:nowrap; overflow:hidden;text-overflow:ellipsis;}
+.apps-list h2{font-size:14px; color:#888; font-weight:normal; margin:0px;white-space:nowrap; overflow:hidden;text-overflow:ellipsis;}
+
+
+.bar{height:50px; line-height:50px; background:#E8E8E8; position:fixed; width:100%; left:0px; top:0px;border-bottom: 3px solid #ff8800;}
+.bar>div{position:relative;}
+.bar-back,.bar-refresh,.bar-print{width:40px; height:40px; display:inline-block;position:absolute;top:5px; background:url(http://s0.boxza.com/static/images/mobile/music.png) 0px 0px no-repeat; border-radius:4px;}
+.bar-back{ left:5px;}
+.bar-refresh{right:10px; background-position:-40px 0px;}
+.bar-print{right:55px; background-position:-80px 0px;}
+.bar-title{ margin:0px 55px; text-align:center; color:#000; font-size:22px; line-height:50px; height:50px; text-shadow:none;}
+.bar-title span {width: 1px;height: 1px;overflow: hidden;display: inline-block;}
+
+.tabs{height:50px;overflow: scroll;overflow-y: hidden;-webkit-overflow-scrolling: touch;white-space:nowrap; background:#d6d6d6; margin:0px; padding:0px; list-style:none; text-align:center;border-bottom: 1px solid #ababab;box-shadow: 0px 1px 5px #ababab; margin-bottom:2px;}
+.tabs li{display:inline-block; height:50px;}
+.tabs li a{display:inline-block; height:50px;min-width:100px;text-align:center;}
+.tabs li a.active{border-bottom: 5px solid #ff8800;height: 45px;}
+.tabs li a span{display:block; height:30px; line-height:30px; margin:10px 0px; font-size:18px; border-left:1px solid #c0c0c0; color:#000;padding:0px 30px;}
+.tabs li:first-child a span{border-left:none;}
+
+.home-list{list-style:none;margin:0px; padding:0px;}
+.home-list li{border-bottom:1px solid #ccc; overflow:hidden;}
+.home-list li:nth-child(even){background:#fff;}
+.home-list li a{height:62px;display:block;color: #333; text-decoration: none; padding:0px 5px;}
+.home-list .icon{display:inline-block; float:left; width:50px; height:50px; background:#ccc; margin:5px 10px 0px 0px;border-radius:4px; border:1px solid #000; background:url(http://s0.boxza.com/static/images/mobile/music.png) 0px 0px no-repeat;}
+.home-list .icon-1{background-position:0px -40px;}
+.home-list .icon-2{background-position:-50px -40px;}
+.home-list .icon-3{background-position:-100px -40px;}
+.home-list .icon-4{background-position:-150px -40px;}
+.home-list .icon-5{background-position:-200px -40px;}
+.home-list h1{font-size:24px; color:#333; padding:10px 0px 5px; margin:0px;}
+.home-list h2{font-size:14px; color:#888; font-weight:normal; margin:0px; white-space:nowrap; overflow:hidden;text-overflow:ellipsis;}
+
+.music-bar{padding: 5px 20px;background: #fff;margin: 0px;height: 32px;line-height: 32px; border-bottom:1px solid #ccc; font-size:18px;}
+
+
+.bm-bar{height: 40px;line-height: 40px;padding: 0px 10px;background: #d5d5d5;}
+.bm{height:50px;overflow: scroll;overflow-y: hidden;-webkit-overflow-scrolling: touch;white-space:nowrap; background:#e5e5e5; margin:0px; padding:0px; list-style:none; text-align:center;border-bottom: 1px solid #ababab;box-shadow: 0px 1px 5px #ababab; margin-bottom:2px;}
+.bm a{display:inline-block; height:50px;min-width:50px;text-align:center; line-height:50px;font-size:22px; border-left:1px solid #c0c0c0; color:#000;padding:0px;}
+.bm a:first-child{border-left:none;}
+
+.hd-a{padding:5px 10px;}
+.music-news ul{margin:0px 5px 0px; padding:0px; list-style:none;}
+.music-news li{background:#fff;margin:0px 0px 5px 0px}
+.music-news li a{display:block; color:#58595B; overflow:hidden;line-height:0px; text-decoration:none !important;}
+.music-news li p,.music-news li div{line-height: 1.4em;font-size: 16px;text-indent: 5px;color: #555;max-height: 48px;overflow: hidden;margin-top: 5px;}
+.music-news li div {font-size: 14px;color: #ccc;}
+.music-news li a{ height:auto !important;}
+.music-news li a > img{float:left; margin-right:10px !important;}
+
+.news-h1{font-size:18px; padding:5px 10px; margin:0px; line-height:1.4em;}
+.news-detail{padding: 5px;font-size: 16px;line-height: 1.6em; background:#fff;}
+.news-detail img{max-width:100%;}
+
+
+.song-list{}
+.song-list > div{background:#eee; height:30px; color:#333;}
+.song-list > div > div:nth-child(1),.song-list > a > div:nth-child(1){width:50%;}
+.song-list > div > div:nth-child(2),.song-list > a > div:nth-child(2){width:25%; text-align:center}
+.song-list > div > div:nth-child(3),.song-list > a > div:nth-child(3){width:24%; text-align:center}
+.song-list > div > div{line-height:30px; height:30px;float:left;white-space:nowrap; overflow:hidden;text-overflow:ellipsis; text-align:center;font-weight:bold; color:#444; text-shadow:1px 1px 0px #fff; background:#eee;}
+.song-list > div:after,.song-list > a:after{clear:both; content:""; display:block; height:0px;}
+
+.song-list > a{background:#fff; height:36px; border-bottom:1px solid #ccc; color:#333; text-decoration:none; display:block;}
+.song-list > a:nth-child(odd){background:#f5f5f5;}
+.song-list > a > div{line-height:36px; height:36px;float:left;white-space:nowrap; overflow:hidden;text-overflow:ellipsis;text-indent:10px;}
+
+
+.page-nav{text-align: center;height: 40px;line-height: 40px;margin: 10px;}
+.page-nav a{display:inline-block; height:40px; width:40%; margin:0px 5px; background:#fff; border-radius:5px; border:2px solid #bbb; font-size:22px; color:#bbb}
+
+
+.song-box{border:1px solid #ccc; padding:5px; margin:0px 5px 5px; background:#fff;}
+
+.song-relate h4{margin:0px; padding:0px 10px; height:36px; font-size:18px; line-height:36px; background:#f0f0f0;white-space:nowrap; overflow:hidden;text-overflow:ellipsis;}
+.song-relate ul{margin:0px; padding:0px; list-style:none;}
+.song-relate li a{display:block; height:36px; line-height:36px; text-indent:10px; border-bottom:1px dashed #ccc; color:#555;}
+.song-relate li:nth-child(event) a{background:#f9f9f9;}
+
+.song-mv h4{margin:0px; padding:0px 10px; height:36px; font-size:18px; line-height:36px; background:#f0f0f0;white-space:nowrap; overflow:hidden;text-overflow:ellipsis;}
+.song-mv ul{margin:0px; padding:0px; list-style:none; text-align:center;}
+.song-mv li{display:inline-block; width:120px; height:120px; overflow:hidden; margin:10px 3px;}
+.song-mv li p{height:26px; line-height:26px; font-size:16px;white-space:nowrap; overflow:hidden;text-overflow:ellipsis;}
+.song-mv li a{display:inline-block;}
+
+.song-4shared h4{margin:0px; padding:0px 10px; height:36px; font-size:18px; line-height:36px; background:#f0f0f0;white-space:nowrap; overflow:hidden;text-overflow:ellipsis;}
+.song-4shared table{width:100%; background:#eee;border-collapse: separate;border-spacing: 1px;color:#444;table-layout: fixed}
+.song-4shared td{height:34px; line-height:34px; font-size:16px;background:#fff;white-space:nowrap; overflow:hidden;text-overflow:ellipsis;}
+.song-4shared tr:nth-child(even) td{background:#f5f5f5;}
+.song-4shared td a{color:#333; height:34px; line-height:34px; text-indent:10px; vertical-align:middle; display:block;white-space:nowrap; overflow:hidden;text-overflow:ellipsis;}
+
+.flex-video {position: relative;padding-top: 25px;padding-bottom: 67.5%;height: 0;margin-bottom: 16px;overflow: hidden;}
+.flex-video.widescreen { padding-bottom: 57.25%; }
+.flex-video.vimeo { padding-top: 0; }
+.flex-video iframe,.flex-video object,.flex-video embed {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
+@media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
+  .flex-video { padding-top: 0; }
+}
+
+
+@media (max-width: 767px) {
+
+
+}
+
+@media (max-width: 460px){
+.music-list h1{font-size:18px;}
+.music-list strong{font-size:14px}
+.music-list > div{ font-size:16px;}
+}

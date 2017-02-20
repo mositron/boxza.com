@@ -1,0 +1,34 @@
+
+
+.head-logo h1 a {width:300px; height:18px; background:none;}
+/*
+.hbar .brand{color: #6D3600;text-shadow: 1px 1px 0px #FFCE63; margin-left:0px;}
+.hbar .navbar-inner{padding-left:5px; padding-right:5px;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px; background:#FF863B; margin-bottom:5px;background-image: -webkit-linear-gradient(top,#FAAF40,#FF863B);background-image: -moz-linear-gradient(top,#FAAF40,#FF863B);background-image: -ms-linear-gradient(top,#FAAF40,#FF863B);background-image: -o-linear-gradient(top,#FAAF40,#FF863B);background-image: linear-gradient(top,#FAAF40,#FF863B);}
+.hbar.navbar .nav > li > a{color: #6D3600;border-right: 1px solid #FF863B;text-shadow: 1px 1px 0px #FFCE63;font-size: 15px; padding-left:12px; padding-right:12px;}
+.hbar.navbar .nav > li:last-child a{border:none}
+.hbar.navbar .nav > li a:hover,.hbar.navbar .nav > li a.active{color:#58595B; background:#D0D2D3;background-image: -webkit-linear-gradient(top,#D0D2D3 0%,#E6E7E8 20%,#E6E7E8 80%,#BBBDBF 100%);background-image: -moz-linear-gradient(top,#D0D2D3 0%,#E6E7E8 20%,#E6E7E8 80%,#BBBDBF 100%);background-image: -ms-linear-gradient(top,#D0D2D3 0%,#E6E7E8 20%,#E6E7E8 80%,#BBBDBF 100%);background-image: -o-linear-gradient(top,#D0D2D3 0%,#E6E7E8 20%,#E6E7E8 80%,#BBBDBF 100%);background-image: linear-gradient(top,#D0D2D3 0%,#E6E7E8 20%,#E6E7E8 80%,#BBBDBF 100%);}
+._box {margin-bottom: 10px;padding: 5px 0px 5px 5px;}
+
+*/
+.error{background:#fff; color:#f00;}
+
+.container{margin-bottom:-1px;}
+.dropdown-menu > li{display:block}
+
+
+
+.about-bar{margin:10px 0px 5px 0px; padding:5px 10px; background:#f0f0f0; color:#000; text-shadow:1px 1px 0px #fff; font-size:16px; border-radius:4px;}
+
+.bcd{margin:0px 0px 5px 0px}
+.bcd ul{margin-left:-5px;}
+.bcd li{background:#fff;margin:5px 0px 0px 5px}
+.bcd li a{display:block; color:#58595B; overflow:hidden;line-height:0px;height:130px}
+.bcd li a.i1{height:275px;}
+.bcd li a.i1 img{margin:15px auto}
+.bcd li p{line-height: 18px;font-size: 13px;text-indent: 5px;color: #555;max-height: 53px;overflow: hidden;margin-top: 5px;}
+
+@media (max-width: 767px) {
+  .bcd li a{ height:auto !important;}
+  .bcd li a.i1 > img{width:100px; height:73px; margin:0px;}
+  .bcd li a > img{float:left; margin-right:10px !important;}
+}

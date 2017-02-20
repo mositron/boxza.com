@@ -1,0 +1,47 @@
+body{background:#282828 url(../images/radio/bg.png) left top repeat}
+
+
+.head-logo h1 a {width:540px; height:105px; background:url(../images/radio/icon.png) 0px 0px  no-repeat; }
+
+.navbar{margin-bottom:0px}
+.navbar-inner{background:#33FFFF; margin-bottom:5px;background-image: -webkit-linear-gradient(top,#33FFFF,#009999);background-image: -moz-linear-gradient(top,#33FFFF,#009999);background-image: -ms-linear-gradient(top,#33FFFF,#009999);background-image: -o-linear-gradient(top,#33FFFF,#009999);background-image: linear-gradient(top,#33FFFF,#009999);}
+
+._bs {background-color: #222;border-bottom: 1px solid #666;}
+
+
+
+.nsw{padding:90px 40px 10px; background:url(../images/movie/movie-image.png) no-repeat; background-position:0px 0px;}
+.nsw > div{ height:340px;}
+
+.nw{margin:5px; padding:0px 10px; background:#00ACED; border-radius:5px; height:30px; line-height:30px; color:#fff;}
+.nw i{display:inline-block; width:45px; height:42px; background:url(../images/fbapp/icon.png) -550px -200px no-repeat;margin: -12px 0px 0px 0px;vertical-align: text-top;}
+.nw a{color:#fff;}
+.nw small{ font-size:12px;color:#fff;}
+
+.ht{background:#BE1E2D; height:35px; line-height:35px; padding:0px 0px 0px 5px; color:#fff; font-size:16px;
+background-image: -webkit-linear-gradient(top,#BE1E2D,#FF4A38);
+background-image: -moz-linear-gradient(top,#BE1E2D,#FF4A38);
+background-image: -ms-linear-gradient(top,#BE1E2D,#FF4A38);
+background-image: -o-linear-gradient(top,#BE1E2D,#FF4A38);
+background-image: linear-gradient(top,#BE1E2D,#FF4A38); 
+margin:0px 5px 5px;border-radius:5px;
+}
+.ht i{vertical-align:text-top;display:inline-block; width:32px; height:46px; background:url(../images/fbapp/icon.png) -500px -200px no-repeat; margin:-16px 2px 0px 0px}
+.ht a{color:#fff;}
+.ht small{ font-size:12px;color:#fff;}
+
+
+.hd-a {height: 28px;line-height: 28px;background: #f0f0f0;padding: 0px 8px;margin: 0px;font-size: 16px;text-shadow: 1px 1px 0px #fff;}
+.hd-a a{ color:#444;}
+
+.bcd{margin:0px}
+.bcd ul{margin-left:-5px; margin-bottom:5px;}
+.bcd li{background:#fff;margin:5px 0px 0px 5px}
+.bcd li a{display:block; color:#58595B; overflow:hidden;line-height:0px;height:127px}
+.bcd li a.i1{height:235px;}
+.bcd li p{line-height:19px;font-size:13px; text-indent:5px; color:#555; }
+
+@media (max-width: 767px) {
+  .bcd li a{ height:auto !important;}
+  .bcd li a > img{float:left; margin-right:10px;}
+}

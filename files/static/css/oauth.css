@@ -1,0 +1,111 @@
+
+._ct{box-shadow:none}
+a:hover{text-decoration:none;}
+.olg{min-height:250px; text-align:left;}
+.olg-l{min-height:300px; border-right:1px solid #e7e7e7; padding:20px 0px; line-height:1.8em;}
+.olg-l a{color:#327DB6}
+.olg-l h2{color:#327DB6; font-size:16px; font-weight:normal}
+.olg-l h3{color:#327DB6; font-size:14px; font-weight:normal;}
+.olg-l-a{ color:#4FA0CF;margin-top:20px;}
+.olg-l-b{padding:20px 10px 0px 10px;}
+.olg-l-c{color:#017DBB; font-size:16px; text-align:center;}
+
+.olg-li h4{color:#327DB6; font-size:12px; font-weight:normal;}
+.olg-li p{color:#909090; line-height:1.6em; margin-bottom:20px;}
+.olg-r{min-height:300px;padding:15px 0px; }
+
+
+.olg-icon{width:65px; height:65px; float:left; margin:5px 5px 0px 0px; background:url(../images/oauth/icon.png) 0px 0px no-repeat;}
+.olg-icon-b{background-position:-65px 0px}
+.olg-icon-c{background-position:-130px 0px}
+.olg-icon-d{background-position:-195px 0px}
+
+.olg-li{float:left; margin:0px 0px 0px 10px; width:400px;}
+
+.olg-btn{ display:inline-block; background:url(../images/oauth/button.png) 0px 0px repeat-x; color:#fff !important; font-size:14px; cursor:pointer;}
+.olg-btn-lg{ width:100px; height:31px; border:1px solid #46ADDE; margin:10px 0px;}
+.olg-btn-su{ width:240px; height:55px; line-height:55px; background-position:0px -31px; border:1px solid #46ADDE; border-radius:5px; text-align:center; font-size:24px; margin:10px 0px; box-shadow:0px 0px 3px #ccc;}
+.olg-btn-fb{ width:190px; height:20px; line-height:20px; background-position:0px -86px; border:1px solid #32437F; text-indent:30px; font-size:12px; text-align:left}
+.olg-btn-reg{ width:150px; height:31px; border:1px solid #46ADDE; margin:10px 0px; box-shadow:0px 0px 5px #ccc; border-radius:5px; }
+
+.olg-log{border-bottom:1px solid #e7e7e7;color:#327DB6; padding:0px 0px 20px 0px; margin:0px 0px 20px 0px}
+.olg-log h2,.olg-reg h2,.olg-sig h2 { padding:5px 5px 5px 10px;font-size:14px;color:#327DB6; background:#F3F8F9; margin:3px; text-shadow:1px 1px 0px #fff;}
+.olg-sig .inp{width:80%}
+.olg-log ul { padding:10px 0px; }
+.olg-log li { clear:both; padding:5px 0px }
+.olg-log li p { width:25%; text-align:right; font-size:12px; color:#555; display:inline-block; float:left; margin:7px 10px 0px 0px; height:24px; }
+.olg-log li.email input ,.olg-log li.password input { width:50%;}
+
+.olg-reg{ margin-top:20px;color:#327DB6;}
+.olg-reg > div{ padding:10px;  text-align:center}
+.olg-reg .olg-btn-fb{width:215px}
+
+.olg-point{color:#E14C8B; text-align:center; padding:10px 0px; background:#F3F8F9; font-size:16px}
+.olg-point a{ color:#327DB6}
+
+
+table{border:none; margin:0px; width:100%;}
+
+
+
+
+.signup-service{padding: 5px;background: #fff;margin: 5px 10px 0px -5px;}
+
+.signup-service .box1-l{float:left; width:240px; text-align:center;}
+.signup-service .box1-r{float:right; width:270px;}
+
+.signup-service .signup-service-mn{margin:0px;}
+.signup-service .signup-service-mn li{ width:33%; height:28px; float:left; margin:0px;}
+.signup-service .signup-service-mn a{display:block; height:28px; line-height:28px; border-bottom:1px solid #ddd; color:#58595B; text-indent:10px}
+.signup-service .signup-service-mn a:hover{background-color:#f0f0f0;}
+.signup-service i{background:url(../images/global/icon.service.png) -25px 0px no-repeat; vertical-align:middle; width:25px; height:25px; margin:0px 3px 0px 0px; display:inline-block}
+.signup-service .signup-service-mn i{margin:0px 10px 0px 5px;}
+.signup-service i.i1{background-position:-25px 0px}
+.signup-service i.i2{background-position:-50px 0px}
+.signup-service i.i3{background-position:-75px 0px}
+.signup-service i.i4{background-position:-100px 0px}
+.signup-service i.i5{background-position:-125px 0px}
+.signup-service i.i6{background-position:-150px 0px}
+.signup-service i.i7{background-position:-175px 0px}
+.signup-service i.i8{background-position:-200px 0px}
+.signup-service i.i9{background-position:-225px 0px}
+.signup-service i.i10{background-position:-250px 0px}
+.signup-service i.i11{background-position:-275px 0px}
+.signup-service i.i12{background-position:-300px 0px}
+.signup-service i.i13{background-position:-325px 0px}
+.signup-service i.i14{background-position:-350px 0px}
+.signup-service i.i15{background-position:-375px 0px}
+.signup-service i.i16{background-position:-400px 0px}
+.signup-service i.i17{background-position:-425px 0px}
+.signup-service i.i18{background-position:-450px 0px}
+.signup-service i.i19{background-position:-475px 0px}
+.signup-service i.i20{background-position:-500px 0px}
+.signup-service i.i21{background-position:-525px 0px}
+.signup-service i.i22{background-position:-550px 0px}
+.signup-service i.i23{background-position:-575px 0px}
+.signup-service i.i24{background-position:-600px 0px}
+.signup-service i.i25{background-position:-625px 0px}
+.signup-service i.i26{background-position:-650px 0px}
+
+.signup-service .mv-a{display:block; height:24px; line-height:24px; overflow:hidden;white-space:nowrap;text-overflow:ellipsis; padding:0px 5px; background:#f0f0f0; color:#444; text-shadow:1px 1px 0px #fff;}
+.signup-service > p{line-height: 24px; height:24px; border-top:1px solid #58595B}
+.signup-service > p.m{border:none}
+.signup-service > p.n{height:1px; line-height:0px; overflow:hidden;}
+.signup-service p.e{ background: #f5f5f5;color: #333;text-shadow: 1px 1px 0px #fff;padding: 0px 10px;font-size: 14px;line-height: 24px; height:24px; text-align:center; margin:0px;}
+.signup-service .gm{padding: 5px;background: #fff; margin:0px}
+.signup-service .gm li{float: left;width: 105px;margin: 0px 0px 0px 20px;text-align: center;}
+.signup-service .gm li > a{display:block; width:105px; height:80px; background:#000; line-height:0px;}
+.signup-service .gm li > a img{width:101px; height:76px; margin:2px;}
+.signup-service .gm li p{width:105px; text-align:left; white-space:nowrap; height:16px; line-height:16px;text-overflow:ellipsis; overflow:hidden; border:none;}
+.signup-service .sx{margin:0px 0px 5px;}
+.signup-service .sx li{float:left; width:32%;line-height:0px; margin: 4px 0px 1px 1%;}
+.signup-service .sx li.s0,.signup-service .sx li.s3{margin-left:0px;}
+.signup-service .sx li a{display:block}
+.signup-service .sx li img{width:100%;}
+.signup-service .fr{background:#F1F1F2; padding:8px 5px; border-radius:5px; margin:5px 0px 0px}
+.signup-service .fr li{border-bottom:1px solid #D0D2D3; border-top:1px solid #fff; height:24px; line-height:24px; text-indent:5px;overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.signup-service .fr li a{color:#404041}
+.signup-service .fr.bt i{border-bottom:1px solid #D0D2D3;display:block;width:200px;height:40px; background:url(../images/global/icon.service.png) 0px -50px no-repeat}
+.signup-service .fr.fb i{border-bottom:1px solid #D0D2D3;display:block;width:200px;height:48px; background:url(../images/global/icon.service.png) 0px -95px no-repeat}
+.signup-service .fr.by i{border-bottom:1px solid #D0D2D3;display:block;width:200px;height:43px; background:url(../images/global/icon.service.png) 0px -145px no-repeat}
+.signup-service .fr.lb i{border-bottom:1px solid #D0D2D3;display:block;width:200px;height:30px; background:url(../images/global/icon.service.png) 0px -200px no-repeat}

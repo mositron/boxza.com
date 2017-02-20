@@ -1,0 +1,1 @@
+<div style="padding:100px 0px; text-align:center; font-size:24px">คุณไม่มีสิทธิ์ใช้งานส่วนนี้</div>

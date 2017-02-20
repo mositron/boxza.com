@@ -1,0 +1,288 @@
+@import url('forum.theme.css');
+
+
+body{background:#fff url(../images/entertain/bg.png) 0px 0px repeat;}
+
+.head-logo h1 a {width:300px; height:108px; background:url(../images/entertain/icon.png) 0px 0px no-repeat}
+
+.ent-nav{ background:#FBB040; height:32px; overflow:hidden; margin:0px -5px 3px; border-radius:5px}
+.ent-nav h4{height:24px; line-height:24px; font-size:14px; margin:4px; padding:0px 5px;background:#F15A29; color:#fff; background-image: -webkit-linear-gradient(top,#F15A29,#F7941E);background-image: -moz-linear-gradient(top,#F15A29,#F7941E);background-image: -ms-linear-gradient(top,#F15A29,#F7941E);background-image: -o-linear-gradient(top,#F15A29,#F7941E);background-image: linear-gradient(top,#F15A29,#F7941E); border-bottom-left-radius:5px; border-bottom-right-radius:5px; float:left;}
+.ent-nav ul{list-style:none; margin:6px 0px 0px 0px; float:left;}
+.ent-nav ul li{color:#231F20; float:left; margin:0px 0px 0px 20px;}
+.ent-nav ul li a{color:#000; text-shadow:1px 1px 0px #FFED98}
+
+
+.hbar.navbar .nav>li>a{padding-left:15px; padding-right:15px;}
+
+.hb{font-size:14px; font-weight:normal;height:30px; line-height:30px; color:#000; margin:0px 0px 5px 0px; padding:0px 5px; background:#0E2237; color:#D0D2D3; background-image: -webkit-linear-gradient(top,#0E2237,#03121E);background-image: -moz-linear-gradient(top,#0E2237,#03121E);background-image: -ms-linear-gradient(top,#0E2237,#03121E);background-image: -o-linear-gradient(top,#0E2237,#03121E);background-image: linear-gradient(top,#0E2237,#03121E);}
+.hb a{color:#D0D2D3; }
+.hb small{font-size:12px; font-style:normal; color:#D0D2D3}
+.hb small a{color:#D0D2D3}
+.hb i{display:none; width:25px; height:25px;vertical-align:middle}
+
+
+._box {margin-bottom: 10px;padding: 5px 0px 5px 5px;}
+
+i.ic{ width:24px; height:24px; display:none; background:url(../images/entertain/icon.png) 0px -150px no-repeat; vertical-align:text-top;}
+
+.error{background:#fff; color:#f00;}
+
+.container{margin-bottom:-1px;}
+.dropdown-menu > li{display:block}
+
+
+
+.bcd{margin:0px}
+.bcd ul{margin-left:-5px; margin-bottom:5px;}
+.bcd li{background:#fff;margin:5px 0px 0px 5px}
+.bcd li a{display:block; color:#58595B; overflow:hidden;line-height:0px;height:130px}
+.bcd li a.i1{height:275px;}
+.bcd li p{line-height: 18px;font-size: 13px;text-indent: 5px;color: #555;max-height: 53px;overflow: hidden;margin-top: 5px;}
+
+
+.row-fluid .thumbnails.row-count-4 li:nth-child(4n+1),.row-fluid .thumbnails.row-count-3 li:nth-child(3n+1),.row-fluid .thumbnails.row-count-2 li:nth-child(2n+1){margin-left:0px; clear:both;}
+
+.ent-gossip-left{background:#E6E7E8;}
+.ent-gossip-left h3{ height:32px; line-height:32px; background:url(../images/entertain/icon.png) 0px -220px no-repeat; padding:0px 10px; color:#fff; margin:0px;}
+.ent-gossip-left h3 a{color:#fff;}
+.ent-gossip-left > a{display:block; height:250px; line-height:0px; overflow:hidden; position:relative; text-align:center;}
+.ent-gossip-left > a p{padding:5px; text-align:center; position:absolute; left:0px; bottom:0px; background:#000; background-color:rgba(0,0,0,0.3); color:#fff; width:100%; line-height:1.6em; margin:0px;}
+
+.ent-gossip-right{background:#f5f5f5;}
+.ent-gossip-right ul{margin-bottom:0px;}
+.ent-gossip-right .thumbnail{border:none;}
+.bcd.ent-gossip-right li{margin:00px;}
+
+
+@media (max-width: 767px) {
+  .bcd li a{ height:auto !important;}
+  .bcd li a.i1 img{width:100px; height:73px; margin:0px;}
+  .bcd li a > img{float:left; margin-right:10px !important;}
+  
+  .ent-gossip-left > a{ height:auto; padding:5px; background:#fff; margin:5px;}
+  .ent-gossip-left > a > img{ width:100px; height:73px; float:left; margin-right:10px;}
+  .ent-gossip-left > a p{ position:static; width:auto; background:none; padding:5px; margin:5px; color:#333;}
+}
+
+/*
+.ent-gossip-right li{height:79px; margin:2px 0px 0px 3px}
+.ent-gossip-right li a{display:block; color:#58595B; margin:5px; width:222px; height:73px; overflow:hidden;line-height:0px;}
+.ent-gossip-right li .i{float:left; border:1px solid #fff;}
+.ent-gossip-right li p{margin-left:105px; line-height:19px;font-size:13px; text-indent:5px; color:#333; text-shadow:1px 1px 0px #fff;}
+*/
+
+.ent-news h3{ height:42px; line-height:36px; background:url(../images/entertain/icon.png) center -400px no-repeat;}
+.ent-news h3 a{color:#333;}
+.ent-news h3 i{ width:71px; height:52px; display:inline-block; vertical-align:middle; margin:-10px 3px 0px 0px;background:url(../images/entertain/icon.png) -266px -152px no-repeat;}
+
+.ent-hollywood{ padding:5px 5px 0px; border:1px solid #eee; border-radius:5px;}
+.ent-hollywood h3{ margin:0px;}
+.ent-hollywood h3 a{color:#333;}
+.ent-hollywood h3 i{ width:60px; height:33px; display:inline-block; vertical-align:text-bottom; margin:0px 3px 0px 0px;background:url(../images/entertain/icon.png) -622px -162px no-repeat;}
+.ent-hollywood h3 span{ color:#E80707}
+
+.ent-photo{margin:0px;}
+.ent-photo h3{padding: 5px;line-height: 1.2em;margin:0px 0px 5px;background: #eee;border-radius: 5px;text-shadow: 1px 1px 0px #fff;}
+.ent-photo h3 a{color:#fff; display:block; height:40px; overflow:hidden;}
+.ent-photo h3 span{color:#ED1C24;}
+.ent-photo h3 small{font-size:12px;}
+.ent-photo .thumbnail{background:#f0f0f0;}
+/*
+.ent-photo li{height:83px; margin:5px 0px 0px 0px}
+.ent-photo li a{display:block; color:#58595B; margin:0px;height:83px; overflow:hidden;line-height:0px;}
+.ent-photo li .i{float:left; border:5px solid #F1F2F2;}
+.ent-photo li p{margin-left:115px; line-height:19px;font-size:13px; text-indent:5px; color:#555; }
+*/
+.ent-photo ul{margin-left:-5px;}
+.ent-photo li{overflow:hidden;}
+.ent-photo li a{display:block; color:#58595B; text-align:center;}
+.ent-photo li p{line-height:18px;font-size:12px; text-indent:5px; color:#555; text-align:left;}
+.ent-photo li.l0{ width:auto; height:auto; float:none; border:none;}
+.ent-photo li.l0 a{width:auto;height:auto;}
+.ent-photo li.l0 a p{margin:0px 0px 0px 0px; width:auto; font-size:13px; line-height:1.8em}
+.ent-photo li.l0 .i{width:222px; height:162px;}
+
+
+
+
+
+.ent-drama h3{ height:42px; line-height:36px; background:url(../images/entertain/icon.png) 0px -450px no-repeat; margin:0px 0px 0px 7px;}
+.ent-drama h3 a{color:#333;}
+.ent-drama h3 i{ width:58px; height:50px; display:inline-block; vertical-align:middle; margin:-8px 3px 0px 0px;background:url(../images/entertain/icon.png) -418px -153px no-repeat;}
+
+.ent-drama li{text-align:center; margin-bottom:5px; overflow:hidden;}
+.ent-drama li a{color:#777;}
+.ent-drama li p{margin:3px 0px 0px; text-align:center;height:40px; overflow:hidden;}
+
+
+.ent-movie-left{}
+
+.ent-movie-office{background:#F1F2F2}
+.ent-movie-office h3{ height:58px; line-height:58px; text-indent:80px; background:url(../images/entertain/icon.png) -280px -300px no-repeat; font-size:16px; margin:0px -4px;}
+.ent-movie-office ul{margin:-15px 0px 0px 0px;}
+.ent-movie-office li{height:46px; overflow:hidden;}
+.ent-movie-office li a{color:#222; display:block;padding:5px 5px 5px 10px;}
+.ent-movie-office li a strong{display:block;}
+.ent-movie-office li a i{ width:23px; height:33px; display:inline-block; vertical-align:middle; margin:0px 8px 0px 0px;background:url(../images/entertain/icon.png) -325px -120px no-repeat; float:left; line-height:23px; text-align:center;}
+.ent-movie-office li.i1{background:#E6E7E8;}
+
+.ent-movie-news{}
+.ent-movie-news h3{height:30px; line-height:30px; background:#F1F2F2;background-image: -webkit-linear-gradient(top,#FFFFFF,#F1F2F2,#D1D3D4);background-image: -moz-linear-gradient(top,#FFFFFF,#F1F2F2,#D1D3D4);background-image: -ms-linear-gradient(top,#FFFFFF,#F1F2F2,#D1D3D4);background-image: -o-linear-gradient(top,#FFFFFF,#F1F2F2,#D1D3D4);background-image: linear-gradient(top,#FFFFFF,#F1F2F2,#D1D3D4); }
+.ent-movie-news h3 a{color:#333;}
+.ent-movie-news h3 i{ width:52px; height:32px; display:inline-block; vertical-align:middle; margin:-8px 5px 2px 5px;background:url(../images/entertain/icon.png) -156px -161px no-repeat;}
+.ent-movie-news ul{margin-left:-5px;}
+.ent-movie-news li{ margin-bottom:2px;}
+.ent-movie-news li a{display:block; color:#58595B; margin:0px; overflow:hidden;line-height:0px;}
+.ent-movie-news li a > img{float:left; margin-right:5px;}
+.ent-movie-news li p{line-height:19px;font-size:13px; text-indent:5px; color:#555; height:73px; margin:0px 0px 0px 105px;}
+
+
+.ent-movie-show{}
+.ent-movie-show h3{ height:35px; line-height:35px; color:#fff; margin:0px; border-top-left-radius:5px; border-top-right-radius:5px; background:#F15A29;background-image: -webkit-linear-gradient(top,#F7941E,#F15A29,#EF4136);background-image: -moz-linear-gradient(top,#F7941E,#F15A29,#EF4136);background-image: -ms-linear-gradient(top,#F7941E,#F15A29,#EF4136);background-image: -o-linear-gradient(top,#F7941E,#F15A29,#EF4136);background-image: linear-gradient(top,#F7941E,#F15A29,#EF4136);}
+.ent-movie-show h3 a{color:#fff;}
+.ent-movie-show h3 i{ width:58px; height:42px; display:inline-block; vertical-align:middle; margin:-7px 2px 0px 5px;background:url(../images/entertain/icon.png) -349px -157px no-repeat;}
+
+.ent-movie-show li{text-align:center; color:#231F20; padding:5px 0px;width:236px;height:122px; float:left;}
+.ent-movie-show li.l0{border-top:none;}
+.ent-movie-show li img{ border:1px solid #f0f0f0;}
+.ent-movie-show li > a{float:left; display:block; width:80px; margin:0px 5px 0px 5px; line-height:0px; position:relative;}
+.ent-movie-show li p{text-align:left; margin:2px 2px 2px 90px; height:18px; line-height:18px; overflow:hidden;white-space:nowrap; text-overflow:ellipsis;}
+.ent-movie-show li p.t{font-weight:bold;color:#555}
+.ent-movie-show li p.t a{color:#444}
+.ent-movie-show li p.tm{text-align:left; color:#666;}
+.ent-movie-show li > div{text-align:left; margin:2px; height:57px; overflow:hidden; color:#555;}
+
+
+.ent-movie-right{}
+.ent-movie-right h3{ height:35px; line-height:35px; color:#fff; margin:0px; border-top-left-radius:5px; border-top-right-radius:5px; background:#ED1C24;background-image: -webkit-linear-gradient(top,#ED1C24,#ED1C24,#BE1E2D);background-image: -moz-linear-gradient(top,#ED1C24,#ED1C24,#BE1E2D);background-image: -ms-linear-gradient(top,#ED1C24,#ED1C24,#BE1E2D);background-image: -o-linear-gradient(top,#ED1C24,#ED1C24,#BE1E2D);background-image: linear-gradient(top,#ED1C24,#ED1C24,#BE1E2D);}
+.ent-movie-right h3 a{color:#fff;}
+.ent-movie-right h3 i{ width:54px; height:40px; display:inline-block; vertical-align:middle; margin:-5px 2px 0px 5px;background:url(../images/entertain/icon.png) -558px -159px no-repeat;}
+.ent-movie-right p.l{ height:18px; overflow:hidden;background:url(../images/entertain/icon.png) 0px -270px no-repeat; margin:0px;}
+
+.ent-movie-right ul{background:#000;}
+.ent-movie-right li{text-align:center; color:#fff; padding:0px; margin:0px;border-top:1px dashed #333; height:122px; overflow:hidden;}
+.ent-movie-right li:first-child{border-top:none;}
+.ent-movie-right li:hover{background-color:#222}
+.ent-movie-right li img{ width:80px; border:1px solid #333;}
+.ent-movie-right li > a{float:left; display:block; width:80px; margin:0px 5px 0px 5px; line-height:0px; position:relative;}
+.ent-movie-right li p{text-align:left; margin:2px 2px 2px 90px; height:18px; line-height:18px; overflow:hidden;white-space:nowrap; text-overflow:ellipsis;}
+.ent-movie-right li p.t{font-weight:bold;color:#EC1C24}
+.ent-movie-right li p.t a{color:#EC1C24}
+.ent-movie-right li p.tm{text-align:left; color:#ccc;}
+.ent-movie-right li > div{text-align:left; margin:2px 2px 2px 90px; height:57px; overflow:hidden; color:#aaa;}
+
+
+
+.ent-inter{margin:0px}
+.ent-inter ul{margin-left:-5px;}
+/*
+.ent-inter li{float:left; background:#fff; border:1px dashed #eee; width:114px; height:135px; margin:5px 0px 0px 5px; overflow:hidden;}
+.ent-inter li a{display:block; color:#58595B; margin:5px;overflow:hidden;line-height:0px;text-align:center;}
+.ent-inter li p{line-height:18px;font-size:12px; text-indent:5px; color:#555; text-align:left;}
+*/
+
+.ent-inter .l0{ width:auto; height:auto; float:none;}
+.ent-inter .l0 a{width:auto;height:auto;}
+.ent-inter .l0 a p{margin:0px 0px 0px 230px; width:auto; font-size:13px; line-height:1.8em}
+.ent-inter .l0 .i{width:222px; height:162px; float:left;}
+
+
+
+.ent-star-photo h3{ height:35px; line-height:35px; color:#fff; margin:0px 5px 5px; border-top-left-radius:5px; border-top-right-radius:5px; background:#414042;background-image: -webkit-linear-gradient(top,#808285,#414042,#12161A);background-image: -moz-linear-gradient(top,#808285,#414042,#12161A);background-image: -ms-linear-gradient(top,#808285,#414042,#12161A);background-image: -o-linear-gradient(top,#808285,#414042,#12161A);background-image: linear-gradient(top,#808285,#414042,#12161A);}
+.ent-star-photo h3 a{color:#fff;}
+.ent-star-photo h3 i{ width:36px; height:37px; display:inline-block; vertical-align:middle; margin:-2px 2px 0px 5px;background:url(../images/entertain/icon.png) -216px -160px no-repeat;}
+
+
+
+.ent-line{height:10px; overflow:hidden; margin:5px 0px;background:url(../images/entertain/icon.png) center -380px no-repeat;}
+
+
+
+.cab{padding:10px 0px 15px; text-align:center;margin: 0px; border-top-left-radius: 5px;border-top-right-radius: 5px;background:#DDDDDD;background-image: -webkit-linear-gradient(top,#DDDDDD 0%,#FFFFFF 50%);background-image: -moz-linear-gradient(top,#DDDDDD 0%,#FFFFFF 50%);background-image: -ms-linear-gradient(top,#DDDDDD,#FFFFFF);background-image: -o-linear-gradient(top,#DDDDDD 0%,#FFFFFF 50%);background-image: linear-gradient(top,#DDDDDD 0%,#FFFFFF 50%);}
+.cab i{width:194px; height:47px; display:inline-block;background:url(../images/news/icon.png) -10px -240px no-repeat;margin:0px auto;}
+.cab .t{font-size:16px; line-height:30px; height:30px;}
+.cab .t small{font-size:12px; font-style:normal;}
+.cab .b{font-size:20px; font-weight:bold}
+
+
+
+
+
+
+
+.hforum thead tr{background:#f0f0f0; height:30px; line-height:30px; font-weight:bold;}
+.hforum tr.l0{background:#fff}
+.hforum tr.l1{background:#f9f9f9}
+.hforum i.i0{ width:17px; height:15px; display:inline-block;background:url(../images/football/icon.png) -440px -150px no-repeat;}
+.hforum i.i1{ width:17px; height:17px; display:inline-block;background:url(../images/football/icon.png) -420px -150px no-repeat;}
+.hforum a{color:#333;}
+.hforum td{color:#555}
+.hforum .ticon{width:17px; vertical-align:middle; text-align:center;}
+
+.hforum .tcate,.hforum .tcate p{width:100px;}
+.hforum .ttitle,.hforum .ttitle p{width:300px;}
+.hforum .ttitle2,.hforum .ttitle2 p{width:200px;}
+.hforum .tpost,.hforum .tpost p{width:100px; text-align:center;}
+.hforum .tview{width:50px; text-align:center; vertical-align:middle; color:#74C7FA;}
+.hforum .treply{width:50px; text-align:center; vertical-align:middle; color:#F6921E;}
+.hforum .ttime,.hforum .ttime p{width:150px; text-align:center;}
+.hforum p{overflow:hidden; white-space:nowrap; height:16px; line-height:16px;text-overflow:ellipsis;}
+
+
+.hforum2 thead tr{background:#f0f0f0; height:30px; line-height:30px; font-weight:bold;}
+.hforum2 tr.l0{background:#fff}
+.hforum2 tr.l1{background:#f9f9f9}
+.hforum2 i.i0{ width:17px; height:15px; display:inline-block;background:url(../images/football/icon.png) -440px -150px no-repeat;}
+.hforum2 i.i1{ width:17px; height:17px; display:inline-block;background:url(../images/football/icon.png) -420px -150px no-repeat;}
+.hforum2 a{color:#333;}
+.hforum2 td{color:#555}
+.hforum2 .ticon{width:17px; vertical-align:middle; text-align:center;}
+
+.hforum2 .tcate,.hforum2 .tcate p{width:100px;}
+.hforum2 .ttitle2,.hforum2 .ttitle2 p{width:200px;}
+.hforum2 .tpost,.hforum2 .tpost p{width:100px; text-align:center;}
+.hforum2 p{overflow:hidden; white-space:nowrap; height:16px; line-height:16px;text-overflow:ellipsis;}
+
+.forum-home-list{padding:0px 0px 10px;}
+.forum-home-list li{float:left; width:470px; margin:7px 0px 0px 7px;}
+.forum-home-list li > span{display:block; float:left; width:120px; margin:0px 0px 0px;}
+.forum-home-list li > span a{width:114px; height:88px; display:block; background:#E6E7E8; line-height:0px;}
+.forum-home-list li > span a img{width:110px; height:84px;margin:2px;}
+.forum-home-list li > div{margin:0px 0px 0px 124px;}
+.forum-home-list li > div div{max-height:34px; overflow:hidden; color:#26A9E0;}
+.forum-home-list li > p{clear:both}
+.forum-home-list li h4{width:230px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.forum-home-list li h4 a{color:#000;}
+
+.forum-home h3,.forum_cp{ text-indent:10px;margin:5px 0px 0px; border-radius:3px; box-shadow:0px 0px 5px #ccc; background:#302D2E; color:#fff; background-image: -webkit-linear-gradient(top,#302D2E,#49494A);background-image: -moz-linear-gradient(top,#302D2E,#49494A);background-image: -ms-linear-gradient(top,#302D2E,#49494A);background-image: -o-linear-gradient(top,#302D2E,#49494A);background-image: linear-gradient(top,#302D2E,#49494A); font-size:14px; height:30px; line-height:30px;}
+.forum-home h3.l1,.forum_cp{background-image: -webkit-linear-gradient(top,#1780BF,#1CA0D4);background-image: -moz-linear-gradient(top,#1780BF,#1CA0D4);background-image: -ms-linear-gradient(top,#1780BF,#1CA0D4);background-image: -o-linear-gradient(top,#1780BF,#1CA0D4);background-image: linear-gradient(top,#1780BF,#1CA0D4); font-size:14px; height:30px; line-height:30px;}
+.forum-home h3 a,.forum-home h3 small,.forum_cp a,.forum_cp small{color:#fff;} 
+
+
+
+.forum-list-picpost li{ margin:5px 0px 5px 8px;text-align:center; height:132px; overflow:hidden;}
+.forum-list-picpost li .l{display:block; width:130px; height:130px; background:#fff;border:1px solid #f0f0f0; border-radius:5px; line-height:0px; box-shadow: 2px 2px 0px #f0f0f0; float:left}
+.forum-list-picpost li .l a{display:block; line-height:0px;}
+.forum-list-picpost li .l img{width:123px; height:123px; margin:3px auto 0px; border-radius:5px;}
+.forum-list-picpost li .r{text-align:left; overflow:hidden; color:#777; margin-left:140px; height:132px;}
+.forum-list-picpost li .r p{margin:0px;}
+
+.forum-list-picpost-relate li{ width:180px; float:left; margin:5px 0px 5px 5px;text-align:center;}
+.forum-list-picpost-relate li a{color:#333;}
+.forum-list-picpost-relate li .l{display:block; width:70px; height:70px; background:#fff;border:1px solid #f0f0f0; border-radius:5px; line-height:0px; box-shadow: 2px 2px 0px #f0f0f0; float:left}
+.forum-list-picpost-relate li .l a{display:block; line-height:0px; }
+.forum-list-picpost-relate li .l img{width:64px; height:64px; margin:3px auto 0px; border-radius:5px;}
+.forum-list-picpost-relate li .r{width:100px; float:right; text-align:left; overflow:hidden; color:#777; height:72px;}
+
+
+.forum_stats{padding:10px; border:1px solid #ddd; background:#f9f9f9; line-height:1.8em; margin:5px 0px;}
+.forum_stats a{text-shadow:1px 1px 0px #fff;}
+
+
+
+
+.cab{padding:10px 0px 15px; text-align:center;margin: 0px 5px; border-top-left-radius: 5px;border-top-right-radius: 5px;background:#DDDDDD;background-image: -webkit-linear-gradient(top,#DDDDDD 0%,#FFFFFF 50%);background-image: -moz-linear-gradient(top,#DDDDDD 0%,#FFFFFF 50%);background-image: -ms-linear-gradient(top,#DDDDDD,#FFFFFF);background-image: -o-linear-gradient(top,#DDDDDD 0%,#FFFFFF 50%);background-image: linear-gradient(top,#DDDDDD 0%,#FFFFFF 50%);}
+.cab i{width:194px; height:47px; display:inline-block;background:url(../images/news/icon.png) -10px -240px no-repeat;margin:0px auto;}
+.cab .t{font-size:16px; line-height:30px; height:30px;}
+.cab .t small{font-size:12px; font-style:normal;}
+.cab .b{font-size:20px; font-weight:bold}

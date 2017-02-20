@@ -1,0 +1,32 @@
+
+.bz-header,.ui-bar-a{
+color:#fff;
+border: 1px solid #008CC4 /*{a-bar-border}*/;
+background: #009AD7 /*{a-bar-background-color}*/;
+color: white /*{a-bar-color}*/;
+text-shadow: 0 /*{a-bar-shadow-x}*/ -1px /*{a-bar-shadow-y}*/ 0 /*{a-bar-shadow-radius}*/ black /*{a-bar-shadow-color}*/;
+background-image: -webkit-gradient(linear, left top, left bottom, from( #00ACEF /*{a-bar-background-start}*/), to( #009AD7 /*{a-bar-background-end}*/));
+background-image: -webkit-linear-gradient( #00ACEF /*{a-bar-background-start}*/, #009AD7 /*{a-bar-background-end}*/);
+background-image: -moz-linear-gradient( #00ACEF /*{a-bar-background-start}*/, #009AD7 /*{a-bar-background-end}*/);
+background-image: -ms-linear-gradient( #00ACEF /*{a-bar-background-start}*/, #009AD7 /*{a-bar-background-end}*/);
+background-image: -o-linear-gradient( #00ACEF /*{a-bar-background-start}*/, #009AD7 /*{a-bar-background-end}*/);
+background-image: linear-gradient( #00ACEF /*{a-bar-background-start}*/, #009AD7 /*{a-bar-background-end}*/);
+}
+
+notuse.ui-btn-up-a {
+border: 1px solid #00ACEF /*{a-bup-border}*/;
+background: #008CC4 /*{a-bup-background-color}*/;
+color: white /*{a-bup-color}*/;
+text-shadow: 0 /*{a-bup-shadow-x}*/ 1px /*{a-bup-shadow-y}*/ 0 /*{a-bup-shadow-radius}*/ #CCC /*{a-bup-shadow-color}*/;
+background-image: -webkit-gradient(linear, left top, left bottom, from( #444 /*{a-bup-background-start}*/), to( #00ACEF /*{a-bup-background-end}*/));
+background-image: -webkit-linear-gradient( #008CC4 /*{a-bup-background-start}*/, #00ACEF /*{a-bup-background-end}*/);
+background-image: -moz-linear-gradient( #008CC4 /*{a-bup-background-start}*/, #00ACEF /*{a-bup-background-end}*/);
+background-image: -ms-linear-gradient( #008CC4 /*{a-bup-background-start}*/, #00ACEF /*{a-bup-background-end}*/);
+background-image: -o-linear-gradient( #008CC4 /*{a-bup-background-start}*/, #00ACEF /*{a-bup-background-end}*/);
+background-image: linear-gradient( #008CC4 /*{a-bup-background-start}*/, #00ACEF /*{a-bup-background-end}*/);
+}
+
+
+.btn-getvar{margin-left:1%;}
+.btn-getvar .ui-controlgroup-controls{width:100%;}
+.btn-getvar .ui-controlgroup-controls a{width:33%;}

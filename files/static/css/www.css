@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+._hd-h {background:#000 url(../images/www/ba-bg.png) left top repeat-x; height:80px; width:100%; text-align:center; position:fixed;top:0px; z-index:99;}
+*html ._hd-h {position: absolute;top:expression(eval(document.compatMode &&document.compatMode=='CSS1Compat') ?documentElement.scrollTop: document.body.scrollTop);}
+._hd-h nav{ width:980px; margin:0px auto 0px; padding-top:0px; height:80px; text-align:left}
+._hd-h li { display:inline; float:left; width: auto; position:relative}
+._hd-h li a { display:block; padding:0px 10px 0 5px; height:80px; line-height:80px; color:#fff; font-weight:bold; border-radius:3px; border-bottom-left-radius:0px; border-bottom-right-radius:0px; }
+._hd-h li a.over{background-color:#fff; color:#2E5F63; border:1px solid #ccc; border-bottom:none;}
+
+
+
+._hd-h li ul {position: absolute;display: none;background-color: #fff;border: 1px solid #ccc;border-top:none;background-repeat: repeat-x;margin-top:0px; z-index:96;}
+._hd-h li ul li {float:none; display:block}
+._hd-h li ul li a:hover{background-color:#f5f5f5 !important;color: #444 !important;}
+
+
+
+._hd-h li.logo { width:150px; overflow:hidden; }
+._hd-h li.logo a { width:150px; padding:0; background:#66CC00 url(../images/global/inettown.png) center center no-repeat; }
+._hd-h li.notify{width:30px; text-align:center; position:relative}
+._hd-h li.notify > a{display:block; margin:5px 0px 6px 4px; font-size:10px; border-radius:3px; height:24px; line-height:24px;/* border-bottom-left-radius:0px;border-bottom-right-radius:0px; */background-color:#66CC00}
+._hd-h li.notify > ul{width:300px;}
+._hd-h li.notify li a{padding:5px; display:block; font-size:12px; height:auto; line-height:18px; color:#555; float:none; font-weight:normal;}
+._hd-h li.notify li{text-align:left; border-bottom:1px solid #f0f0f0;}
+._hd-h li.notify li img{float:left; margin-right:5px; width:50px; height:50px; padding:2px; border:1px solid #ccc;}
+._hd-h li.notify li span{ display:block;}
+._hd-h li.notify li.ur{background-color:#f5f5f5;}
+._hd-h li.notify li p{clear:both}
+._hd-h li.notify li.mr a{ text-align:center;}
+._hd-h li.notify li a:hover{background-color:#f5f5f5;}
+._hd-h li.preview { float:right; }
+._hd-h li.preview ul{right:0px}
+
+._hd-h li a:hover { background-color:#56AE01; text-decoration:none; color:#fff;}
+._hd-h li a.over,._hd-h li a.over:hover{background-color:#fff; color:#66CC00; border-color:#fff; margin-bottom:0px; height:30px; border-bottom-left-radius:0px;border-bottom-right-radius:0px;}
+
+._hd-h-bt{margin-bottom:78px}
+
+._bn{background:url(../images/www/bn-bg.png) top left repeat; height:500px; text-align:center; display:none;}
+._bn-in{background:url(../images/www/bn-port.png) 0px 169px no-repeat; height:500px; width:980px; margin:0px auto; text-align:left;}
+._bn-in h1{font-size:24px; color:#fff;; text-align:center; font-weight:normal; text-shadow:2px 2px 0px #000;padding:40px 0px 10px;}
+._bn-in h2{font-size:20px; color:#fff; text-align:center; padding:20px 0px 10px;text-shadow:2px 2px 0px #000;}
+._bn-in h2 strong{display:none}
+
+._ct{background-color:#fff}

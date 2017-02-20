@@ -1,0 +1,96 @@
+
+html,body,div,p {margin: 0px;padding: 0px;border: 0px;}
+body{ font-family:Tahoma; font-size: 16px; line-height: 1.6em; color: #555; background:#f4f4f4; padding:0px;margin:0px; padding-top:53px;}
+a{ text-decoration:none; color:#F60}
+
+.left{float:left;}
+.right{float:right;}
+
+.apps-list{list-style:none;margin:0px; padding:0px;}
+.apps-list li{border-bottom:1px solid #ccc; overflow:hidden; background:#fff;}
+.apps-list li:nth-child(odd){ background:#f4f4f4;}
+.apps-list li a{height:62px;display:block;color: #333; text-decoration: none; padding:0px 5px;}
+.apps-list li a img{float:left; width:50px; height:50px; background:#ccc; margin:5px 10px 0px 0px;border-radius:4px; border:1px solid #000;}
+.apps-list h1{font-size:24px; color:#333; padding:10px 0px 5px; margin:0px;}
+.apps-list h2{font-size:14px; color:#888; font-weight:normal; margin:0px;}
+
+
+.bar{height:50px; line-height:50px; background:#fc32ab; position:fixed; width:100%; left:0px; top:0px;border-bottom: 3px solid #fff; z-index:99;}
+.bar>p{display:none; height:20px; overflow:hidden;}
+.bar>div{position:relative;}
+.bar-back,.bar-refresh,.bar-print{width:40px; height:40px; display:inline-block;position:absolute;top:5px; background:url(http://s0.boxza.com/static/images/mobile/gold.png) 0px 0px no-repeat; border-radius:4px;}
+.bar-back{ left:5px;}
+.bar-refresh{right:10px; background-position:-40px 0px;}
+.bar-print{right:55px; background-position:-80px 0px;}
+.bar-title{ margin:0px 55px; text-align:center; color:#fff; font-size:26px; line-height:50px; height:50px; text-shadow:none;}
+.bar-title span {width: 1px;height: 1px;overflow: hidden;display: inline-block;}
+
+
+
+.tabs{height:50px;overflow: scroll;overflow-y: hidden;-webkit-overflow-scrolling: touch;white-space:nowrap; background:#d6d6d6; margin:0px; padding:0px; list-style:none; text-align:center;border-bottom: 1px solid #ababab;}
+.tabs li{display:inline-block; height:50px;}
+.tabs li a{display:inline-block; height:50px;min-width:100px;text-align:center;}
+.tabs li a.active{border-bottom: 5px solid #fc32ab;height: 45px;}
+.tabs li a span{display:block; height:30px; line-height:30px; margin:10px 0px; font-size:18px; border-left:1px solid #c0c0c0; color:#000;padding:0px 30px;}
+.tabs li:first-child a span{border-left:none;}
+
+.friend-bar{padding: 5px 20px;background: #fff;margin: 0px;height: 32px;line-height: 32px; border-bottom:1px solid #ccc;}
+
+
+.btn {display: inline-block;padding: 6px 20px;margin-bottom: 0;font-size: 16px;line-height: 1.5; border-radius:6px;text-align: center;vertical-align: middle;cursor: pointer;color: #ffffff;background:#bdc3c7;border:none;border-bottom:4px solid #acb2b7; text-shadow:0 1px 2px rgba(0, 0, 0, 0.25)}
+.btn-play{color: #ffffff;background-color: #f39c12;border-color: #e8930c; font-weight:bold;}
+.tbox{border:1px solid #aaa; border-radius:5px; font-size:18px; padding:5px; display:block;}
+
+
+
+.find-friend{margin:10px;padding:10px; border:1px solid #ccc; border-radius:5px; background:#fff;}
+.find-friend h3{height:40px; line-height:40px; background:#f0f0f0; color:#000; text-shadow:1px 1px 0px #fff; padding:0px 10px; margin:0px 0px 5px;}
+.find-friend div>strong{display:inline-block; float:left; width:30%; text-align:right; height:40px; line-height:40px; overflow:hidden;}
+.find-friend div>p{display:inline-block; float:right; width:69%; text-align:left;line-height:40px;}
+.find-friend div>p select{font-size:20px;}
+.find-friend form > div:after {clear: both;display: block;content: "";}
+
+
+.user{height: 60px;overflow: hidden;border: 1px solid #ccc;border-radius: 5px;margin: 10px 10px 5px;padding: 0px;background: #fff;}
+.user img{width:50px; height:50px; float:left; margin:5px 10px 5px 5px;}
+.user p{height:25px; line-height:25px; overflow:hidden; margin:5px 5px 0px}
+.user div{height:25px; line-height:25px; overflow:hidden; margin:0px 5px 5px}
+
+.add-friend{margin:10px;padding:10px; border:1px solid #ccc; border-radius:5px; background:#fff;}
+.add-friend h3{height:40px; line-height:40px; background:#f0f0f0; color:#000; text-shadow:1px 1px 0px #fff; padding:0px 10px; margin:0px 0px 5px;}
+.add-friend form div>strong{display:inline-block; float:left; width:30%; text-align:right; height:40px; line-height:40px; overflow:hidden;}
+.add-friend form div>p{display:inline-block; float:right; width:69%; text-align:left;line-height:40px;}
+.add-friend form div>p select{font-size:20px;}
+.add-friend form > div:after {clear: both;display: block;content: "";}
+
+.friend{margin:0px 10px 10px; background:#fff; padding:5px;}
+.friend>div{ min-height:100px; margin:5px 0px 0px; border:3px solid #ccc; position:relative; border-radius:5px;}
+.friend>div.ty-boy{border-color:#55B9DF}
+.friend>div.ty-girl{border-color:#FFADBF}
+.friend>div.ty-gay{border-color:#777}
+.friend>div.ty-lesbian{border-color:#55B9DF}
+.friend>div.ty-ladyboy{border-color:#F44AE8}
+
+.friend>div:first-child{margin-top:0px;}
+.friend>div:nth-child(even) {background: #f8f8f8;}
+.friend .tm{ text-align:center; width:90px; float:left;}
+.friend .im{ text-align:center; width:90px;height:90px; overflow:hidden; line-height:0px; float:left; text-align:center; margin:5px;}
+.friend .im img{max-width:90px; max-height:90px;}
+.friend .ct{ margin-left:105px;}
+.friend .ms{max-height: 75px;overflow: hidden;}
+
+
+.friend>div.ty-boy .nm{color:#55B9DF}
+.friend>div.ty-girl .nm{color:#FFADBF}
+.friend>div.ty-gay .nm{color:#777}
+.friend>div.ty-lesbian .nm{color:#55B9DF}
+.friend>div.ty-ladyboy .nm{color:#F44AE8}
+
+.friend>div i.i1{position:absolute; right:0px; top:0px; color:#fff; background:#000; height:30px; line-height:30px; display:inline-block; padding:0px 10px; border-top-right-radius:2px;border-bottom-left-radius:5px}
+.friend>div.ty-boy i.i1{background:#55B9DF}
+.friend>div.ty-girl i.i1{background:#FFADBF}
+.friend>div.ty-gay i.i1{background:#777}
+.friend>div.ty-lesbian i.i1{background:#55B9DF}
+.friend>div.ty-ladyboy i.i1{background:#F44AE8}
+.friend>div i.i2{position:absolute; right:0px; bottom:0px; color:#888; background:#f0f0f0; height:30px; line-height:30px; display:inline-block; padding:0px 10px;border-bottom-right-radius:2px;border-top-left-radius:5px}
+

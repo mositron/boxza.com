@@ -1,0 +1,106 @@
+
+body{background:#fff url(../images/entertain/bg.png) 0px 0px repeat;}
+
+
+.head-logo h1 a {width:300px; height:108px; background:none}
+
+.hbar.navbar .nav>li>a{padding-left:15px; padding-right:15px;}
+
+.hb{font-size:14px; font-weight:normal;height:30px; line-height:30px; color:#000; margin:0px 0px 5px 0px; padding:0px 5px; background:#0E2237; color:#D0D2D3; background-image: -webkit-linear-gradient(top,#0E2237,#03121E);background-image: -moz-linear-gradient(top,#0E2237,#03121E);background-image: -ms-linear-gradient(top,#0E2237,#03121E);background-image: -o-linear-gradient(top,#0E2237,#03121E);background-image: linear-gradient(top,#0E2237,#03121E);}
+.hb a{color:#D0D2D3; }
+.hb small{font-size:12px; font-style:normal; color:#D0D2D3}
+.hb small a{color:#D0D2D3}
+.hb i{display:none; width:25px; height:25px;vertical-align:middle}
+
+
+._box {margin-bottom: 10px;padding: 5px 0px 5px 5px;}
+
+i.ic{ width:24px; height:24px; display:none; background:url(../images/entertain/icon.png) 0px -150px no-repeat; vertical-align:text-top;}
+
+.error{background:#fff; color:#f00;}
+
+.container{margin-bottom:-1px;}
+.dropdown-menu > li{display:block}
+
+
+
+.bcd{margin:0px}
+.bcd ul{margin-left:-5px; margin-bottom:5px;}
+.bcd li{background:#fff;margin:5px 0px 0px 5px}
+.bcd li a{display:block; color:#58595B; overflow:hidden;line-height:0px;height:127px}
+.bcd li a.i1{height:235px;}
+.bcd li p{line-height:19px;font-size:13px; text-indent:5px; color:#555; }
+
+@media (max-width: 767px) {
+  .bcd li a{ height:auto !important;}
+  .bcd li a > img{float:left; margin-right:10px;}
+}
+
+.row-fluid .thumbnails.row-count-4 li:nth-child(4n+1),.row-fluid .thumbnails.row-count-3 li:nth-child(3n+1),.row-fluid .thumbnails.row-count-2 li:nth-child(2n+1){margin-left:0px; clear:both;}
+
+
+
+
+.hforum thead tr{background:#f0f0f0; height:30px; line-height:30px; font-weight:bold;}
+.hforum tr.l0{background:#fff}
+.hforum tr.l1{background:#f9f9f9}
+.hforum i.i0{ width:17px; height:15px; display:inline-block;background:url(../images/football/icon.png) -440px -150px no-repeat;}
+.hforum i.i1{ width:17px; height:17px; display:inline-block;background:url(../images/football/icon.png) -420px -150px no-repeat;}
+.hforum a{color:#333;}
+.hforum td{color:#555}
+.hforum .ticon{width:17px; vertical-align:middle; text-align:center;}
+
+.hforum .tcate,.hforum .tcate p{width:100px;}
+.hforum .ttitle,.hforum .ttitle p{width:300px;}
+.hforum .ttitle2,.hforum .ttitle2 p{width:200px;}
+.hforum .tpost,.hforum .tpost p{width:100px; text-align:center;}
+.hforum .tview{width:50px; text-align:center; vertical-align:middle; color:#74C7FA;}
+.hforum .treply{width:50px; text-align:center; vertical-align:middle; color:#F6921E;}
+.hforum .ttime,.hforum .ttime p{width:150px; text-align:center;}
+.hforum p{overflow:hidden; white-space:nowrap; height:16px; line-height:16px;text-overflow:ellipsis;}
+
+
+.hforum2 thead tr{background:#f0f0f0; height:30px; line-height:30px; font-weight:bold;}
+.hforum2 tr.l0{background:#fff}
+.hforum2 tr.l1{background:#f9f9f9}
+.hforum2 i.i0{ width:17px; height:15px; display:inline-block;background:url(../images/football/icon.png) -440px -150px no-repeat;}
+.hforum2 i.i1{ width:17px; height:17px; display:inline-block;background:url(../images/football/icon.png) -420px -150px no-repeat;}
+.hforum2 a{color:#333;}
+.hforum2 td{color:#555}
+.hforum2 .ticon{width:17px; vertical-align:middle; text-align:center;}
+
+.hforum2 .tcate,.hforum2 .tcate p{width:100px;}
+.hforum2 .ttitle2,.hforum2 .ttitle2 p{width:200px;}
+.hforum2 .tpost,.hforum2 .tpost p{width:100px; text-align:center;}
+.hforum2 p{overflow:hidden; white-space:nowrap; height:16px; line-height:16px;text-overflow:ellipsis;}
+
+.forum-home-list{padding:0px 0px 10px;}
+.forum-home-list li{float:left; width:470px; margin:7px 0px 0px 7px;}
+.forum-home-list li > span{display:block; float:left; width:120px; margin:0px 0px 0px;}
+.forum-home-list li > span a{width:114px; height:88px; display:block; background:#E6E7E8; line-height:0px;}
+.forum-home-list li > span a img{width:110px; height:84px;margin:2px;}
+.forum-home-list li > div{margin:0px 0px 0px 124px;}
+.forum-home-list li > div div{max-height:34px; overflow:hidden; color:#26A9E0;}
+.forum-home-list li > p{clear:both}
+.forum-home-list li h4{width:230px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.forum-home-list li h4 a{color:#000;}
+
+.forum-home h3,.forum_cp{ text-indent:10px;margin:5px 0px 0px; border-radius:3px; box-shadow:0px 0px 5px #ccc; background:#302D2E; color:#fff; background-image: -webkit-linear-gradient(top,#302D2E,#49494A);background-image: -moz-linear-gradient(top,#302D2E,#49494A);background-image: -ms-linear-gradient(top,#302D2E,#49494A);background-image: -o-linear-gradient(top,#302D2E,#49494A);background-image: linear-gradient(top,#302D2E,#49494A); font-size:14px; height:30px; line-height:30px;}
+.forum-home h3.l1,.forum_cp{background-image: -webkit-linear-gradient(top,#1780BF,#1CA0D4);background-image: -moz-linear-gradient(top,#1780BF,#1CA0D4);background-image: -ms-linear-gradient(top,#1780BF,#1CA0D4);background-image: -o-linear-gradient(top,#1780BF,#1CA0D4);background-image: linear-gradient(top,#1780BF,#1CA0D4); font-size:14px; height:30px; line-height:30px;}
+.forum-home h3 a,.forum-home h3 small,.forum_cp a,.forum_cp small{color:#fff;} 
+
+
+
+.forum-list-picpost li{ margin:5px 0px 5px 8px;text-align:center; height:132px; overflow:hidden;}
+.forum-list-picpost li .l{display:block; width:130px; height:130px; background:#fff;border:1px solid #f0f0f0; border-radius:5px; line-height:0px; box-shadow: 2px 2px 0px #f0f0f0; float:left}
+.forum-list-picpost li .l a{display:block; line-height:0px;}
+.forum-list-picpost li .l img{width:123px; height:123px; margin:3px auto 0px; border-radius:5px;}
+.forum-list-picpost li .r{text-align:left; overflow:hidden; color:#777; margin-left:140px; height:132px;}
+.forum-list-picpost li .r p{margin:0px;}
+
+.forum-list-picpost-relate li{ width:180px; float:left; margin:5px 0px 5px 5px;text-align:center;}
+.forum-list-picpost-relate li a{color:#333;}
+.forum-list-picpost-relate li .l{display:block; width:70px; height:70px; background:#fff;border:1px solid #f0f0f0; border-radius:5px; line-height:0px; box-shadow: 2px 2px 0px #f0f0f0; float:left}
+.forum-list-picpost-relate li .l a{display:block; line-height:0px; }
+.forum-list-picpost-relate li .l img{width:64px; height:64px; margin:3px auto 0px; border-radius:5px;}
+.forum-list-picpost-relate li .r{width:100px; float:right; text-align:left; overflow:hidden; color:#777; height:72px;}

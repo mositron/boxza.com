@@ -1,0 +1,10 @@
+var inet={
+	my:false
+	
+	
+	
+	
+	
+	
+	
+}

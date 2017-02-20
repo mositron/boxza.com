@@ -1,0 +1,157 @@
+
+html,body,div,p,h1,h2,h3,h4,h5,h6 {margin: 0px;padding: 0px;border: 0px;}
+body{ font-family:Tahoma; font-size: 16px; line-height: 1.6em; color: #555; background:#f4f4f4; padding:0px;margin:0px; padding-top:53px;}
+a{ text-decoration:none; color:#36c2f6}
+.clear{clear:both;}
+
+.apps-list{list-style:none;margin:5px; padding:0px;}
+.apps-list li{border-bottom:1px solid #ccc; overflow:hidden; background:#fff;}
+.apps-list li:nth-child(odd){ background:#f4f4f4;}
+.apps-list li a{height:62px;display:block;color: #333; text-decoration: none; padding:0px 5px;}
+.apps-list li a img{float:left; width:50px; height:50px; background:#ccc; margin:5px 10px 0px 0px;border-radius:4px; border:1px solid #000;}
+.apps-list h1{font-size:24px; color:#333; padding:10px 0px 5px; margin:0px;}
+.apps-list h2{font-size:14px; color:#888; font-weight:normal; margin:0px;}
+
+
+.bar{height:50px; line-height:50px; background:#2D2D2D; position:fixed; width:100%; left:0px; top:0px;border-bottom: 3px solid #36c2f6;}
+.bar>div{position:relative;}
+.bar-back,.bar-refresh,.bar-print{width:40px; height:40px; display:inline-block;position:absolute;top:5px; background:url(http://s0.boxza.com/static/images/mobile/weather.png) 0px 0px no-repeat; border-radius:4px;}
+.bar-back{ left:5px;}
+.bar-refresh{right:10px; background-position:-40px 0px;}
+.bar-print{right:55px; background-position:-80px 0px;}
+.bar-title{ margin:0px 55px; text-align:center; color:#fff; font-size:26px; line-height:50px; height:50px; text-shadow:none;}
+.bar-title span {width: 1px;height: 1px;overflow: hidden;display: inline-block;}
+
+.tabs{height:50px;overflow: scroll;overflow-y: hidden;-webkit-overflow-scrolling: touch;white-space:nowrap; background:#555; margin:0px; padding:0px; list-style:none; text-align:center;border-bottom: 1px solid #ababab;box-shadow: 0px 1px 5px #ababab; margin-bottom:2px;}
+.tabs li{display:inline-block; height:50px;}
+.tabs li a{display:inline-block; height:50px;min-width:100px;text-align:center;}
+.tabs li a.active{border-bottom: 5px solid #36c2f6;height: 45px;}
+.tabs li a span{display:block; height:30px; line-height:30px; margin:10px 0px; font-size:18px; border-left:1px solid #6b6b6b; color:#f3f3f3;padding:0px 30px;}
+.tabs li a span small{font-size:14px; font-weight:normal;}
+.tabs li:first-child a span{border-left:none;}
+
+.home-list{list-style:none;margin:0px; padding:0px;}
+.home-list li{border-bottom:1px solid #ccc; overflow:hidden;}
+.home-list li:nth-child(odd){background:#fff;}
+.home-list li a{height:62px;display:block;color: #333; text-decoration: none; padding:0px 5px;}
+.home-list .icon{display:inline-block; float:left; width:50px; height:50px; background:#ccc; margin:5px 10px 0px 0px;border-radius:4px; border:1px solid #000; background:url(http://s0.boxza.com/static/images/mobile/weather.png) 0px 0px no-repeat;}
+.home-list .icon-1{background-position:0px -40px;}
+.home-list .icon-2{background-position:-50px -40px;}
+.home-list .icon-3{background-position:-100px -40px;}
+.home-list .icon-4{background-position:-150px -40px;}
+.home-list .icon-5{background-position:-200px -40px;}
+.home-list h1{font-size:24px; color:#333; padding:10px 0px 5px; margin:0px;}
+.home-list h2{font-size:14px; color:#888; font-weight:normal; margin:0px; white-space:nowrap; overflow:hidden;text-overflow:ellipsis;}
+
+.weather-bar{padding: 5px 20px;background: #fff;margin: 0px;height: 32px;line-height: 32px; border-bottom:1px solid #ccc;}
+
+
+
+
+
+.place-list h3{background: #f0f0f0;padding: 5px 8px;margin:5px  2px 5px;border-radius: 4px; text-shadow:1px 1px 0px #fff;}
+.place-list ul{margin:0px; padding:0px; text-align:center; line-height:0px;}
+
+.icn-wt{ display:inline-block; width:64px; height:64px; background:url(../images/weather/icon.png) -64px -64px no-repeat;}
+.icn-wt1{background-position:0px 0px}
+.icn-wt2{background-position:-64px 0px}
+.icn-wt3{background-position:-128px 0px}
+.icn-wt4{background-position:-192px 0px}
+.icn-wt5{background-position:-256px 0px}
+.icn-wt6{background-position:-320px 0px}
+.icn-wt7{background-position:-384px 0px}
+.icn-wt8{background-position:-448px 0px}
+.icn-wt9{background-position:-512px 0px}
+.icn-wt10{background-position:-576px 0px}
+.icn-wt11{background-position:-640px 0px}
+.icn-wt12{background-position:-704px 0px}
+.place-list li{ display:inline-block;border:1px solid #f0f0f0; margin:5px; padding:0px; border-radius:4px; width:130px; height:170px; display:inline-block; background:#fff; line-height:1.6em;}
+.place-list li>a{text-align:center; overflow:hidden;margin:0px; padding:0px;height:170px; display:block;}
+
+.place-list li strong{display:block; height:30px; line-height:30px; margin-top:5px;white-space:nowrap; overflow:hidden;text-overflow:ellipsis;}
+.place-list li p{margin:3px 0px; text-align:center; font-size:16px;white-space:nowrap; overflow:hidden;text-overflow:ellipsis;}
+
+
+
+
+.hd-a{padding:5px 10px;}
+.weather-news ul{margin:0px 5px 0px; padding:0px; list-style:none;}
+.weather-news li{background:#fff;margin:0px 0px 5px 0px}
+.weather-news li a{display:block; color:#58595B; overflow:hidden;line-height:0px; text-decoration:none !important;}
+.weather-news li p,.weather-news li div{line-height: 1.4em;font-size: 18px;text-indent: 5px;color: #555;max-height: 53px;overflow: hidden;margin-top: 5px;}
+.weather-news li div {font-size: 14px;color: #ccc;}
+.weather-news li a{ height:auto !important;}
+.weather-news li a > img{float:left; margin-right:10px !important;}
+
+.news-h1{font-size:24px; padding:5px 10px; margin:0px; line-height:1.4em;}
+.news-detail{padding: 5px;font-size: 16px;line-height: 1.6em; background:#fff;}
+.news-detail img{max-width:100%;}
+
+
+
+.page-nav{text-align: center;height: 40px;line-height: 40px;margin: 10px;}
+.page-nav a{display:inline-block; height:40px; width:40%; margin:0px 5px; background:#fff; border-radius:5px; border:2px solid #bbb; font-size:22px; color:#bbb}
+
+.weather-table{background:#ccc;border-collapse: separate;border-spacing: 0px;color:#444; width:100%}
+.weather-table tr td{background:#f5f5f5; border-bottom:1px solid #ccc; padding:4px 10px;}
+.weather-table tr:nth-child(odd) td{background:#fff;}
+.weather-table tr td:nth-child(2){text-align:right;}
+
+
+
+.tbweather{background:#ccc;border-collapse: separate;border-spacing: 0px;color:#444; width:100%}
+.tbweather tr td{background:#f5f5f5; border-bottom:1px solid #ccc; padding:4px 10px;}
+.tbweather tr:nth-child(odd) td{background:#fff;}
+.tbweather thead th,.tbweather tbody td{text-align:center; vertical-align:middle;}
+
+@media (min-width: 640px) and (max-width: 760px) {
+	table.tbweather th:nth-child(6),
+	table.tbweather td:nth-child(6){display: none;}
+}
+
+@media (min-width: 520px) and (max-width: 640px) {
+	table.tbweather th:nth-child(2),
+	table.tbweather th:nth-child(6),
+	table.tbweather td:nth-child(2),
+	table.tbweather td:nth-child(6){display: none;}
+}
+
+@media (min-width: 400px) and (max-width: 520px) {
+	table.tbweather th:nth-child(2),
+	table.tbweather th:nth-child(4),
+	table.tbweather th:nth-child(6),
+	table.tbweather td:nth-child(2),
+	table.tbweather td:nth-child(4),
+	table.tbweather td:nth-child(6){display: none;}
+}
+
+@media (max-width: 400px) {
+	table.tbweather th:nth-child(2),
+	table.tbweather th:nth-child(3),
+	table.tbweather th:nth-child(4),
+	table.tbweather th:nth-child(5),
+	table.tbweather td:nth-child(2),
+	table.tbweather td:nth-child(3),
+	table.tbweather td:nth-child(4),
+	table.tbweather td:nth-child(5){display: none;}
+}
+
+.flex-video {position: relative;padding-top: 25px;padding-bottom: 67.5%;height: 0;margin-bottom: 16px;overflow: hidden;}
+.flex-video.widescreen { padding-bottom: 57.25%; }
+.flex-video.vimeo { padding-top: 0; }
+.flex-video iframe,.flex-video object,.flex-video embed {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
+@media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
+  .flex-video { padding-top: 0; }
+}
+
+
+@media (max-width: 767px) {
+
+
+}
+
+@media (max-width: 460px){
+.weather-list h1{font-size:18px;}
+.weather-list strong{font-size:14px}
+.weather-list > div{ font-size:16px;}
+}

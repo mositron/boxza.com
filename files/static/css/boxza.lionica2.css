@@ -1,0 +1,298 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#lionica_container{ width:970px; height:600px;background:#000 url(http://s0.boxza.com/static/images/game/lionica/ui/screen.jpg) center center no-repeat;}
+#lionica{ position:relative;font-size:11px;}
+#lionica_loading{ width:200px; height:19px; position:absolute; top:450px; left:385px;background:url(http://s0.boxza.com/static/images/game/lionica/ui/loading.gif) center center no-repeat; border-radius:5px;}
+
+
+.cusor-normal,#lionica,.lbox{cursor:url(http://s0.boxza.com/static/images/game/lionica/ui/cursor-normal.gif),auto;}
+.cursor-attack{cursor:url(http://s0.boxza.com/static/images/game/lionica/ui/cursor-attack.gif),auto !important;}
+.cursor-talk{cursor:url(http://s0.boxza.com/static/images/game/lionica/ui/cursor-talk.gif),auto !important;}
+.cemo{height:40px;}
+
+.lbox{z-index:50; position:absolute; background:#222; background:rgba(0,0,0,0.3);border:1px solid #333; color:#ccc; border-radius:3px;}
+.lbox table tr td{ padding:2px; border-bottom:1px dashed #222;}
+.lbox a{color:#eee; border-bottom:1px dashed #06f; background:#000; background:rgba(0,0,0,0.5); text-shadow:none;}
+
+#map_canvas{position:absolute;top:0px;left:0px; display:block; z-index:1;}
+#life_canvas{position:absolute;top:0px;left:0px; display:block; z-index:2;}
+#map_weather{position:absolute;top:0px;left:0px; display:block; z-index:3;}
+
+#map table.mons{border:0px; border-collapse:collapse; table-layout:fixed;}
+#map table.mons  tr td{padding:0px;width:32px; text-align:center; border-radius:0px; height:32px; overflow:hidden; vertical-align:middle;background-position:0px 0px; background-repeat:repeat;}
+#map table.mons  tr td.c{background:#CCC;}
+#map table.mons  tr td.b{background-position:-32px 0px;}
+#map table.mons  tr td.g-1{background-position:-64px 0px !important;}
+#map table.mons  tr td.g-2{background-position:-96px 0px !important;}
+#map table.mons  tr td.g-3{background-position:-128px 0px !important;}
+#map table.mons  tr td.w{background:#9C3;}
+#map table.mons  tr td.n{}
+
+#click_go{width:32px; height:32px; position:absolute; left:0px; top:0px; z-index:299; background:url(http://s0.boxza.com/static/images/game/lionica/ui/pointer.gif) 0px 0px no-repeat;}
+
+
+/*
+._plot-s-u-in div.head{z-index:0 !important;}
+*/
+
+._plot{position:absolute; left:0px; top:0px; display:inline-block;width:32px; height:48px;z-index:2; cursor:pointer;background:url(http://s0.boxza.com/static/images/game/lionica/life/1.png) 0px 0px no-repeat; }
+._plot .name{position:absolute; width:100%; top:-10px; text-align:center; color:#fff; text-shadow:0px 0px 3px #000; font-size:10px; height:15px; line-height:15px;text-overflow:ellipsis; overflow:hidden;white-space:nowrap;}
+._plot:hover .name{ overflow:visible;}
+
+
+
+
+
+._plot-animal{cursor:default !important;}
+._plot._plot-npc .name{background:rgba(0,0,0,0.7); border-radius:3px;	}
+
+.swing1 ._plot-s-d, ._plot-m-d, .swing1 ._plot-s-d-in div{background-position:50% 0% !important;}
+.swing2 ._plot-s-d, .swing2 ._plot-s-d-in div{background-position:100% 0% !important;}
+.swing3 ._plot-s-d, .swing3 ._plot-s-d-in div{background-position:50% 0% !important;}
+.swing4 ._plot-s-d, .swing4 ._plot-s-d-in div{background-position:0% 0% !important;}
+.swing1 ._plot-s-l, ._plot-m-l, .swing1 ._plot-s-l-in div{background-position:50% 33% !important;}
+.swing2 ._plot-s-l, .swing2 ._plot-s-l-in div{background-position:100% 33% !important;}
+.swing3 ._plot-s-l, .swing3 ._plot-s-l-in div{background-position:50% 33% !important;}
+.swing4 ._plot-s-l, .swing4 ._plot-s-l-in div{background-position:0% 33% !important;}
+.swing1 ._plot-s-r,._plot-m-r, .swing1 ._plot-s-r-in div{background-position:50% 66% !important;}
+.swing2 ._plot-s-r, .swing2 ._plot-s-r-in div{background-position:100% 66% !important;}
+.swing3 ._plot-s-r, .swing3 ._plot-s-r-in div{background-position:50% 66% !important;}
+.swing4 ._plot-s-r, .swing4 ._plot-s-r-in div{background-position:0% 66% !important;}
+.swing1 ._plot-s-u,._plot-m-u, .swing1 ._plot-s-u-in div{background-position:50% 100% !important;}
+.swing2 ._plot-s-u, .swing2 ._plot-s-u-in div{background-position:100% 100% !important;}
+.swing3 ._plot-s-u, .swing3 ._plot-s-u-in div{background-position:50% 100% !important;}
+.swing4 ._plot-s-u, .swing4 ._plot-s-u-in div{background-position:0% 100% !important;}
+
+._plot-nh{z-index:1; height:32px;width:32px;position:absolute; left:0px; bottom: -10px; top:auto;}
+._plot-nh-1{background:url(http://s0.boxza.com/static/images/game/lionica/effect/enhance1.png) 0px 0px no-repeat;}
+._plot-nh-2{background:url(http://s0.boxza.com/static/images/game/lionica/effect/enhance2.png) 0px 0px no-repeat;}
+._plot-nh-3{background:url(http://s0.boxza.com/static/images/game/lionica/effect/enhance3.png) 0px 0px no-repeat;}
+._plot-nh-4{background:url(http://s0.boxza.com/static/images/game/lionica/effect/enhance4.png) 0px 0px no-repeat;}
+._plot-nh-5{background:url(http://s0.boxza.com/static/images/game/lionica/effect/enhance5.png) 0px 0px no-repeat;}
+._plot-warp{z-index:5; height:32px;width:32px;position:absolute; left:0px; top:0px; bottom:auto;background:url(http://s0.boxza.com/static/images/game/lionica/effect/warp.png) 0px 0px no-repeat; cursor:pointer;}
+.enhance-swing1 ._plot-nh{background-position:0px 0px !important;}
+.enhance-swing2 ._plot-nh{background-position:-32px 0px !important;}
+.enhance-swing3 ._plot-nh{background-position:-64px 0px !important;}
+.enhance-swing4 ._plot-nh{background-position:-96px 0px !important;}
+.enhance-swing5 ._plot-nh{background-position:-128px 0px !important;}
+.enhance-swing6 ._plot-nh{background-position:0px -32px !important;}
+.enhance-swing7 ._plot-nh{background-position:-32px -32px !important;}
+.enhance-swing8 ._plot-nh{background-position:-64px -32px !important;}
+.enhance-swing9 ._plot-nh{background-position:-96px -32px !important;}
+.enhance-swing10 ._plot-nh{background-position:-128px -32px !important;}
+.enhance-swing11 ._plot-nh{background-position:0px -64px !important;}
+.enhance-swing12 ._plot-nh{background-position:-32px -64px !important;}
+.enhance-swing13 ._plot-nh{background-position:-64px -64px !important;}
+.enhance-swing14 ._plot-nh{background-position:-96px -64px !important;}
+.enhance-swing15 ._plot-nh{background-position:-128px -64px !important;}
+.enhance-swing16 ._plot-nh{background-position:0px -96px !important;}
+.enhance-swing17 ._plot-nh{background-position:-32px -96px !important;}
+.enhance-swing18 ._plot-nh{background-position:-64px -96px !important;}
+.enhance-swing19 ._plot-nh{background-position:-96px -96px !important;}
+.enhance-swing20 ._plot-nh{background-position:-128px -96px !important;}
+
+/*
+._plot-s-u-in div.head{z-index:0 !important;}
+*/
+
+#map_frame{width:970px; height:600px; overflow:hidden; position:relative; z-index:0; background:#000;}
+#map_move{position:absolute; left:0px; top:0px;}
+#map {position:relative; width:1280px; height:1280px; background:#000; margin:0px auto;}
+
+
+.b-char{left:5px; top:5px; width:190px; height:55px; overflow:hidden; position:absolute; z-index:9;}
+.b-char .name{background: rgba(0,0,0,0.5);height: 16px;line-height: 16px;overflow: hidden;margin: 0px 0px 3px 0px;color: #fff;font-size: 10px;text-indent: 2px;border-radius: 5px;text-shadow: 1px 1px 0px #000;box-shadow:0px 0px 3px rgba(0,0,0,0.5)}
+.b-char .name #char_lv{padding: 0px 3px;border-radius: 4px;background: #000;font-size: 9px;border: 1px solid #999;}
+.b-char .char{width: 32px;height: 32px;float: left;border-radius: 16px;border: 1px solid #000;background-color: rgba(0,0,0,0.3);}
+.b-char .status{float: right;width: 150px;margin: 0px 2px 0px 0px;}
+.b-char .status > div{ position:relative;font-family:verdana;font-size: 9px;color:#fff; text-shadow:1px 1px 0px #000;height: 9px;line-height: 9px; border-radius:5px; overflow: hidden;text-align: center; border:1px solid #000; background:#000; background:rgba(0,0,0,0.4)}
+.b-char .status > div > div{ position:absolute; left:0px; height:9px; width:100%; text-align:center; z-index:3; border-radius:5px;}
+#char_hp_bar {background:url(http://s0.boxza.com/static/images/game/lionica/ui/char-bar.png) 0px -1px; z-index:2}
+#char_mp_bar {background:url(http://s0.boxza.com/static/images/game/lionica/ui/char-bar.png) 0px -11px; z-index:2}
+#char_mp{margin-top:3px;}
+
+.b-exp{ width:99%; left:5px; left:0.5%; bottom:5px; z-index:99; position:absolute;}
+.b-exp > div{position:relative; height:10px; overflow:hidden; background:#000; background:rgba(0,0,0,0.3);border:1px solid #000;border-bottom-left-radius:5px;border-bottom-right-radius:5px}
+.b-exp span{display:inline-block; width:1px; position:absolute; top:0px; border-right:1px solid #000; border-color:rgba(0,0,0,0.7); z-index:5; height:10px; opacity:0.6;}
+#char_exp{background-color: #0C0;width: 100%;height: 10px;z-index: 2;position: absolute;top: 0px;left: 0px;background:url(http://s0.boxza.com/static/images/game/lionica/ui/char-bar.png) 0px -20px;border-radius:5px;}
+#char_exp_text{width:100%; height:10px; line-height:10px; font-family:verdana; font-size:9px;z-index:7; text-align:center; color:#fff; text-shadow:1px 1px 0px #000; position:absolute;top:0px;left:0px;}
+
+.b-pet{left:35px; top:52px; width:140px; height:32px; overflow:hidden; position:absolute; z-index:9; display:none;}
+#pet-icon{width: 22px;height: 22px;float: left;border-radius: 11px;border: 1px solid #000;background-color: rgba(0,0,0,0.3);}
+#pet-icon img{width: 32px;height: 24px;max-width: none;margin: -3px auto auto -5px;}
+.b-pet .status{float: right;width: 110px;margin: 0px 2px 0px 0px;}
+.b-pet .status > div{ position:relative;font-family:verdana;font-size: 9px;color:#fff; text-shadow:1px 1px 0px #000;height: 9px;line-height: 9px; border-radius:5px; overflow: hidden;text-align: center; border:1px solid #000; background:#000; background:rgba(0,0,0,0.4)}
+.b-pet .status > div > div{ position:absolute; left:0px; height:9px; width:100%; text-align:center; z-index:3; border-radius:5px;}
+#pet_hp_bar {background:url(http://s0.boxza.com/static/images/game/lionica/ui/char-bar.png) 0px -31px; z-index:2}
+#pet_xp_bar {background:url(http://s0.boxza.com/static/images/game/lionica/ui/char-bar.png) 0px -21px; z-index:2}
+#pet_xp{margin-top:3px;}
+
+
+.lbox .name{height: 20px;line-height: 20px;padding: 0px 5px;background: #444; background:rgba(25,25,25,0.4); color:#ccc;margin: 1px; position:relative; border-top-left-radius:3px; border-top-right-radius:3px;}
+.lbox .name .close{width:18px; line-height:18px; text-align:center; background:#000; color:#333; text-shadow:1px 1px 0px #666; position:absolute; right:1px; top:1px; font-size:12px; overflow:hidden; float:none}
+.lbox.lmove .name{cursor:move}
+
+
+.logs{overflow:hidden; left:234px; top:5px; width:511px; background:none; border:none;}
+.logs_div{margin:5px;height:72px;overflow:auto; color:#ddd; font-size:12px;}
+.logs_div .logs-info{color:#0CF;}
+
+
+.chat{overflow:hidden; left:5px; bottom:17px; width:320px; border:none; background:none;}
+.chat-hover,.lbox:hover{background:#000; background:rgba(0,0,0,0.7) !important; z-index:51;}
+.chat_div{margin:5px; height:150px;overflow:auto; color:#fff; font-size:13px;}
+.chat_div p.chat-guild{color:#0c0; background:#000; background:rgba(0,0,0,0.5);}
+.chat_div p.chat-shout{color:#F90; background:#000; background:rgba(0,0,0,0.5);}
+.chat_div small{font-size:10px; background:#222; display:inline-block; padding:0px 1px; height:14px; line-height:14px; overflow:hidden; border:3px; cursor:pointer;}
+.chat_input{ background:#000;background:rgba(0,0,0,0.3);border:1px solid #333; border-top-left-radius:5px;border-top-right-radius:5px; border-bottom:none;}
+.chat_input a{background:none; border:none;}
+.chat_input .dropup .caret{border-bottom:4px solid #fff; margin-top:8px;}
+.chat_input .dropup li a{color:#000;}
+.chat_input .dropup .dropdown-menu{width:85px; min-width:85px}
+.chat_input .dropup .dropdown-menu>li>a{padding:0px 0px; text-align:center; height:20px;}
+.chat_input > span{display:inline-block; width:80px; text-align:center; height:20px; line-height:20px; border-right:1px solid #000;}
+.chat_input input{padding:0px; margin:0px; background:none; width:230px;  height:20px; line-height:20px; border:none; border-radius:0px; text-indent:3px; color:#fff; font-size:12px; font-weight:normal; outline:none;}
+
+.npc{overflow:hidden; left:490px; top:200px; width:250px; display:none;}
+.npc_div{margin:5px; width:240px; height:190px;overflow:auto; color:#ddd;}
+
+
+.shop{overflow:hidden; left:470px; top:180px; width:250px; display:none;}
+.shop_div{margin:5px; width:240px; height:190px;overflow:auto; color:#ddd;}
+
+.inventory{overflow:hidden; left:5px; top:119px; width:225px; display:none;}
+.inventory_div{margin:5px; height:162px;overflow:auto; color:#ddd;}
+.item{background:url(http://s0.boxza.com/static/images/game/lionica/sprite/item.png) 0px 0px no-repeat; display:inline-block; width:24px; height:24px; vertical-align:middle;}
+.inventory_eq{text-align:center; height:62px; overflow:hidden; background:#222; background:rgba(32,32,32,0.5);}
+.inventory_eq ul{ height:30px; width:214px; margin:0px auto;background:url(http://s0.boxza.com/static/images/game/lionica/ui/inventory.png) 0px 0px no-repeat; }
+.inventory_eq ul.ul2{ width:98px;background:url(http://s0.boxza.com/static/images/game/lionica/ui/inventory.png) -58px -30px no-repeat; }
+.inventory_eq ul li{float:left; margin:4px 1px 1px 5px; width:24px; height:24px;}
+.inventory_silver{text-align: right;height: 20px;line-height: 20px;padding: 0px 4px;font-size: 10px;color: #eee;margin: 2px 5px 5px;background: #000;background: rgba(0,0,0,0.5);border-radius: 4px;}
+
+.inventory_text{}
+.inventory_text ul li{float:left; margin:6px 0px 0px 6px; width:24px; height:24px; position:relative;-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: moz-none;
+-ms-user-select: none;
+user-select: none;}
+.inv-use,.inv-unuse{cursor:pointer;}
+.inventory_text ul li span{ position:absolute;right:0px; bottom:0px; font-size:10px; display:inline-block; width:24px;text-overflow:ellipsis; overflow:hidden;white-space:nowrap; text-align:right; line-height:1em; color:#fff; text-shadow:1px 1px 0px #000;}
+.drop{display:none;overflow:hidden; left:450px; top:135px; width:250px;}
+.drop_div{margin:5px; height:150px;overflow:auto; color:#ddd;}
+
+.guild{overflow:hidden; left:250px; top:180px; width:500px; display:none}
+.guild_div{margin:5px; height:300px;overflow:auto; color:#ddd;}
+.skill{overflow:hidden; right:5px; top:290px; width:210px; display:none}
+.skill_div{margin:5px; height:85px;overflow:auto; color:#ddd;}
+.ai{overflow:hidden; right:5px; bottom:67px; width:210px}
+.ai_div{margin:5px; color:#ddd; text-align:center;}
+
+.vender h4{color:#fff; padding:3px; text-align:center;}
+.vender{overflow:hidden; left:180px; top:140px; width:600px; display:none; z-index:999}
+.vender .left{width:240px; float:left; height:300px; margin:5px 0px 5px 5px; overflow:auto}
+.vender .right{width:345px; float:right; height:300px; margin:5px 5px 5px 0px; overflow:auto;}
+ .vender table tr th{text-align:center; font-weight:boldp; background:#333; background:rgba(55,55,55,0.5);}
+ .vender .left table tr td.c{width:60px; text-align:center;}
+ .vender .left table tr td.p{width:80px; text-align:center;}
+ .vender .right table tr td.c{width:60px; text-align:center;}
+ .vender .right table tr td.p{width:100px; text-align:center;}
+ 
+ 
+ .shop .c{width:50px !important; text-align:center;}
+ .shop .p{width:70px !important; text-align:center;}
+ 
+.target{overflow:hidden; left:40%; top:5px; width:160px; border-radius:5px; display:none;}
+.target_div{margin:5px;}
+#target_name{height:20px; line-height:20px; text-align:center; color:#fff; font-size:14px;}
+#target_hp {background-color:#f00;height: 10px; line-height:10px;overflow: hidden;width: 150px; font-size:10px; text-align:center;background-image: url(http://s0.boxza.com/static/images/game/lionica/misc/bar.png);background-position: 0px 0px;background-repeat: no-repeat;}
+
+
+
+.control{right:5px; bottom:17px; width:388px; border-bottom:none; border-radius:0px;border-top-left-radius: 5px;border-top-right-radius: 5px; height:36px; }
+.control_ul{margin:4px 0px 0px 2px; color:#ddd; text-align:center; height:28px;}
+.control_ul li{display:inline-block; height:28px; width:28px; margin:0px 2px; cursor:pointer; background:#111; border-radius:5px; float:left;}
+.control_ul li i{display:inline-block;width:24px; height:24px; overflow:hidden;background:url(http://s0.boxza.com/static/images/game/lionica/sprite/item.png) 0px 0px no-repeat; margin:2px}
+
+.minimap{overflow:hidden; right:5px; top:5px; width:186px; height:230px; position:absolute; z-index:8;}
+.minimap .name{height:20px; line-height:20px; background:#000; background:rgba(0,0,0,0.5); border-radius:5px; box-shadow:0px 0px 3px rgba(0,0,0,0.5)}
+.minimap .name .text{color:#fff; text-indent:5px; text-shadow:1px 1px 0px #000; font-size:10px;}
+.minimap_area{position: relative;margin: 4px 0px 0px;width: 180px;height: 200px;border: 3px solid #000;border-color: rgba(0,0,0,0.5);box-shadow:0px 0px 3px rgba(0,0,0,0.5)}
+.minimap_div{margin:0px; width:180px;overflow:hidden; color:#ddd;position:relative;text-align:center; height:180px; line-height:0px; text-align:center;}
+.minimap_move{position:absolute; left:0px; top:0px;}
+.minimap_text{position:relative; margin:0px auto;}
+.minimap_text .plot{position:absolute; z-index:5; left:70px; top:70px; width:5px; height:5px; overflow:hidden;background:#09F}
+.minimap_text .plot.online{z-index:4;background:#F6F}
+.minimap_show{height:20px; overflow:hidden; background:#333;}
+.minimap_show label{display:inline-block; padding:0px 10px; margin:0px; height:20px; line-height:20px; color:#fff;}
+
+
+
+#lionica ._inp{background: #333; background:rgba(51,51,51,0.9);border: 1px solid #000;padding: 0px 0px;text-align: center;width: 40px;color: #ccc;font-size: 12px;vertical-align: middle;margin: 0px;height: 16px;line-height: 16px; border-radius:3px;}
+#lionica-balloon{display:inline-block; border-radius:3px; border:1px solid #222;line-height:1.8em; font-size:11px; color:#fff; padding:0px 3px; background:#000; background:rgba(0,0,0,0.9); position:absolute; left:0px; top:0px; z-index:99}
+
+.damage{font-size:16px; position:absolute; z-index:9999; width:32px; display:inline-block; height:20px; line-height:20px; text-align:center; overflow:hidden}
+.damage span{ color:#fff;display:inline-block; text-shadow:0px 0px 10px #000;}
+.damage-miss span{ color:#FC3;}
+.damage-pet span{ color:#F00;}
+
+#lionica_menu{position:absolute;left:0px;top:0px;border:1px solid #000;width:130px; background:#000; background:rgba(0,0,0,0.5); z-index:999999;border-radius:5px;}
+#lionica_menu.menu-profile{background:#000 !important;}
+#lionica_menu li{position:relative; border-top:1px dashed #000; border-color:rgba(0,0,0,0.7)}
+#lionica_menu li:first-child{border:none}
+#lionica_menu li a{height:22px;line-height:22px; color:#fff; display:block; text-indent:10px; text-decoration:none; font-size:10px;}
+#lionica_menu li a:hover{ background:#111; background:rgba(35,35,35,0.2);}
+#lionica_menu li ul{display:none; width:140px; left:90%; top:-5px;background:#000; background:rgba(0,0,0,0.5); position:absolute; border-radius:5px;}
+#lionica_menu li:hover ul{display:block;}
+
+#lionica_init{position:absolute;left:0px;top:0px; width:1px; height:1px; overflow:hidden;}
+
+#lionica_character{text-align:center; width:500px; position:absolute; top:200px; left:235px; display:none}
+#lionica_character ul{width:500px; margin:10px auto;background:#000; background:rgba(0,0,0,0.7); border-radius:10px; border:5px solid #000;}
+#lionica_character ul li{width:88px; float:left; text-align:center; color:#fff; text-shadow:1px 1px 0px #000; margin:10px 0px 10px 10px; overflow:hidden;}
+#lionica_character ul li a{display:block; color:#fff; border:1px solid #000;background:#111; background:rgba(16,16,16,0.4);border-radius:10px; padding:10px 0px}
+#lionica_character ul li a.select{background:#111; background:rgba(16,16,16,0.8);border:1px solid #ccc !important;}
+#lionica_character ul li a:hover{border:1px solid #222;}
+#lionica_character ul li i{ margin:0px auto;}
+#lionica_character ul li p{font-size:11px;}
+#lionica_character ul li .j{font-size:11px;}
+
+
+#lionica_create{position:absolute; top:60px; width:230px;display:none; border-radius:10px;border:5px solid #000;background:#000; background:rgba(0,0,0,0.6); text-align:center; color:#999; right:100px;}
+#lionica_create label{display:inline-block !important; padding:0px 3px; margin:0px 3px;;}
+#lionica_create h4{color:#fff; background:#222; background:rgba(32,32,32,0.5); margin:2px 0px; font-size:14px; height:20px; line-height:20px; border-radius:5px;}
+#lionica_create form > div{text-align:left; margin:5px 10px; border-bottom:1px dashed #000; text-align:leftl; font-size:12px; color:#ccc;}
+#lionica_create strong{display:block; color:#F90;}
+#lionica_create .tbox{width: 195px;background: #000;border: 1px solid #555;color: #fff;}
+.char-available{border-radius:10px; background:#000; background:rgba(0,0,0,0.6); text-align:center; color:#999; margin:45px 10px 0px; }
+
+
+
+
+.lionica_chat{width:270px; height:250px; position:absolute; left:200px; top:100px; border:1px solid #000; box-shadow:3px 3px 0px rgba(0,0,0,0.6); border-radius:3px;}
+.lionica_chat .lionica_chat_div{height:195px; margin:3px 3px 3px; text-align:left; display:block; overflow:auto; font-size:13px;}
+.lionica_chat .bz_chat_ch_l{display:block}
+.lionica_chat input{width:265px; text-align:left;background: #000;background: rgba(0,0,0,0.6);border: 1px solid #000;color: #fff; text-indent:5px; padding:0px; margin:0px; height:22px; line-height:22px;}
+.ui-resizable-helper { border: 1px dashed #999; }
+
+
+
+.profile{left:350px; top:150px; width:250px; display:none;}
+.profile_div{margin:5px 0px;}
+.profile-char{width:90px; float:left; text-align:center; margin:0px 0px 0px 5px; overflow:hidden;}
+.char_stats_up{width:145px; float:left; position:relative; margin:0px 5px 0px 0px;}
+/*
+.char_stats_up > div{height:24px; overflow:hidden;}
+*/
+.char_stats_up .pull-right{width:48px;}
+.char_stats_up .char_stats_ptr{padding:1px 5px; background:#000; background:rgba(0,0,0,0.6); color:#ccc; border:1px solid #000; border-radius:4px; margin:0px 10px; width:auto;}
+#char_str,#char_agi,#char_vit,#char_dex,#char_int{display: inline-block;width: 20px;text-align: center;background: rgba(0,0,0,0.4);color: #F90;height: 20px;line-height: 20px;border: 1px solid #333;border-radius: 4px;vertical-align: middle;}
+.char_stats_result{border-top: 1px solid rgba(0,0,0,0.4);margin-top: 5px;padding-top: 5px;}
+.char_stats_result > div{height:24px;width:115px; margin:0px 5px;float:left}
+.char_up_click{width: 17px;height: 16px;display: inline-block;background: url(http://s0.boxza.com/static/images/game/lionica/sprite/item.png) -268px -604px no-repeat;cursor: pointer;vertical-align: middle;margin: 2px 0px 2px 4px;background-color: rgba(0,0,0,0.5);border-radius: 5px;border: 1px solid #000;}
+.char_up_click:hover{background-color: rgba(0,0,0,0.2); border-color:#777;}
+
+
+#btn-profile{position:relative;}
+#btn-profile-ptr{width:14px; height:14px; line-height:14px; font-size:9px; color:#fff; background:#f00; border-radius:3px; position:absolute; top:-8px; right:-2px; overflow:hidden; display:none; border:1px solid #000;}

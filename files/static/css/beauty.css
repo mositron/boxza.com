@@ -1,0 +1,446 @@
+@font-face {font-family:"conero";src:url("../font/conero/conero.eot?") format("eot"),url("../font/conero/conero.woff") format("woff"),url("../font/conero/conero.ttf") format("truetype"),url("../font/conero/conero.svg#conero") format("svg");font-weight:normal;font-style:normal;}
+@font-face {font-family:"supermarketregular";src:url("../font/supermarket/supermarket.eot?") format("eot"),url("../font/supermarket/supermarket.woff") format("woff"),url("../font/supermarket/supermarket.ttf") format("truetype"),url("../font/supermarket/supermarket.svg#supermarket") format("svg");font-weight:normal;font-style:normal;}
+
+@import url('forum.theme.css');
+
+body{background:#fff url(../images/beauty/bg.png) 0px 40px repeat-x;}
+
+a{color:#333;}
+a:hover{color:#000;}
+
+
+._ct{color: #555; box-shadow:none;}
+._ct-in{background:#fff;}
+
+
+.head-logo h1 a {width:250px; height:90px; background:url(../images/beauty/icon2.png) -10px 0px no-repeat;}
+
+.navbar.hbar{border-top:1px dashed #434649;border-bottom:1px dashed #434649;}
+.navbar.hbar .navbar-inner{background:#EDF3F9; border:none; border-radius:0px; border-top:1px solid #fff; border-bottom:1px solid #fff;}
+.navbar.hbar .nav>li{border-left:1px dashed #434649;}
+.navbar.hbar .nav>li>a{padding:5px 12px 5px 8px;}
+
+.bic{display:inline-block; float:left; width:32px; height:32px;background:url(../images/beauty/icon2.png) 0px -100px no-repeat; overflow:hidden; margin-top:2px;}
+.bic1{background-position:0px -100px;}
+.bic2{background-position:-32px -100px;}
+.bic3{background-position:-64px -100px;}
+.bic4{background-position:-96px -100px;}
+.bic5{background-position:-128px -100px;}
+.bic6{background-position:-160px -100px;}
+.bic7{background-position:-192px -100px;}
+
+
+.bbull{display:inline-block;width:40px; height:40px;background:url(../images/beauty/icon2.png) 0px -156px no-repeat; overflow:hidden; margin:0px; padding:0px; vertical-align:middle;}
+.bbull1{background-position:0px -156px;}
+.bbull2{background-position:-40px -156px; margin:-8px -8px -5px 0px;}
+.bbull3{background-position:-80px -156px; margin:-8px -8px -5px 0px;}
+.bbull4{background-position:-120px -156px;}
+.bbull5{background-position:-160px -156px;}
+.bbull6{background-position:-200px -156px;}
+.bbull7{background-position:-240px -156px;}
+.bbull8{background-position:-280px -156px;}
+.bbull9{background-position:-320px -156px;}
+.bbull10{background-position:-360px -156px;}
+
+.bbar-* a{ color:#181818}
+
+.bbar-update{margin-top:10px; padding-top:10px; border-top:3px solid #3A3A3D; font-family:"supermarketregular"; font-size:24px;}
+.bbar-update small{font-size:16px; font-weight:normal;}
+
+.bbar-issue{border-bottom:2px solid #3A3A3D; font-family:"supermarketregular"; font-size:24px;}
+.bbar-issue span{color:#fff; display:inline-block; background:#E0059D; padding:3px 8px 0px 0px;}
+
+.bbar-popular{border-bottom:8px solid #3A3A3D; font-family:"supermarketregular"; font-size:24px;}
+.bbar-popular small{font-size:16px; font-weight:normal;}
+
+.bbar-review{border-bottom:5px solid #3A3A3D; font-family:"supermarketregular"; font-size:24px;}
+.bbar-review small{font-size:16px; font-weight:normal;}
+
+.bbar-fashion{border-bottom:5px solid #E21787; font-family:"supermarketregular"; font-size:24px;}
+.bbar-fashion small{font-size:16px; font-weight:normal;}
+
+.bbar-howto{border-bottom:2px solid #E21787; font-family:"supermarketregular"; font-size:24px;}
+.bbar-howto small{font-size:16px; font-weight:normal;}
+
+.bbar-uknow{border-bottom:5px solid #E0059D; font-family:"supermarketregular"; font-size:24px;}
+.bbar-uknow small{font-size:16px; font-weight:normal;}
+
+.bbar-health{border-bottom:5px solid #3A3A3D; font-family:"supermarketregular"; font-size:24px;}
+.bbar-health small{font-size:16px; font-weight:normal;}
+
+.bbar-wedding{ background:#E0059D; font-family:"supermarketregular"; font-size:24px; color:#fff;}
+.bbar-wedding a{color:#fff;}
+.bbar-wedding small{font-size:16px; font-weight:normal;}
+
+
+.navbar.hbar a>strong{display:block; height:20px; line-height:20px; margin-left:37px; font-size:14px}
+.navbar.hbar a>span{display:block; height:15px; line-height:15px; margin-left:37px; font-size:12px}
+
+.mn-hot{height:34px; margin:0px 0px 8px 0px; border-bottom-right-radius: 5px;border-bottom-left-radius: 5px; background:#E0077E; background-image: -webkit-linear-gradient(top,#84044A 0%,#E0077E 20%,#F4087E 100%);background-image: -moz-linear-gradient(top,#84044A 0%,#E0077E 20%,#F4087E 100%);background-image: -ms-linear-gradient(top,#84044A 0%,#E0077E 20%,#F4087E 100%);background-image: -o-linear-gradient(top,#84044A 0%,#E0077E 20%,#F4087E 100%);background-image: linear-gradient(top,#84044A 0%,#E0077E 20%,#F4087E 100%);}
+.mn-hot > i{width:75px; height:18px; background:url(../images/beauty/icon.png) 0px -200px no-repeat; display:inline-block; margin:8px 10px 0px}
+
+
+._ft{ background:#f7f7f7;border-top-left-radius: 5px;border-top-right-radius: 5px;}
+
+.breadcrumb{margin:0px;}
+
+a.btn,.btn{color:#333}
+a.btn-primary,.btn-primary{color:#fff;}
+
+._ct-admin ._ct-in-ct{background:#fff; color:#555; padding-bottom:5px;}
+._ct-admin ._ct-in-ct a{color:#069}
+.table{color:#555;}
+
+
+.error{background:#fff; color:#f00;}
+
+.container{margin-bottom:-1px;}
+.dropdown-menu > li{display:block}
+
+
+
+ul.tabs{border-color:#555;}
+ul.tabs li a:visited {color: #fff;}
+ul.tabs li a{border-color:#555;background-color: #222;color: #fff;text-shadow: 1px 1px 0px #000;}
+ul.tabs li.on a, ul.tabs li.active a {background-color: #000;color: #F60;}
+ul.tabs li a:hover{background-color:#000;color: #F60;}
+
+.h-left{width:715px; float:left;margin:0px 0px 0px 10px;}
+.h-right{float:right; width:245px; border-left:1px solid #E5E5E5; text-align:center;}
+.h-right > div{width:230px; margin:0px auto;}
+
+
+.h-a1{ border-right:1px solid #E4E4E4; text-align:center; margin-left:-10px;}
+.h-a1 > div{margin:0px auto;}
+.h-a2{ text-align:center;}
+.h-a2 > div{margin:0px auto;}
+
+.h-b1{float:left; width:355px; text-align:center;}
+.h-b2{float:right; width:355px; text-align:center; border:1px solid #dedede; border-radius:5px; box-shadow:0px 0px 3px #ccc}
+
+
+.h-c1{text-align:center;}
+.h-c2{text-align:center; border:1px dashed #dedede; border-radius:5px}
+
+
+.h-most-popular{text-align:center;}
+.h-most-popular p{margin:0px;}
+.h-most-popular i{display:inline-block; background:url(../images/beauty/icon.png) -200px -200px no-repeat; width:136px; height:21px;}
+.h-most-popular ul{margin:0px;}
+.h-most-popular ul li{margin:5px 0px; text-align:center;}
+.h-most-popular ul li a{display:block}
+.h-most-popular ul li img{}
+.h-most-popular ul li p{white-space:nowrap; text-overflow:ellipsis; overflow:hidden;height:20px; line-height:20px; margin:5px 0px 10px;background:#f8f8f8; text-shadow:1px 1px 0px #fff;}
+
+
+.h-new-update{text-align:left}
+.h-new-update i{display:inline-block; background:url(../images/beauty/icon.png) -400px -200px no-repeat; width:105px; height:20px;}
+.h-hot-review{text-align:center; margin:10px auto 0px;border-top: 1px dashed #CCC;padding-top: 10px;}
+.h-hot-review i{display:inline-block; background:url(../images/beauty/icon.png) -600px -200px no-repeat; width:100px; height:21px;}
+.h-hot-review ul li{ text-align:center;}
+.h-hot-review ul li.l0{margin-left:0px;}
+.h-hot-review ul li a{display:block}
+.h-hot-review ul li img{}
+.h-hot-review ul li p{white-space:nowrap; text-overflow:ellipsis; overflow:hidden; height:20px; line-height:20px; margin:0px;}
+
+.h-how-to{text-align:left;}
+.h-how-to i{display:inline-block; background:url(../images/beauty/icon.png) -400px -250px no-repeat; width:54px; height:18px;}
+.h-how-to>p{margin:0px;}
+.h-how-to ul{margin:0px;}
+.h-how-to ul li{padding:5px 0px; text-align:left; border-bottom:1px solid #D1D3D4;}
+.h-how-to ul li a{display:block;height:65px; overflow:hidden;}
+.h-how-to ul li img{width:65px; height:65px; float:left; margin-right:5px;}
+.h-how-to ul li p{overflow:hidden; margin:0px 0px 0px 70px; line-height:20px;}
+.h-how-to ul li span{display:block; height:20px; float:left;}
+
+.h-street-fashion{text-align:center; margin:10px auto 0px;}
+.h-street-fashion>p{margin:0px;}
+.h-street-fashion i{display:inline-block; background:url(../images/beauty/icon.png) -400px -300px no-repeat; width:122px; height:19px;}
+.h-street-fashion ul li{float:left; margin:5px 0px 5px 9px;}
+.h-street-fashion ul li.l0,.h-street-fashion ul li.l2,.h-street-fashion ul li.l4,.h-street-fashion ul li.l6{margin-left:0px;}
+.h-street-fashion ul li a{display:block; line-height:0px;}
+.h-street-fashion ul li img{width:110px; height:110px;}
+.h-street-fashion ul li p{white-space:nowrap; text-overflow:ellipsis; overflow:hidden; width:110px; height:20px; line-height:20px;}
+
+.h-hot-item{text-align:center; margin:10px auto 0px;}
+.h-hot-item h3{ padding:5px 0px; line-height:0px; border-top:1px solid #27AAE1;border-bottom:1px solid #27AAE1}
+.h-hot-item i{display:inline-block; background:url(../images/beauty/icon.png) -600px -250px no-repeat; width:69px; height:19px;}
+.h-hot-item ul{margin:0px;}
+.h-hot-item ul li{padding:5px 0px; text-align:left; border-bottom:1px dashed #D1D3D4;}
+.h-hot-item ul li a{display:block; height:65px;}
+.h-hot-item ul li img{width:65px; height:65px; float:left; margin-right:5px;}
+.h-hot-item ul li p{overflow:hidden; line-height:20px; margin:0px 0px 0px 70px;}
+.h-hot-item ul li strong{display:block; margin:0px 0px 0px 70px;}
+
+.h-pr-news{text-align:left; margin:10px auto 0px; border-bottom:4px solid #F4087E;}
+.h-pr-news i{display:block; background:url(../images/beauty/icon.png) 0px -350px no-repeat;height:20px;}
+.h-pr-news ul li{float:left; margin:5px 0px 5px 9px;}
+.h-pr-news ul li.l0,.h-pr-news ul li.l2{margin-left:0px;}
+.h-pr-news ul li a{display:block}
+.h-pr-news ul li img{width:110px; height:110px;}
+.h-pr-news ul li p{white-space:nowrap; text-overflow:ellipsis; overflow:hidden; width:110px; height:20px; line-height:20px;}
+
+
+.h-follow-us{text-align:center; margin:10px auto 0px;}
+.h-follow-us p{margin:0px;}
+.h-follow-us i{display:block; background:url(../images/beauty/icon.png) -400px -350px no-repeat;height:19px; width:200px; margin:0px auto}
+
+
+.h-hot-video{text-align:left; padding:10px 0px 10px; border-top:1px dashed #dedede;}
+.h-hot-video i{display:inline-block; background:url(../images/beauty/icon.png) -0px -250px no-repeat; width:102px; height:25px;}
+.h-hot-video ul li{/*float:left; margin:5px 0px 10px 10px;*/}
+.h-hot-video ul li.l0{margin-left:0px;}
+.h-hot-video ul li a{display:block}
+.h-hot-video ul li img{width:110px; height:110px;}
+.h-hot-video ul li p{white-space:nowrap; text-overflow:ellipsis; overflow:hidden; height:20px; line-height:20px; text-align:center;}
+
+
+.h-open-box{text-align:left; padding:0px 0px 0px; position:relative}
+.h-open-box .t{position:absolute; left:100px; top:30px;}
+.h-open-box p{margin:0px;}
+.h-open-box i{display:inline-block; background:url(../images/beauty/icon.png) -0px -400px no-repeat; width:178px; height:49px;}
+.h-open-box ul li{ text-align:center;}
+.h-open-box ul li a{display:block}
+.h-open-box ul li img{}
+.h-open-box ul li p{white-space:nowrap; text-overflow:ellipsis; overflow:hidden; height:20px; line-height:20px; text-align:center; margin:0px}
+
+.h-hot-news{text-align:left; padding:5px 3px;}
+.h-hot-news > div{ margin:5px;}
+.h-hot-news p{margin:0px;}
+.h-hot-news i{display:inline-block; background:url(../images/beauty/icon.png) -0px -300px no-repeat; width:124px; height:30px;}
+.h-hot-news ul{margin:0px;}
+.h-hot-news ul li a{display:block;white-space:nowrap; text-overflow:ellipsis; overflow:hidden; height:20px; line-height:20px; margin:2px 0px; background:#F4F4F4; text-indent:5px;}
+
+
+.h-fashion{text-align:left; padding:10px 0px 0px; border-top:1px solid #ddd; margin-top:5px;}
+.h-fashion i{display:inline-block; background:url(../images/beauty/icon.png) -200px -300px no-repeat; width:122px; height:36px;}
+.h-fashion ul li{}
+.h-fashion ul li a{display:block}
+.h-fashion ul li img{}
+.h-fashion ul li p{white-space:nowrap; text-overflow:ellipsis; overflow:hidden; height:20px; line-height:20px;}
+
+
+.h-hot-topic{text-align:left; padding:0px 0px 0px;}
+.h-hot-topic i{display:inline-block; background:url(../images/beauty/icon.png) -200px -250px no-repeat; width:104px; height:26px;}
+.h-hot-topic p{margin:0px;}
+.h-did-you{text-align:left; padding:0px 0px 0px;}
+.h-did-you > div{margin:10px;}
+.h-did-you i{display:inline-block; background:url(../images/beauty/icon.png) -600px -300px no-repeat; width:176px; height:28px;}
+.h-did-you ul{margin:0px;}
+.h-did-you ul li.l0{margin: 5px 0px;border-bottom: 1px dashed #F0F0F0;padding: 5px 0px;}
+.h-did-you  ul li a{display:block}
+.h-did-you  ul li img{width:210px; height:210px;}
+
+
+.fo-cate{border-bottom:1px dashed #ddd; padding-bottom:5px; margin:0px 0px 10px;}
+
+.fo-cate li{float:left; margin:0px;}
+.fo-cate li a{display:block; cursor:pointer;}
+.fo-cate li a:hover{background-color:#f9f9f9;}
+.fo-cate li i{}
+.fo-review{display:inline-block;background:url(../images/beauty/icon.png) -0px -470px no-repeat; width:50px; height:63px;}
+.fo-hot-item{display:inline-block;background:url(../images/beauty/icon.png) -60px -470px no-repeat; width:65px; height:63px;}
+.fo-street-fashion{display:inline-block;background:url(../images/beauty/icon.png) -138px -470px no-repeat; width:100px; height:63px;}
+.fo-how-to{display:inline-block;background:url(../images/beauty/icon.png) -253px -470px no-repeat; width:50px; height:63px;}
+.fo-open-box{display:inline-block;background:url(../images/beauty/icon.png) -317px -470px no-repeat; width:62px; height:63px;}
+.fo-fashion{display:inline-block;background:url(../images/beauty/icon.png) -393px -470px no-repeat; width:55px; height:63px;}
+.fo-did-u{display:inline-block;background:url(../images/beauty/icon.png) -463px -470px no-repeat; width:79px; height:63px;}
+.fo-pr-news{display:inline-block;background:url(../images/beauty/icon.png) -558px -470px no-repeat; width:55px; height:63px;}
+.fo-mouth-2-mouth{display:inline-block;background:url(../images/beauty/icon.png) -626px -470px no-repeat; width:98px; height:63px;}
+
+.fo-healthy{display:inline-block;background:url(../images/beauty/icon.png) -741px -470px no-repeat; width:56px; height:63px;}
+.fo-news{display:inline-block;background:url(../images/beauty/icon.png) -807px -470px no-repeat; width:46px; height:63px;}
+.fo-travel{display:inline-block;background:url(../images/beauty/icon.png) -867px -470px no-repeat; width:64px; height:63px;}
+.fo-photo-box{display:inline-block;background:url(../images/beauty/icon.png) -959px -470px no-repeat; width:68px; height:63px;}
+
+.fo-bar{ height:60px;background:url(../images/beauty/icon.png) 0px -550px no-repeat; margin:5px 0px;}
+.fo-icon-heart{ display:inline-block; width:25px; height:19px;background:url(../images/beauty/icon.png) -55px -150px no-repeat; margin:0px 0px;}
+
+
+.fo-box-list{width:auto; margin:5px 0px;}
+
+.fo-box-h{ background:#F1F2F2; border:1px solid #BCBEC0; padding:5px;border-radius:5px;}
+.fo-box-h .i{float:left; text-align:center; margin:0px 5px 0px 0px; width:100px;}
+.fo-box-h div{margin:5px 0px 5px 100px;text-indent:0px;}
+.fo-box-h .fo-box-b{}
+
+.fo-box-list .fo-box-h div{}
+.fo-box-list .fo-box-h .fo-box-b{}
+
+.fo-box-b{margin:5px 10px;}
+.fo-box-b li{background:#A7A9AC; border-radius:3px; color:#fff; height:50px; text-align:center; margin-bottom:0px;}
+.fo-box-b li:first-child{margin-left:1px;}
+.fo-box-b li span{display:block;font-size: 16px;margin: 8px 0px 1px;}
+
+.fo-box-c{padding:0px 0px 5px 0px; border:2px dashed #BCBEC0; margin:0px 0px 5px 0px}
+.fo-box-c > p{margin:0px;}
+.fo-box-c li{float:left; margin:5px 0px 0px 5px; color:#ccc;}
+.fo-box-c li.active{padding:0px 5px; background:#E0077E; color:#fff;}
+.fo-box-c li a{color:#27AAE1}
+.fo-box-c li.active a{color:#fff; font-weight:bold;}
+
+
+.fo-box-topic{padding:0px 5px 5px;}
+.fo-box-topic li{height:24px; line-height:24px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; list-style:inside circle; border-bottom:1px dashed #ccc;}
+
+
+.fo-view-cedit{background:#f0f0f0; padding:3px 5px; margin:0px 0px 5px; text-shadow:1px 1px 0px #fff;}
+
+
+.fo-view-title{margin:10px 0px 5px; position:relative}
+.fo-view-title .a{float:left; width:62px; margin:0px 8px 0px; line-height:0px}
+.fo-view-title .a a{display:inline-block; padding:5px; text-align:center; border:1px solid #ddd; border-radius:3px;}
+.fo-view-title .b{margin:0px 0px 0px 72px; overflow:hidden;}
+.fo-view-title .b h2{ padding:3px 5px; margin:0px 0px 2px; border-bottom:1px solid #ececec; background:#F1F2F2; text-shadow:1px 1px 0px #fff; font-size:16px;}
+.fo-view-title .b p{margin:0px;}
+.fo-view-title .c{ position:absolute; bottom:5px; right:5px; text-align:right; background:#F1F2F2; border-radius:3px; padding:0px 5px;}
+.fo-view-detail{ margin:5px 0px 5px 10px; padding:5px 0px; overflow:auto; border-top:1px dashed #D1D3D4; line-height:1.8em; font-size:16px;}
+
+.fo-view-comment .l{border-bottom:1px solid #D1D3D4; padding:5px 0px;}
+.fo-view-comment .a{float:left; width:50px; margin:6px 6px 0px; line-height:0px}
+.fo-view-comment .b{float:left; width:650px; overflow:hidden; padding:5px 0px 0px}
+.fo-view-comment .d{margin:0px 0px 5px 5px; padding:0px 0px; overflow:auto; line-height:1.8em; font-size:14px;}
+.fo-view-comment .r{float:right;text-align:right; background:#F1F2F2; border-radius:3px; padding-right:5px;}
+
+.fo-view-title .c a, .fo-view-comment .r a{display:inline-block;margin:5px 0px 5px 5px;}
+.fo-view-title .c a:hover, .fo-view-comment .r a:hover{ background-color:#e0e0e0;}
+
+.fo-view-love{ padding:5px; margin:5px 0px; border-top:1px dashed #D1D3D4;border-bottom:1px dashed #D1D3D4}
+.fo-view-love a:hover{color:#E0077E; text-decoration:none;}
+.fo-view-love .fo-icon-heart{vertical-align:middle;}
+.fo-view-love span.badge{background:#E0077E}
+.fo-view-love .socialshare{float:right;}
+
+.fo-view-item{margin: 10px 0px 0px;padding-bottom: 15px;border-bottom: 1px dashed #CCC;}
+.fo-view-item .a{float:left; width:200px; text-align:center; box-shadow:2px 2px 2px #eee; border:1px solid #eee; line-height:0px;}
+.fo-view-item .a img{max-width:180px; max-height:180px; margin:10px auto;}
+.fo-view-item .b{float:right; width:485px;}
+
+.fo-view-relate li{width:335px;}
+
+.hforum thead tr{background:#f0f0f0; height:24px; line-height:24px; font-weight:bold; text-align:center;}
+.hforum tr.l0{background:#fff}
+.hforum tr.l1{background:#f9f9f9}
+.hforum i.i0{ width:17px; height:15px; display:inline-block;background:url(../images/football/icon.png) -440px -150px no-repeat;}
+.hforum i.i1{ width:17px; height:17px; display:inline-block;background:url(../images/football/icon.png) -420px -150px no-repeat;}
+.hforum a{color:#333;}
+.hforum td{color:#555}
+.hforum td.tcate{color:#F4087E}
+.hforum .ticon{width:17px; vertical-align:middle; text-align:center;}
+.hforum .tcate,.hforum .tcate p{width:100px;}
+.hforum .ttitle,.hforum .ttitle p{ max-width:280px;}
+.hforum .ttitle2,.hforum .ttitle2 p{}
+.hforum .tpost,.hforum .tpost p{width:100px; text-align:center;}
+.hforum .tview{width:50px; text-align:center; vertical-align:middle; color:#74C7FA;}
+.hforum .treply{width:50px; text-align:center; vertical-align:middle; color:#F6921E;}
+.hforum .ttime,.hforum .ttime p{width:150px; text-align:center;}
+.hforum p{overflow:hidden; white-space:nowrap; height:16px; line-height:16px;text-overflow:ellipsis; margin:0px;}
+
+
+.forum-album{margin-bottom:10px;}
+.forum-album li{ width:166px; float:left; margin:5px 0px 0px 9px;text-align:center; line-height:0px;}
+.forum-album li span{display:block; background:#fff;border:1px solid #ddd; border-radius:5px; line-height:0px; box-shadow: 2px 2px 0px white;}
+.forum-album li img{width:160px; height:160px; margin:2px auto; border-radius:3px;}
+.forum-album li p{height: 22px;overflow: hidden;line-height: 1.4em;background: #f8f8f8;padding: 0px 2px 0px 2px;margin: 2px 0px; border-radius:3px; display:none}
+.forum-album li a{color:#999; display:block}
+
+
+.forum-hot-item{margin-bottom:10px;}
+.forum-hot-item li{ width:225px; float:left; margin:5px 0px 0px 10px;text-align:center; line-height:0px; border-radius:2px;box-shadow: 2px 2px 2px #eee;border:1px solid #eee; padding:0px 0px 10px 0px;}
+.forum-hot-item li span{display:block;line-height:0px; padding:10px 0px 5px;}
+.forum-hot-item li img{width:200px; height:200px; margin:2px auto; border-radius:3px;}
+.forum-hot-item li p{line-height: 1.4em; font-size:12px}
+.forum-hot-item li a{color:#999; display:block}
+.forum-hot-item li a:hover{text-decoration:none}
+.forum-hot-item li .c{color:#E0077E; font-size:14px;font-weight:bold;}
+
+.forum-street-fashion{text-align:left}
+.forum-street-fashion .a{float:left; width:480px;}
+.forum-street-fashion .b{float:right; width:230px;}
+
+.forum-street-fashion > div{border-bottom:1px dashed #f0f0f0; padding:5px 0px;}
+.forum-street-fashion h4{padding:5px 5px; margin:5px 0px; background:#f0f0f0; text-shadow:1px 1px 0px #fff;}
+.forum-street-fashion .c ul li{float:left; margin:5px 0px 5px 5px;}
+.forum-street-fashion .c ul li.l1{margin-left:0px;}
+.forum-street-fashion .c ul li a{display:block}
+.forum-street-fashion .c ul li img{max-width:110px; max-height:110px;}
+
+.forum-street-fashion .d strong{display:block; font-size:14px; color:#666; height:24; line-height:24px;border-bottom:1px dashed #f5f5f5; background:#f5f5f5; padding:0px 5px; text-shadow:1px 1px 0px #fff;}
+.forum-street-fashion .d ul li{ height:24px; line-height:24px;white-space:nowrap; text-overflow:ellipsis; overflow:hidden; border-bottom:1px dashed #f5f5f5; list-style:inside circle; text-indent:5px;}
+
+.forum-street-fashion .s div{margin:3px 0px;}
+
+.forum-upload{}
+.forum-upload a{background: #F90;color: white;padding: 0px 5px;display: inline-block;font-weight: bold; margin:1px 0px}
+
+.forum-new-topic-icon{display:inline-block; width:103px; height:27px; background:url(../images/forum/icon.png) -0px -150px no-repeat; vertical-align:middle;}
+.forum-new-reply-icon{display:inline-block; width:104px; height:27px; background:url(../images/forum/icon.png) -110px -150px no-repeat; vertical-align:middle;}
+.forum-calendar-icon{display:inline-block; width:17px; height:17px; background:url(../images/beauty/icon.png) -0px -150px no-repeat; vertical-align:text-bottom;}
+.forum-time-icon{display:inline-block; width:17px; height:17px; background:url(../images/beauty/icon.png) -18px -150px no-repeat; vertical-align:text-bottom;}
+.forum-edit-icon{display:inline-block; width:17px; height:17px; background:url(../images/beauty/icon.png) -110px -150px no-repeat; vertical-align:text-bottom;}
+.forum-delete-icon{display:inline-block; width:17px; height:17px; background:url(../images/beauty/icon.png) -130px -150px no-repeat; vertical-align:text-bottom;}
+.forum-quote-icon{display:inline-block; width:17px; height:17px; background:url(../images/beauty/icon.png) -90px -150px no-repeat; vertical-align:text-bottom;}
+
+
+.mn-global{padding:0px; margin:5px 0px 0px}
+
+
+
+.news-list{margin-left:-5px;}
+.news-list > li{background:#fff;margin:5px 0px 0px 5px}
+.news-list > li a{display:block; color:#58595B; overflow:hidden;line-height:0px;height:130px; text-align:center}
+.news-list > li a.i1{height:auto;}
+.news-list > li a.i2{height:auto;}
+.news-list > li p{line-height: 18px;font-size: 13px;text-indent: 5px;color: #555;max-height: 53px;overflow: hidden;margin-top: 5px;text-align:center; margin-bottom:0px;}
+
+@media (max-width: 767px) {
+  .news-list > li a{ height:auto !important;}
+  .news-list > li a.i1 > img{width:100px; height:73px; margin:0px;}
+  .news-list > li a > img{float:left; margin-right:10px !important;}
+  .news-list > li a p{text-align:left}
+  .bbar-* small{ display:none;}
+}
+
+
+.news-left a{height:auto !important; padding:5px;}
+.news-left a:after{clear:both; display:block; content:"";}
+.news-left a>img{float:left; margin-right:5px;}
+.news-left a p{text-align:left}
+
+
+.news-update-left .i1{position:relative; padding:0px;height:auto;}
+.news-update-left .i1 p{margin:0px; padding:5px 0px; position:absolute; left:0px; bottom:0px;background:#000; background:rgba(0,0,0,0.6); color:#fff; width:100%; text-align:center}
+.news-update-left .i1 .crop{position:relative; overflow:hidden; height:190px;}
+.news-update-left .i1 .crop img{min-width:100%; min-height:100%;left: -100%;right: -100%;top: -100%;bottom: -100%;margin: auto; position:absolute;}
+
+.news-update-left .news-left{ background:#3A3A3D;}
+.news-update-left .news-left a{color:#fff;}
+
+
+.news-update-left > li{border-top:1px solid #545456;border-bottom:1px solid #231F20; float:none; margin:0px !important;}
+.news-update-left > li:first-child{border-top:none;}
+.news-update-left > li:last-child{border-bottom:none;}
+.news-update-left > li p{color:#fff !important;}
+
+
+.news-review .i1{position:relative; padding:0px;height:auto;}
+.news-review .i1 p{margin:0px; padding:5px 0px; position:absolute; left:0px; bottom:0px;background:#000; background:rgba(0,0,0,0.6); color:#fff; width:100%; text-align:center;}
+.news-review .i1 .crop{position:relative; overflow:hidden; height:170px;}
+.news-review .i1 .crop img{min-width:100%; min-height:100%;left: -100%;right: -100%;top: -100%;bottom: -100%;margin: auto; position:absolute;}
+
+.news-howto .i1{position:relative; padding:0px;height:auto;}
+.news-howto .i1 p{margin:0px; padding:5px 0px; position:absolute; left:0px; bottom:0px;background:#000; background:rgba(0,0,0,0.6); color:#fff; width:100%; text-align:center;}
+.news-howto .i1 .crop{position:relative; overflow:hidden; height:275px;}
+.news-howto .i1 .crop img{min-width:100%; min-height:100%;left: -100%;right: -100%;top: -100%;bottom: -100%;margin: auto; position:absolute;}
+
+.news-uknow .crop{position:relative; overflow:hidden; height:170px;}
+.news-uknow .crop img{min-width:100%; min-height:100%;left: -100%;right: -100%;top: -100%;bottom: -100%;margin: auto; position:absolute;}
+
+.news-wedding li{float:none;}
+.news-wedding .i1{position:relative; padding:0px;height:auto;}
+.news-wedding .i1 p{margin:0px; padding:5px 0px; position:absolute; left:0px; bottom:0px;background:#000; background:rgba(0,0,0,0.6); color:#fff; width:100%; text-align:center}
+.news-wedding .i1 .crop{position:relative; overflow:hidden; height:180px;}
+.news-wedding .i1 .crop img{min-width:100%; min-height:100%;left: -100%;right: -100%;top: -100%;bottom: -100%;margin: auto; position:absolute;}
+
+
+.news-bottom-line{border-bottom: 1px dashed #ccc;}

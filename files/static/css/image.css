@@ -1,0 +1,123 @@
+@import url('forum.theme.css');
+
+
+body{background:#f9f9f9 url(../images/fb/bg.png) center top fixed;}
+/*
+._ct-in td,._ct-in th,._ct-in a{color:#fff;}
+._ct-in a:hover{color:#ccc;}
+h1, h2, h3, h4, h5, h6{color:#ccc;}
+*/
+
+
+._hd-bt{margin-bottom:42px;}
+._ct{color: #555; box-shadow:none}
+._ct-in{background:#fff;}
+
+.head-logo h1 a {width:300px; height:0px; background:none;}
+
+.pf{width:908px; border:1px solid #E6E7E7; border-radius:5px; background-color:#fff; margin:10px 0px 0px 60px; min-height:600px;}
+.pf-l{width:720px; margin:0px 0px 0px 5px; min-height:500px; padding:5px 0px 0px}
+.pf-r{width: 245px;padding: 5px 0px 5px 0px;margin: 0px 5px 0px 0px;}
+.pf-f{width:220px; margin:10px 0px 0px 0px;}
+.pf-fa{width:210px;border:1px solid #E6E7E7; background:#fff;border-radius:5px; position:fixed; top:50px; overflow:auto;}
+.pf-lo{padding-bottom:20px}
+
+
+.navbar{margin-bottom:0px}
+.navbar .nav > li > a{color:#fff; font-weight:bold; border-right:1px solid #000;}
+.navbar .nav > li > a:hover{ background:#000;}
+
+.navbar .nav > li:first-child a{border-left:none}
+.navbar .nav > li:last-child a{border-right:none}
+
+/*
+.navbar-inner{padding-left:5px; padding-right:5px;min-height:30px; border:1px solid #112A3F; background:#0E2237; margin-bottom:5px;background-image: -webkit-linear-gradient(top,#061623,#0E2237);background-image: -moz-linear-gradient(top,#061623,#0E2237);background-image: -ms-linear-gradient(top,#061623,#0E2237);background-image: -o-linear-gradient(top,#061623,#0E2237);background-image: linear-gradient(top,#061623,#0E2237);}
+.navbar .nav{margin:0px !important}
+.navbar .nav > li > a{color:#fff; padding:0px 15px 0px; font-weight:bold;border-right: 1px solid #112A3F;border-left: 1px solid #03121E;margin: -2px 0px; height:37px; line-height:37px;}
+.navbar .nav > li:first-child a{border-left:none}
+.navbar .nav > li:last-child a{border-right:none}
+.navbar .nav > li > a:hover,.navbar .nav > li > a.active{ background:url(../images/fb/bg-m.png) left top repeat-x; color:#122439; text-shadow:1px 1px 0px #fff;}
+.navbar .nav > li a .caret{vertical-align: middle;margin: 0px 0px 0px 2px;}
+*/
+
+/*
+
+.form-actions {background-color: #222;border-top: 1px solid #333;}
+
+.pagination a:hover, .pagination .active a{ background-color:#333;}
+.pagination a{border-color:#444;}
+*/
+/*
+.breadcrumb{margin:0px;padding: 7px 14px;border:none; border-radius:0px; box-shadow:none; background:#0E2237; color:#fff; background-image: -webkit-linear-gradient(top,#0E2237,#03121E);background-image: -moz-linear-gradient(top,#0E2237,#03121E);background-image: -ms-linear-gradient(top,#0E2237,#03121E);background-image: -o-linear-gradient(top,#0E2237,#03121E);background-image: linear-gradient(top,#0E2237,#03121E);}
+.breadcrumb li{display: inline-block;text-shadow:none; color:#fff;}
+.breadcrumb .divider{color:#aaa;}
+.breadcrumb li a{color:#fff;}
+.breadcrumb .dropdown-menu li{display:block;}
+*/
+
+.breadcrumb{margin:0px;padding: 7px 14px;background:#27C5E9; border:none; border-radius:0px; box-shadow:none; background-image: -webkit-linear-gradient(top,#27C5E9 0%,#1CA0D4 50%,#1780BF 100%);background-image: -moz-linear-gradient(top,#27C5E9 0%,#1CA0D4 50%,#1780BF 100%);background-image: -ms-linear-gradient(top,#27C5E9 0%,#1CA0D4 50%,#1780BF 100%);background-image: -o-linear-gradient(top,#27C5E9 0%,#1CA0D4 50%,#1780BF 100%);background-image: linear-gradient(top,#27C5E9 0%,#1CA0D4 50%,#1780BF 100%);}
+.breadcrumb li{display: inline-block;text-shadow:none; color:#000;}
+.breadcrumb .divider{color:#222;}
+.breadcrumb li a{color:#000;}
+.breadcrumb .dropdown-menu li{display:block;}
+
+a.btn,.btn{color:#333}
+a.btn-primary,.btn-primary{color:#fff;}
+/*
+
+table{background:#000;}
+.table th, .table td{border-top-color:#333;}
+.table tbody tr:hover td,.table tbody tr:hover th{background-color:#222;}
+
+*/
+._ct-admin ._ct-in-ct{background:#fff; color:#555; padding-bottom:5px;}
+._ct-admin ._ct-in-ct a{color:#069}
+.table{color:#555;}
+
+
+.error{background:#fff; color:#f00;}
+
+.container{margin-bottom:-1px;}
+.dropdown-menu > li{display:block}
+
+
+.hf{font-size:14px; font-weight:normal;height:30px; line-height:30px; color:#000; margin:0px 0px 5px 0px; padding:0px 5px; background:#0E2237; color:#D0D2D3; background-image: -webkit-linear-gradient(top,#0E2237,#03121E);background-image: -moz-linear-gradient(top,#0E2237,#03121E);background-image: -ms-linear-gradient(top,#0E2237,#03121E);background-image: -o-linear-gradient(top,#0E2237,#03121E);background-image: linear-gradient(top,#0E2237,#03121E);}
+.hf a{color:#D0D2D3; }
+.hf small{font-size:12px; font-style:normal; color:#D0D2D3}
+.hf small a{color:#D0D2D3}
+.hf i{display:inline-block; width:22px; height:22px; vertical-align:middle}
+
+
+.hb{font-size:14px; font-weight:normal;height:30px; line-height:30px; color:#000; margin:0px 0px 5px 0px; padding:0px 5px; background:#0E2237; color:#D0D2D3; background-image: -webkit-linear-gradient(top,#0E2237,#03121E);background-image: -moz-linear-gradient(top,#0E2237,#03121E);background-image: -ms-linear-gradient(top,#0E2237,#03121E);background-image: -o-linear-gradient(top,#0E2237,#03121E);background-image: linear-gradient(top,#0E2237,#03121E);}
+.hb a{color:#D0D2D3; }
+.hb small{font-size:12px; font-style:normal; color:#D0D2D3}
+.hb small a{color:#D0D2D3}
+.hb i{display:none; width:25px; height:25px; vertical-align:middle}
+
+
+
+ul.tabs{border-color:#555;}
+ul.tabs li a:visited {color: #fff;}
+ul.tabs li a{border-color:#555;background-color: #222;color: #fff;text-shadow: 1px 1px 0px #000;}
+ul.tabs li.on a, ul.tabs li.active a {background-color: #000;color: #F60;}
+ul.tabs li a:hover{background-color:#000;color: #F60;}
+
+
+
+
+.hforum thead tr{background:#f0f0f0; height:30px; line-height:30px; font-weight:bold;}
+.hforum tr.l0{background:#fff}
+.hforum tr.l1{background:#f9f9f9}
+.hforum i.i0{ width:17px; height:15px; display:inline-block;background:url(../images/football/icon.png) -440px -150px no-repeat;}
+.hforum i.i1{ width:17px; height:17px; display:inline-block;background:url(../images/football/icon.png) -420px -150px no-repeat;}
+.hforum a{color:#333;}
+.hforum td{color:#555}
+.hforum .ticon{width:17px; vertical-align:middle; text-align:center;}
+.hforum .tcate,.hforum .tcate p{width:60px;}
+.hforum .ttitle,.hforum .ttitle p{width:240px;}
+.hforum .tpost,.hforum .tpost p{width:100px; text-align:center;}
+.hforum .tview{width:50px; text-align:center; vertical-align:middle; color:#74C7FA;}
+.hforum .treply{width:50px; text-align:center; vertical-align:middle; color:#F6921E;}
+.hforum .ttime,.hforum .ttime p{width:150px; text-align:center;}
+.hforum p{overflow:hidden; white-space:nowrap; height:16px; line-height:16px;text-overflow:ellipsis;}
+

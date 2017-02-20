@@ -1,0 +1,128 @@
+@import url('forum.theme.css');
+
+body{background:#f0f0f0;}
+
+._hd-bt{margin-bottom:42px;}
+
+
+.lg{padding:5px 0px 0px 0px; margin:0px auto; width:980px; position:relative;}
+.lg > a {display:block; width:435px; height:95px; background:url(../images/racing/logo.png) 0px 0px no-repeat; margin:10px 0px 5px;}
+.lg div {position: absolute;right: 5px;top: 20px;width: 600px;height: 85px; text-align:right;}
+.body-forum .lg{max-width:1160px; width:auto;}
+
+
+
+.announce li{margin-bottom:5px; text-align:center;}
+.announce li:nth-child(4n+1){clear:both; margin-left:0px;}
+.announce li p{margin:0px; text-align:center; max-height:40px; overflow:hidden; text-align:center; color:#666;}
+.announce li a>img{margin:5px auto;}
+.error{background:#fff; color:#f00;}
+
+
+
+.bn{height:285px; position:relative; margin-bottom:10px;}
+.bn .dbn{ position:absolute; left:50px; bottom:25px; z-index:1}
+.bn .dbn .btn{margin-right:10px;}
+.bn .tbn{text-shadow:1px 1px 0px #fff;}
+.bn .tbn{position:absolute; left:50px; top:135px; z-index:1; font-size:18px; width:400px; line-height:1.8em}
+.bn .tbn strong{ }
+.bn .tbn i{font-size:20px; margin:0px 5px;}
+.bn img{border-radius:5px;}
+
+
+.forum_bstats{ margin:5px 0px 0px; padding:10px;}
+
+.forum_view .syntaxhighlighter, .forum_view pre {font-size: 12px;padding: 5px 10px; width:auto !important;}
+.in-content a,.forum_topic td.tpost a, .forum_topic td.ttime a{}
+
+
+.schedule{ text-align:center;}
+.schedule h3{background:#F6921E; padding:3px; text-align:center; }
+.schedule h4{background:#282828; padding:3px; text-align:center;}
+.schedule table{background:#202020;border-collapse: separate; border-spacing:1px;}
+.schedule th{text-align:center; background:#2c2c2c;}
+.schedule th.sc1{width:80px !important;}
+.schedule th.sc2{width:200px !important;}
+.schedule td{text-align:center; background:#333;}
+
+
+.mn-global{margin:5px 0px 0px; padding:5px;}
+.mn-global .mn-global-mn a{}
+.mn-global .mn-global-mn a:hover{}
+
+/*   HACK FORUM  */
+table{background:none;}
+table th,table td { background:none;}
+
+
+
+
+
+
+.hb{font-size:14px; font-weight:normal;height:30px; line-height:30px; color:#000; margin:0px 0px 5px 0px; padding:0px 5px; background:#0E2237; color:#D0D2D3; background-image: -webkit-linear-gradient(top,#0E2237,#03121E);background-image: -moz-linear-gradient(top,#0E2237,#03121E);background-image: -ms-linear-gradient(top,#0E2237,#03121E);background-image: -o-linear-gradient(top,#0E2237,#03121E);background-image: linear-gradient(top,#0E2237,#03121E);}
+.hb a{color:#D0D2D3; }
+.hb small{font-size:12px; font-style:normal; color:#D0D2D3}
+.hb small a{color:#D0D2D3}
+.hb i{display:none; width:25px; height:25px;vertical-align:middle}
+
+
+
+
+
+.forum p{margin:0px;}
+.forum h4{margin:0px;}
+
+
+
+.hforum thead tr{background:#f0f0f0; height:30px; line-height:30px; font-weight:bold;}
+.hforum tr.l0{background:#fff}
+.hforum tr.l1{background:#f9f9f9}
+.hforum i.i0{ width:17px; height:15px; display:inline-block;background:url(../images/football/icon.png) -440px -150px no-repeat;}
+.hforum i.i1{ width:17px; height:17px; display:inline-block;background:url(../images/football/icon.png) -420px -150px no-repeat;}
+.hforum a{color:#333;}
+.hforum td{color:#555}
+.hforum .ticon{width:17px; vertical-align:middle; text-align:center;}
+
+.hforum .tcate,.hforum .tcate p{width:100px;}
+.hforum .ttitle,.hforum .ttitle p{width:300px;}
+.hforum .ttitle2,.hforum .ttitle2 p{width:200px;}
+.hforum .tpost,.hforum .tpost p{width:100px; text-align:center;}
+.hforum .tview{width:50px; text-align:center; vertical-align:middle; color:#74C7FA;}
+.hforum .treply{width:50px; text-align:center; vertical-align:middle; color:#F6921E;}
+.hforum .ttime,.hforum .ttime p{width:150px; text-align:center;}
+.hforum p{overflow:hidden; white-space:nowrap; height:16px; line-height:16px;text-overflow:ellipsis;}
+
+
+.hforum2 thead tr{background:#f0f0f0; height:30px; line-height:30px; font-weight:bold;}
+.hforum2 tr.l0{background:#fff}
+.hforum2 tr.l1{background:#f9f9f9}
+.hforum2 i.i0{ width:17px; height:15px; display:inline-block;background:url(../images/football/icon.png) -440px -150px no-repeat;}
+.hforum2 i.i1{ width:17px; height:17px; display:inline-block;background:url(../images/football/icon.png) -420px -150px no-repeat;}
+.hforum2 a{color:#333;}
+.hforum2 td{color:#555}
+.hforum2 .ticon{width:17px; vertical-align:middle; text-align:center;}
+
+.hforum2 .tcate,.hforum2 .tcate p{width:100px;}
+.hforum2 .ttitle2,.hforum2 .ttitle2 p{width:200px;}
+.hforum2 .tpost,.hforum2 .tpost p{width:100px; text-align:center;}
+.hforum2 p{overflow:hidden; white-space:nowrap; height:16px; line-height:16px;text-overflow:ellipsis;}
+
+.forum-home-list{padding:0px 0px 10px;}
+.forum-home-list li{float:left; width:470px; margin:7px 0px 0px 7px;}
+.forum-home-list li > span{display:block; float:left; width:120px; margin:0px 0px 0px;}
+.forum-home-list li > span a{width:114px; height:88px; display:block; background:#E6E7E8; line-height:0px;}
+.forum-home-list li > span a img{width:110px; height:84px;margin:2px;}
+.forum-home-list li > div{margin:0px 0px 0px 124px;}
+.forum-home-list li > div div{max-height:34px; overflow:hidden; color:#26A9E0;}
+.forum-home-list li > p{clear:both}
+.forum-home-list li h4{width:230px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.forum-home-list li h4 a{color:#000;}
+
+.forum-home h3,.forum_cp{ text-indent:10px;margin:5px 0px 0px; border-radius:3px; box-shadow:0px 0px 5px #ccc; background:#302D2E; color:#fff; background-image: -webkit-linear-gradient(top,#302D2E,#49494A);background-image: -moz-linear-gradient(top,#302D2E,#49494A);background-image: -ms-linear-gradient(top,#302D2E,#49494A);background-image: -o-linear-gradient(top,#302D2E,#49494A);background-image: linear-gradient(top,#302D2E,#49494A); font-size:14px; height:30px; line-height:30px;}
+.forum-home h3.l1,.forum_cp{background-image: -webkit-linear-gradient(top,#1780BF,#1CA0D4);background-image: -moz-linear-gradient(top,#1780BF,#1CA0D4);background-image: -ms-linear-gradient(top,#1780BF,#1CA0D4);background-image: -o-linear-gradient(top,#1780BF,#1CA0D4);background-image: linear-gradient(top,#1780BF,#1CA0D4); font-size:14px; height:30px; line-height:30px;}
+.forum-home h3 a,.forum-home h3 small,.forum_cp a,.forum_cp small{color:#fff;} 
+
+
+
+.forum_stats{padding:10px; border:1px solid #ddd; background:#f9f9f9; line-height:1.8em; margin:5px 0px;}
+.forum_stats a{text-shadow:1px 1px 0px #fff;}

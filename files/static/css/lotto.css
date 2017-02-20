@@ -1,0 +1,156 @@
+@import url('forum.theme.css');
+
+
+body{background:#F4F8FB url(../images/lotto/bg.jpg) left top fixed repeat;}
+._hd-bt{margin-bottom:42px;}
+._ct{color: #555; box-shadow:none}
+._ct-in{background:#fff; padding:0px 0px 0px 0px}
+
+.head-logo h1 a {width:302px; height:90px; background:url(../images/lotto/icon.png) 0px 0px no-repeat;}
+
+
+.hb{font-size:14px; font-weight:normal;height:30px; line-height:30px; color:#000; margin:0px 0px 5px 0px; padding:0px 5px; background:#0E2237; color:#D0D2D3; background-image: -webkit-linear-gradient(top,#0E2237,#03121E);background-image: -moz-linear-gradient(top,#0E2237,#03121E);background-image: -ms-linear-gradient(top,#0E2237,#03121E);background-image: -o-linear-gradient(top,#0E2237,#03121E);background-image: linear-gradient(top,#0E2237,#03121E);}
+.hb a{color:#D0D2D3; }
+.hb small{font-size:12px; font-style:normal; color:#D0D2D3}
+.hb small a{color:#D0D2D3}
+.hb i{display:none; width:25px; height:25px;vertical-align:middle}
+
+
+.lotto td{text-align:center; padding:1px;}
+.lotto td strong{display:block; font-size:16px;color:#000; padding:6px; border-radius:3px; text-shadow:1px 1px 0px #fff;background:#D0D2D3; background-image: -webkit-linear-gradient(top,#D0D2D3,#F1F1F2);background-image: -moz-linear-gradient(top,#D0D2D3,#F1F1F2);background-image: -ms-linear-gradient(top,#D0D2D3,#F1F1F2);background-image: -o-linear-gradient(top,#D0D2D3,#F1F1F2);background-image: linear-gradient(top,#D0D2D3,#F1F1F2);}
+.lotto td div{ padding:5px 0px; line-height:1.6em; color:#000;}
+.lotto td div.n1{font-size:28px; font-weight:bold; line-height:28px;}
+.lotto td div.n2{font-size:18px; line-height:22px;}
+.lotto td div.n3{font-size:14px;}
+.lotto td div span{ display:inline-block; margin:5px 0px; padding:0px 5px}
+.lotto td div span + span{ border-left:1px solid #ddd;}
+.lotto td p{ padding:0px 2px; height:24px; line-height:24px; overflow:hidden;white-space:nowrap; text-overflow:ellipsis; background-color:#DAF3F7; text-shadow:1px 1px 0px #fff; margin:3px 0px;}
+
+
+@media (max-width: 767px) {
+	.lotto td p{display:none;}
+}
+
+.relotto{padding:5px 0px 10px 10px}
+.relotto li{float:left; list-style:inside circle; width:300px;}
+
+.table th, .table td{border-top:none;}
+table.lotto tr:hover td,table.lotto tr td:hover{background:#fff !important;}
+/*
+.pf{width:908px; border:1px solid #E6E7E7; border-radius:5px; background-color:#fff; margin:10px 0px 0px 60px; min-height:600px;}
+.pf-l{width:710px; margin:0px 0px 10px 10px; padding-top:5px; min-height:800px; overflow:hidden}
+.pf-r{ width:255px; padding:5px 0px 5px 0px;}
+.pf-f{width:220px; margin:10px 0px 0px 0px;}
+.pf-fa{width:210px;border:1px solid #E6E7E7; background:#fff;border-radius:5px; position:fixed; top:50px; overflow:auto;}
+.pf-lo{padding-bottom:20px}
+*/
+._box {margin-bottom: 10px;padding: 5px 0px 5px 5px;}
+
+.cp {background:#f5f5f5;border-top: 1px solid #00ADEE;height: 22px;line-height: 22px;padding-left: 5px;border-bottom: 5px solid #DDD;font-size: 12px;}
+.cp span {float: right;display: block;width: 100px;text-align: center;background:#00ADEE;height: 24px;line-height: 24px;margin: -1px -5px -1px 6px;}
+.cp p{clear:both}
+.cp,.cp a{color: #333;text-shadow: 1px 1px 0px #fff;}
+.cp span a {color:#fff;text-shadow: none;display: block;text-decoration: none;}
+.cp span a:hover{background-color:#0099D2}
+
+/*
+.navbar{margin-bottom:5px; border-bottom:5px solid #006838}
+.navbar-inner{padding-left:5px; padding-right:5px;min-height:30px;background:#8BC53F; margin-bottom:0px;background-image: -webkit-linear-gradient(top,#8BC53F,#009345);background-image: -moz-linear-gradient(top,#8BC53F,#009345);background-image: -ms-linear-gradient(top,#8BC53F,#009345);background-image: -o-linear-gradient(top,#8BC53F,#009345);background-image: linear-gradient(top,#8BC53F,#009345);border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;}
+.navbar .nav > li > a{color:#fff; padding:7px 10px 7px; font-weight:bold;}
+._box {margin-bottom: 10px;padding: 5px 0px 5px 5px;}
+*/
+
+.error{background:#fff; color:#f00;}
+
+.container{margin-bottom:-1px;}
+.dropdown-menu > li{display:block}
+
+.breadcrumb .dropdown-menu li{display:block;}
+
+
+.nav-ft{margin: 5px 5px 0px 5px;padding-top: 5px;padding-bottom: 5px; border-radius:5px; background:#eee;}
+.nav-ft > li h3{margin:5px 5px 5px 10px;}
+.nav-ft > li ul{margin:0px 5px 0px 5px; padding:0px 5px 5px 10px; border-top:1px solid #eee; list-style:inside circle}
+.nav-ft > li ul li{line-height:24px; height:24px;}
+.nav-ft > li ul li a{color:#333;}
+
+
+.lotto-list h4{background:#f0f0f0; color:#000; height:30px; line-height:30px; padding:0px 8px;text-shadow:1px 1px 0px #fff;}
+.lotto-list h4 a{color:#000;}
+
+
+
+.bcd{margin:0px}
+.bcd ul{margin-left:-5px; margin-bottom:5px;}
+.bcd li{background:#fff;margin:5px 0px 0px 5px}
+.bcd li a{display:block; color:#58595B; overflow:hidden;line-height:0px;height:127px}
+.bcd li a.i1{height:235px;}
+.bcd li p{line-height:19px;font-size:13px; text-indent:5px; color:#555; }
+
+@media (max-width: 767px) {
+  .bcd li a{ height:auto !important;}
+  .bcd li a > img{float:left; margin-right:10px;}
+}
+
+
+.hforum thead tr{background:#f0f0f0; height:30px; line-height:30px; font-weight:bold;}
+.hforum tr.l0{background:#fff}
+.hforum tr.l1{background:#f9f9f9}
+.hforum i.i0{ width:17px; height:15px; display:inline-block;background:url(../images/football/icon.png) -440px -150px no-repeat;}
+.hforum i.i1{ width:17px; height:17px; display:inline-block;background:url(../images/football/icon.png) -420px -150px no-repeat;}
+.hforum a{color:#333;}
+.hforum td{color:#555}
+.hforum .ticon{width:17px; vertical-align:middle; text-align:center;}
+
+.hforum .tcate,.hforum .tcate p{width:100px;}
+.hforum .ttitle,.hforum .ttitle p{width:300px;}
+.hforum .ttitle2,.hforum .ttitle2 p{width:200px;}
+.hforum .tpost,.hforum .tpost p{width:100px; text-align:center;}
+.hforum .tview{width:50px; text-align:center; vertical-align:middle; color:#74C7FA;}
+.hforum .treply{width:50px; text-align:center; vertical-align:middle; color:#F6921E;}
+.hforum .ttime,.hforum .ttime p{width:150px; text-align:center;}
+.hforum p{overflow:hidden; white-space:nowrap; height:16px; line-height:16px;text-overflow:ellipsis;}
+
+
+.table.lotto2{margin-bottom:5px;}
+.lotto2 thead th{vertical-align:middle; text-align:center; font-weight:bold; }
+.lotto2 tbody td{text-align:center;}
+.lotto2 thead th.s{
+font-size: 16px;
+color: #000;
+text-shadow: 1px 1px 0px #fff;
+background: #D0D2D3;
+background-image: -webkit-linear-gradient(top,#D0D2D3,#F1F1F2);
+background-image: -moz-linear-gradient(top,#D0D2D3,#F1F1F2);
+background-image: -ms-linear-gradient(top,#D0D2D3,#F1F1F2);
+background-image: -o-linear-gradient(top,#D0D2D3,#F1F1F2);
+background-image: linear-gradient(top,#D0D2D3,#F1F1F2);
+}
+.lotto2 thead th.p{
+height: 24px;
+line-height: 24px;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+background-color: #DAF3F7;
+text-shadow: 1px 1px 0px #fff;
+padding:0px;
+}
+
+
+.table.lottoset thead th,.table.lottoset tbody td{text-align:center; font-size:12px;}
+.table.lottoset tbody td.n{text-align:left; font-weight:bold;}
+
+
+@media only screen and (max-width: 767px) {
+	table.lottoset th:nth-child(4),
+	table.lottoset th:nth-child(5),
+	table.lottoset th:nth-child(6),
+	table.lottoset th:nth-child(7),
+	table.lottoset th:nth-child(8),
+	table.lottoset td:nth-child(4),
+	table.lottoset td:nth-child(5),
+	table.lottoset td:nth-child(6),
+	table.lottoset td:nth-child(7),
+	table.lottoset td:nth-child(8){display: none;}
+}

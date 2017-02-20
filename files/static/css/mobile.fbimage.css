@@ -1,0 +1,73 @@
+
+html,body,div,p {margin: 0px;padding: 0px;border: 0px;}
+body{ font-family:Tahoma; font-size: 16px; line-height: 1.6em; color: #555; background:#f4f4f4; padding:0px; text-shadow:1px 1px 0px #fff; margin:0px; padding-top:53px;}
+a{ text-decoration:none; color:#a7f}
+
+.apps-list{list-style:none;margin:5px; padding:0px;}
+.apps-list li{border-bottom:1px solid #ccc; overflow:hidden; background:#fff;}
+.apps-list li:nth-child(odd){ background:#f4f4f4;}
+.apps-list li a{height:62px;display:block;color: #333; text-decoration: none; padding:0px 5px;}
+.apps-list li a img{float:left; width:50px; height:50px; background:#ccc; margin:5px 10px 0px 0px;border-radius:4px; border:1px solid #000;}
+.apps-list h1{font-size:24px; color:#333; padding:10px 0px 5px; margin:0px;}
+.apps-list h2{font-size:14px; color:#888; font-weight:normal; margin:0px;}
+
+
+.bar{height:50px; line-height:50px; background:#E8E8E8; position:fixed; width:100%; left:0px; top:0px;border-bottom: 3px solid #a7f;}
+.bar>div{position:relative;}
+.bar-back,.bar-refresh,.bar-print{width:40px; height:40px; display:inline-block;position:absolute;top:5px; background:url(http://s0.boxza.com/static/images/mobile/gold.png) 0px 0px no-repeat; border-radius:4px;}
+.bar-back{ left:5px;}
+.bar-refresh{right:10px; background-position:-40px 0px;}
+.bar-print{right:55px; background-position:-80px 0px;}
+.bar-title{ margin:0px 55px; text-align:center; color:#000; font-size:26px; line-height:50px; height:50px; text-shadow:none;}
+.bar-title span {width: 1px;height: 1px;overflow: hidden;display: inline-block;}
+
+.tabs{height:50px;overflow: scroll;overflow-y: hidden;-webkit-overflow-scrolling: touch;white-space:nowrap; background:#d6d6d6; margin:0px; padding:0px; list-style:none; text-align:center;border-bottom: 1px solid #ababab;box-shadow: 0px 1px 5px #ababab; margin-bottom:2px;}
+.tabs li{display:inline-block; height:50px;}
+.tabs li a{display:inline-block; height:50px;min-width:100px;text-align:center;}
+.tabs li a.active{border-bottom: 5px solid #a7f;height: 45px;}
+.tabs li a span{display:block; height:30px; line-height:30px; margin:10px 0px; font-size:18px; border-left:1px solid #c0c0c0; color:#000;padding:0px 30px;}
+.tabs li:first-child a span{border-left:none;}
+
+.home-list {list-style: none;margin: 10px 0px 0px;padding: 0px;background: #F5C519;}
+.home-list li{overflow:hidden; background:#fff; border-bottom:1px solid #ccc;}
+.home-list li:nth-child(even){background:#f0f0f0;}
+.home-list li a{height:62px;display:block;color: #333; text-decoration: none; padding:0px 5px;}
+.home-list h1{font-size:24px; color:#222; padding:5px 0px 0px; margin:0px;}
+.home-list h2{font-size:14px; color:#555; font-weight:normal; margin:0px;}
+.home-list img {float: left;margin: 5px 10px 0px 0px; border-radius:5px;}
+
+.fbimage-bar{padding: 5px 20px;background: #fff;margin: 0px;height: 32px;line-height: 32px; border-bottom:1px solid #ccc;}
+
+
+
+.fbimage-list{margin:0px; list-style:none; padding:0px}
+.fbimage-list li{width:48.3%; float:left; margin:7px 0px 0px 1%;}
+.fbimage-list li a{display:block; margin:10px; text-align:center; color:#000; text-decoration:none; text-shadow:1px 1px 0px #fff; height:150px;}
+.fbimage-list li a p{white-space: nowrap;overflow: hidden;text-overflow: ellipsis; font-size:14px;}
+.fbimage-list li a img{max-width:100%; max-height:100%;}
+.fbimage-list:after {clear: both;content: "";display: block; height:10px}
+
+.page-nav{text-align: center;height: 40px;line-height: 40px;margin: 10px;}
+.page-nav a{display:inline-block; height:40px; width:40%; margin:0px 5px; background:#fff; border-radius:5px; border:2px solid #a7f; font-size:22px; color:#a7f}
+
+
+@media (min-width: 450px) {
+	.fbimage-list li{width:32.3%; }
+}
+@media (min-width: 600px) {
+	.fbimage-list li{width:23.8%; }
+}
+@media (min-width: 768px) {
+	.fbimage-list li{width:18.8%; }
+}
+@media (min-width: 955px) {
+	.fbimage-list li{width:15.4%; }
+}
+@media (min-width: 1200px) {
+	.fbimage-list li{width:13%; }
+}
+@media (min-width: 1350px) {
+	.fbimage-list li{width:11.4%; }
+}
+
+

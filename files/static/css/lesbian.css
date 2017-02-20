@@ -1,0 +1,212 @@
+@import url('forum.theme.css');
+
+body{background:#3F3F3F;}
+
+a{color:#333;}
+a:hover{color:#000;}
+
+.warp{background:url(../images/lesbian/bg.jpg) center top no-repeat;}
+._ct{color: #555; box-shadow:none;}
+
+.head-logo h1 a {width:280px; height:100px;background:url(../images/lesbian/icon.png) 0px 0px no-repeat;}
+
+._ft{ background:#f7f7f7;border-top-left-radius: 5px;border-top-right-radius: 5px;}
+
+.navbar-inner{ background-image:none; background:#F4AEE0; border-radius:0px; border:none; border-bottom:1px dashed #000; box-shadow:none; height:36px; line-height:36px; min-height:36px; padding-left:10px;}
+
+.navbar{margin-bottom:0px}
+.navbar .nav > li > a{color:#000; font-weight:bold; padding:0px 10px 0px 5px; text-shadow:none; height:36px; line-height:36px;}
+.navbar .nav > li > a:hover{color:#fff; background:#000;}
+
+.navbar .nav > li:first-child a{border-left:none}
+.navbar .nav > li:last-child a{border-right:none}
+
+.navbar .nav li a i{display:inline-block; width:32px; height:32px; background-image:url(../images/lesbian/icon.png); background-repeat:no-repeat;vertical-align: middle; margin:-2px 0px 2px 0px}
+.navbar .brand{padding:0px 20px 0px 30px;}
+
+.ic-home{background-position:0px -118px;}
+.ic-friend{background-position:-32px -118px;}
+.ic-forum{background-position:-64px -118px;}
+.ic-chat{background-position:-96px -118px;}
+.navbar .nav li a:hover .ic-home{background-position:-128px -118px;}
+.navbar .nav li a:hover .ic-friend{background-position:-160px -118px;}
+.navbar .nav li a:hover .ic-forum{background-position:-192px -118px;}
+.navbar .nav li a:hover .ic-chat{background-position:-224px -118px;}
+
+
+.mn{font-size:12px;margin:0px; font-weight:normal;height:34px; line-height:34px; color:#000; padding:0px 5px; background:#fff; border-bottom:1px solid #D1D3D4; border-top:1px dashed #F1F2F2;}
+.mn li{float:left}
+.mn li a{height:22px; line-height:22px;padding:0px 10px; border-right:1px solid #ccc; color:#333; text-shadow:1px 1px 0px #fff; display:block; margin:5px 0px;}
+.mn li:last-child a{border:none}
+.breadcrumb{margin:0px;}
+a.btn,.btn{color:#333}
+a.btn-primary,.btn-primary{color:#fff;}
+._ct-admin ._ct-in-ct{background:#fff; color:#555; padding-bottom:5px;}
+._ct-admin ._ct-in-ct a{color:#069}
+.table{color:#555;}
+
+
+.error{background:#fff; color:#f00;}
+
+.container{margin-bottom:-1px;}
+.dropdown-menu > li{display:block}
+
+
+.zone-box{border-top:1px solid #000;border-bottom:1px solid #000; background:url(../images/boyz/bg-zone.png) 0px 0px repeat}
+.zone-box .hz{height:44px; line-height:44px; padding:0px 10px; margin-bottom:10px; border-bottom:1px dashed #666;}
+.zone-box .hz i{display:inline-block; width:17px; height:21px; background:url(../images/lesbian/icon.png) -75px -184px no-repeat;vertical-align: text-top; margin:0px 0px 0px 0px}
+
+
+.nav-zone > li{ width:152px; float:left;margin:0px 0px 10px 10px;}
+.nav-zone li li a{font-size:12px;}
+.nav-zone li{ position:relative; min-height:24px;}
+.nav-zone li h4{width:150px;height:24px;white-space: nowrap;text-overflow: ellipsis;overflow: hidden; font-weight:normal;}
+.nav-zone li li{list-style: inside circle; margin:0px 0px 0px 10px;}
+.nav-zone li .badge{position:absolute; right:5px;}
+
+.flist1 li a{ display:block; height:24px; line-height:24px; border-bottom:1px dashed #f0f0f0; text-indent:20px; white-space: nowrap;text-overflow: ellipsis;overflow: hidden; background:url(../images/boyz/bullet_white.png) 0px 2px no-repeat; }
+.flist2 li a{ display:block; height:24px; line-height:24px; border-bottom:1px dashed #f0f0f0; text-indent:20px; white-space: nowrap;text-overflow: ellipsis;overflow: hidden; background:url(../images/boyz/bullet_white.png) 0px 2px no-repeat;}
+.flist1 li a:hover,.flist2 li a:hover{background-color:#f9f9f9; color:#000; text-decoration:none;}
+
+.hr h3{margin:0px 0px 0px 0px; padding:2px; background:#000;line-height:32px; color:#fff; border-bottom:1px solid #000;}
+.hr.hr2{padding-top:5px; border-top:1px solid #000; margin-top:10px;}
+.hr.hr2 h3{border:none;}
+.hr h3 i{display:inline-block; width:32px; height:32px; background:url(../images/lesbian/icon.png) -320px -150px no-repeat;vertical-align: text-top; margin:-5px 0px 0px 0px}
+.hr h3 a{color:#F4ABDE;}
+.hr > div{padding-bottom:5px;}
+.hr ul li{width: 136px;float: left;margin:7px 0px 0px 7px;text-align: center;background: white;padding: 8px 0px;border-radius:5px;}
+.hr.hr2 ul li{margin-left:2px; margin-top:2px;}
+.hr ul li p a{display: inline-block;white-space: nowrap;height: 16px;line-height: 16px;text-overflow: ellipsis;overflow: hidden; color:#666;}
+.hr ul li a:hover{text-decoration:none}
+.hr ul li > a{display:block; line-height:0px;}
+.hr ul li > a span{display:block; line-height:20px; height:20px; background:#f0f0f0; color:#000; margin:0px auto; text-align:center; width:120px}
+.hr ul li > a span.gay1,.gay1{ background:#E6E7E8 !important; color:#000 !important; text-shadow:0 -1px 0 #fff}
+.hr ul li > a span.gay2,.gay2{ background:#D1D3D4 !important; color:#000 !important; text-shadow:0 -1px 0 #fff}
+.hr ul li > a span.gay3,.gay3{ background:#A7A9AC !important; color:#000 !important; text-shadow:0 -1px 0 #fff}
+.hr ul li > a span.gay4,.gay4{ background:#6D6E71 !important; color:#fff !important;}
+.hr ul li > a span.boy,.boy{ background:#555 !important; color:#fff !important;}
+.hr ul li > a span.boy2,.boy2{ background:#444 !important; color:#fff !important;}
+.hr ul li > a span.ladyboy,.ladyboy{ background:#333 !important; color:#fff !important;}
+.hr ul li > a span.lesbian,.lesbian{ background:#222 !important; color:#fff !important;}
+.hr ul li > p i{display:inline-block; width:17px; height:13px; vertical-align:text-top;background:url(../images/lesbian/icon.png) -99px -188px no-repeat; margin:2px 0px 0px 0px}
+.hr ul li > span{width:112px; display:block; text-align:left; margin:0px auto;}
+.hr ul li > span i{display:inline-block; width:13px; height:17px; vertical-align:text-top;background:url(../images/lesbian/icon.png) -126px -188px no-repeat; margin:0px 4px 0px 0px}
+
+.tbfr .label2 {display:inline-block; width:50px;}
+
+table.table.tbfr{border-spacing:0px; border-collapse:separate;}
+table.table.tbfr tr td{background-image: -webkit-linear-gradient(top,#f1f2f2,#E6E7E8);background-image: -moz-linear-gradient(top,#f1f2f2,#E6E7E8);background-image: -ms-linear-gradient(top,#f1f2f2,#E6E7E8);background-image: -o-linear-gradient(top,#f1f2f2,#E6E7E8);background-image: linear-gradient(top,#f1f2f2,#E6E7E8);border-top:1px solid #fff; border-bottom:1px solid #BCBEC0;border-spacing:0px; border-collapse:separate;}
+
+.hb{font-size:14px; font-weight:normal;height:30px; line-height:30px; color:#fff; margin:0px 0px 5px 0px; padding:0px 5px; background:#000; }
+.hb a{color:#D0D2D3; }
+.hb small{font-size:12px; font-style:normal; color:#D0D2D3}
+.hb small a{color:#D0D2D3}
+.hb i{display:none; width:25px; height:25px;vertical-align:middle}
+
+.hbu{ font-size:14px; color:#fff; background:#000; padding:2px; margin:5px 0px 5px 0px}
+.hbu i{display:inline-block; width:32px; height:32px;background:url(../images/lesbian/icon.png) -128px -150px no-repeat; vertical-align:middle; margin-right:5px;}
+.hht{float:left; width:320px;}
+.hht h3{font-size:14px; color:#000; padding:2px;line-height:32px; background:#F4ABDE}
+.hht h3 a{color:#000;}
+.hht h3 i{display:inline-block; width:32px; height:32px;background:url(../images/lesbian/icon.png) -160px -150px no-repeat; vertical-align:middle; margin-right:5px;}
+.hfs{float:right; width:320px;}
+.hfs h3{ font-size:14px; color:#000; padding:2px;line-height:32px; background:#F4ABDE;}
+.hfs h3 a{color:#000;}
+.hfs h3 i{display:inline-block; width:32px; height:32px;background:url(../images/lesbian/icon.png) -192px -150px no-repeat; vertical-align:middle; margin-right:5px;}
+
+.hn{margin:10px 0px 5px 0px; padding:0px 10px; background:#fff; height:30px; line-height:30px; color:#000;}
+.hn i{display:inline-block; width:35px; height:26px; background:url(../images/lesbian/icon.png) -416px -153px no-repeat;vertical-align: text-top; margin:0px 0px 0px 0px}
+.hn a{color:#3B3A38;}
+
+.hvid{margin:10px 0px 0px 0px;padding:5px 0px 0px 0px; border-top:1px solid #000;}
+.hvid h3{font-size:14px; color:#F4ABDE; background:#000; padding:2px;line-height:32px;}
+.hvid h3 i{display:inline-block; width:32px; height:32px;background:url(../images/lesbian/icon.png) -96px -150px no-repeat; vertical-align:middle; margin-right:5px;}
+.hvid > a{overflow:hidden; white-space:nowrap; height:24px; line-height:24px;text-overflow:ellipsis; text-indent:5px; background:#f0f0f0;display:block;}
+.hvid ul li{float:left}
+.hvid ul li a{display:block; margin:5px 0px 0px 4px; line-height:0px;}
+.hvid ul li a img{ width:100px;}
+
+.htp{margin:10px 0px 0px 0px; padding:5px 0px 0px 0px; border-top:1px solid #000;}
+.htp h3{font-size:14px; color:#F4ABDE; background:#000; padding:2px;line-height:32px;}
+.htp h3 i{display:inline-block; width:32px; height:32px;background:url(../images/lesbian/icon.png) -224px -150px no-repeat; vertical-align:middle; margin-right:5px;}
+
+.hab{margin:10px 0px 0px 0px; padding:5px 0px 0px 0px; border-top:1px solid #000;}
+.hab h3{font-size:14px; color:#F4ABDE; background:#000; padding:2px; line-height:32px;}
+.hab h3 i{display:inline-block; width:32px; height:32px;background:url(../images/lesbian/icon.png) -288px -150px no-repeat; vertical-align:middle; margin-right:5px;}
+.hab ul li{float:left}
+.hab ul li a{display:block; margin:5px 0px 0px 4px; line-height:0px;}
+.hab ul li a p{height:20px; line-height:20px; background:#000; color:#fff; width:100px; overflow:hidden; text-indent:5px;}
+.hab ul li a img{ width:100px;}
+
+.hfb{margin:5px 0px 0px 0px; }
+.hfb h3{font-size:16px;padding:0px 5px 0px 10px; height:36px;line-height:36px; background:#000; color:#F4ABDE;}
+.hfb h3 i{width:27px; height:27px;background:url(../images/lesbian/icon.png) -355px -153px no-repeat; vertical-align:middle; margin-right:5px; display:none}
+
+
+
+.f-ins{margin:5px auto; padding:5px 0px; border-radius:5px; box-shadow:0px 0px 5px #555; background:url(../images/boyz/insert-bg.png) 0px 0px}
+.f-ins h3{ height:30px; line-height:30px; border-bottom:1px solid #000; padding:0px 10px; height:30px; line-height:30px;}
+.f-ins h3 i{display:inline-block; width:27px; height:27px; background:url(../images/lesbian/icon.png) -386px -153px no-repeat;vertical-align: text-top; margin:-5px 3px 0px 0px}
+.ins{width:270px; margin:0px auto; border:none; background-color:transparent;border-spacing:0px; border-collapse:separate;}
+.ins td{padding:2px;}
+.ins input,.ins select,.ins textarea{margin:0px}
+.ins select.span2{ width:130px}
+.ins .h{display:inline-block; margin:0px 2px 2px; padding:2px; background:#f0f0f0; text-shadow:1px 1px 0px #fff; border-radius:3px;}
+.ins .inline{display:inline}
+
+.ins strong{display:block; text-align:left; margin:5px 0px 3px;}
+.ins strong span{color:#BE1E2D}
+
+.tbfr .icon-fb{display:inline-block; width:20px; height:20px; background:url(../images/lesbian/icon.png) -2px -184px no-repeat;vertical-align: text-top; margin:0px 0px 0px 0px;}
+.tbfr .icon-cam{display:inline-block; width:17px; height:21px; background:url(../images/lesbian/icon.png) -27px -183px no-repeat;vertical-align: text-top; margin:0px 0px 0px 0px;}
+.tbfr .icon-pic{display:inline-block; width:20px; height:21px; background:url(../images/lesbian/icon.png) -50px -183px no-repeat;vertical-align: text-top; margin:0px 0px 0px 0px;}
+
+.tbfr{width:100%;}
+.tbfr tr td{ border-bottom:1px solid #f0f0f0; padding:8px 5px; color:#333;}
+.tbfr tr th{background-color:#000; padding:8px 5px; border-bottom:1px solid #ddd; font-weight:bold; color:#fff;}
+.tbfr tr.l1 td{background-color:#f8f8f8;}
+.tbfr td,.tbfr th{background-color:#fff;vertical-align:middle}
+.tbfr th{padding:5px; text-align:center;}
+.tbfr .ty,.tbfr .ag,.tbfr .pr,.tbfr .d,.tbfr .ti{ text-align:center; width:120px; vertical-align:middle}
+.tbfr img{vertical-align:middle}
+.tbfr .ti{width:120px;}
+.tbfr .ty{width:70px}
+.tbfr .d{width:80px}
+.tbfr .ag{width:50px}
+.tbfr .em{ text-align:left; width:150px;}
+
+
+.al-deleted, .al-completed {display: none;}
+
+.hp{margin:0px 0px 5px 0px; padding:0px 10px; background:#000; height:30px; line-height:30px; color:#fff;}
+.hp i{display:inline-block; width:14px; height:14px; background:url(../images/friend/icon.png) -293px -105px no-repeat;vertical-align: text-top; margin:3px 0px 0px 0px}
+.hp a{color:#3B3A38;}
+
+ul.tabs{border-color:#555;}
+ul.tabs li a:visited {color: #fff;}
+ul.tabs li a{border-color:#555;background-color: #222;color: #fff;text-shadow: 1px 1px 0px #000;}
+ul.tabs li.on a, ul.tabs li.active a {background-color: #000;color: #F60;}
+ul.tabs li a:hover{background-color:#000;color: #F60;}
+
+
+
+.hforum thead tr{background:#f0f0f0; height:30px; line-height:30px; font-weight:bold;}
+.hforum tr.l0{background:#fff}
+.hforum tr.l1{background:#f9f9f9}
+.hforum i.i0{ width:17px; height:15px; display:inline-block;background:url(../images/football/icon.png) -440px -150px no-repeat;}
+.hforum i.i1{ width:17px; height:17px; display:inline-block;background:url(../images/football/icon.png) -420px -150px no-repeat;}
+.hforum a{color:#333;}
+.hforum td{color:#555}
+.hforum .ticon{width:17px; vertical-align:middle; text-align:center;}
+.hforum .tcate,.hforum .tcate p{width:120px;}
+.hforum .ttitle,.hforum .ttitle p{width:400px;}
+.hforum .tpost,.hforum .tpost p{width:100px; text-align:center;}
+.hforum .tview{width:50px; text-align:center; vertical-align:middle; color:#74C7FA;}
+.hforum .treply{width:50px; text-align:center; vertical-align:middle; color:#F6921E;}
+.hforum .ttime,.hforum .ttime p{width:150px; text-align:center;}
+.hforum p{overflow:hidden; white-space:nowrap; height:16px; line-height:16px;text-overflow:ellipsis;}
+
+.quote{ margin:5px; border:1px solid #F0F0F0; padding:5px;background:#F5F5F5;}
+.quote .quote_user{margin-bottom:2px;}
+.quote .quote_user span{font-weight:bold; color:#0066FF;}
+.quote .quote_detail{ background:#FFFFFF; border:1px solid #F9F9F9; padding:5px}

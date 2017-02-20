@@ -1,0 +1,103 @@
+
+html,body,div,p {margin: 0px;padding: 0px;border: 0px;}
+body{ font-family:Tahoma; font-size: 16px; line-height: 1.6em; color: #555; background:#f4f4f4; padding:0px;margin:0px; padding-top:53px;}
+a{ text-decoration:none; color:#F60}
+
+.left{float:left;}
+.right{float:right;}
+
+.apps-list{list-style:none;margin:0px; padding:0px;}
+.apps-list li{border-bottom:1px solid #ccc; overflow:hidden; background:#fff;}
+.apps-list li:nth-child(odd){ background:#f4f4f4;}
+.apps-list li a{height:62px;display:block;color: #333; text-decoration: none; padding:0px 5px;}
+.apps-list li a img{float:left; width:50px; height:50px; background:#ccc; margin:5px 10px 0px 0px;border-radius:4px; border:1px solid #000;}
+.apps-list h1{font-size:24px; color:#333; padding:10px 0px 5px; margin:0px;}
+.apps-list h2{font-size:14px; color:#888; font-weight:normal; margin:0px;}
+
+
+.bar{height:50px; line-height:50px; background:#E8E8E8; position:fixed; width:100%; left:0px; top:0px;border-bottom: 3px solid #f39c12; z-index:99;}
+.bar>p{display:none; height:20px; overflow:hidden;}
+.bar>div{position:relative;}
+.bar-back,.bar-refresh,.bar-print{width:40px; height:40px; display:inline-block;position:absolute;top:5px; background:url(http://s0.boxza.com/static/images/mobile/matching.png) 0px 0px no-repeat; border-radius:4px;}
+.bar-back{ left:5px;}
+.bar-refresh{right:10px; background-position:-40px 0px;}
+.bar-print{right:55px; background-position:-80px 0px;}
+.bar-title{ margin:0px 55px; text-align:center; color:#000; font-size:26px; line-height:50px; height:50px; text-shadow:none;}
+.bar-title span {width: 1px;height: 1px;overflow: hidden;display: inline-block;}
+
+
+.matching-bar{padding: 5px 20px;background: #fff;margin: 0px;height: 32px;line-height: 32px; border-bottom:1px solid #ccc;}
+
+#user-bar{height:40px; line-height:40px; background:#666; color:#fff; padding:0px 5px; overflow:hidden;}
+.icon-exit{background:url(http://s0.boxza.com/static/images/mobile/matching.png) -125px -5px no-repeat;display: inline-block;height: 30px;line-height: 30px;width:30px;margin: 5px 0px 5px 5px;padding: 0px;float: right;}
+
+#sub-bar{height:30px; line-height:30px; background:#e5e5e5; color:#444; padding:0px 5px;overflow:hidden;border-bottom:1px solid #ccc; display:none;}
+#sub-bar #social{float:left; margin:5px 0px 0px 0px;}
+
+#matching{padding:0px; margin:0px; display:none;}
+#matching>div{width:18.8%; margin:0px 0px 0px 1%; float:left; background:#ccc; border-radius:5px; position:relative; cursor:pointer;/*box-shadow: 0px 0px 3px rgba(0,0,0,0.3);*/}
+#matching>div.opened{background:#fff; cursor:default;}
+#matching>div>div{background:#abd14b url(../images/mobile/matching/back-card.png) center center repeat; position:absolute; left:0px; width:100%; height:100%; top:0px; z-index:9; border-radius:5px;border-bottom:2px solid #95B435}
+#matching>div>p{border-bottom:2px solid #c0c0c0;border-radius: 5px; width:100%; height:100px;}
+#matching>div.opened>p{border-bottom:2px solid #eee;}
+#matching>div img{max-width: 100%;max-height: 100%;position: absolute;top: 0px;bottom: 0px;margin: auto;left: 0px;right: 0px;}
+#matching:after{ clear:both; content:""; height:0px; display:block;}
+
+#waiting{margin:50px 30px; text-align:center; color:#888;}
+
+#preload{position:absolute; width:100%; height:10px; background:rgba(0,0,0,0.2); text-align:center; display:none; left:0px; z-index:11}
+
+#menu{display:none; margin:30px 10%; list-style:none; padding:0px;}
+#menu li{margin:10px 0px; overflow:hidden; white-space:nowrap;text-overflow:ellipsis}
+#menu li a{ display:block; height:50px; line-height:50px; border-radius:5px; background:#bdc3c7; text-align:center; color:#fff; font-size:24px; border-bottom:4px solid #acb2b7; text-shadow:0 1px 2px rgba(0, 0, 0, 0.25)}
+#menu li#menu_game a{background:#f39c12; border-color:#e8930c}
+
+
+
+#menu_fb{background:#f9f9f9; border:1px solid #ccc; height:60px; line-height:60px; border-radius:5px}
+#menu_fb img{width:50px; height:50px; margin:5px; float:left; border-radius:5px;}
+#menu_fb div{height:25px; line-height:25px; margin-top:5px;}
+#menu_fb p{height:25px; line-height:25px;}
+
+.msg-box{ background:#eff0f2; border:3px solid #666; border-bottom-left-radius:10px; border-bottom-right-radius:10px; margin:0px auto; max-width:80%;border-top:none; padding:5px 0px 0px;/*box-shadow:0px 0px 5px #333*/}
+.msg-box h3{height:36px; line-height:36px; margin:-5px 0px 10px; padding:0px 5px 0px 10px; background:#BDC3C7; color:#34495e;}
+
+#waiting_text{font-size:18px;}
+
+
+.help--box{margin:5px; border:1px solid #ccc; background:#fff; padding:10px; text-align:left;}
+
+.top-list{list-style:none;margin:0px; padding:0px;}
+.top-list li{border-bottom:1px solid #ccc; overflow:hidden; background:#fff;}
+.top-list li:nth-child(odd){ background:#f4f4f4;}
+.top-list li a{height:62px;display:block;color: #333; text-decoration: none; padding:0px 5px;}
+.top-list li a img{float:left; width:50px; height:50px; background:#ccc; margin:5px 10px 0px 0px;border-radius:4px; border:1px solid #000;}
+.top-list h1{font-size:20px; color:#333; padding:7px 0px 0px; margin:0px;}
+.top-list h2{font-size:14px; color:#888; font-weight:normal; margin:0px;}
+
+.score-list{list-style:none; padding:0px; margin:0px;}
+.score-list li{height: 36px;line-height: 36px;overflow: hidden;border-bottom: 1px solid #ccc;padding: 0px 0px 0px 10px;}
+.score-list li:nth-child(even){background:#fcfcfc;}
+.score-list li a{display:inline-block; height:32px; line-height:32px; margin:2px 2px 0px 0px; padding:0px 10px; font-size:16px; color:#fff; background:#ff8800; border-radius:4px; float:right;}
+
+.bg-lv{ display:inline-block; padding:3px 5px; border-radius:4px; background:#F60; color:#fff;}
+.btn {display: inline-block;padding: 6px 20px;margin-bottom: 0;font-size: 16px;line-height: 1.5; border-radius:6px;text-align: center;vertical-align: middle;cursor: pointer;color: #ffffff;background:#bdc3c7;border:none;border-bottom:4px solid #acb2b7; text-shadow:0 1px 2px rgba(0, 0, 0, 0.25)}
+.btn-play{color: #ffffff;background-color: #f39c12;border-color: #e8930c; font-weight:bold;}
+
+.msg-box .btn{display:block; margin:0px 5px 5px 5px;}
+
+
+#progress {width: 100px;height: 26px;margin:5px 0px 0px;display: inline-block;border:2px solid #93b52A;background:#ABD149; position:relative; float:left; display:none; border-radius:6px;}
+#progress>div{width:100%; height:26px;float:left;background:#f0f0f0; border-radius:5px;}
+#progress>p{width:94%; height:26px;z-index:9; text-align:center; line-height:26px; color:#000; position:absolute; left:3%; top:0px; white-space:nowrap; overflow:hidden;text-overflow:ellipsis; font-size:13px;}
+
+
+  
+  
+@media (max-width: 320px){
+
+#menu{margin:10px 5%;}
+#menu li{margin:5px 0px;}
+#menu li a{height:40px; line-height:40px;font-size:20px;}
+
+}

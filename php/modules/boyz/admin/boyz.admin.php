@@ -1,0 +1,27 @@
+<?php
+_::session()->logged();
+
+if(_::$my['am'])
+{
+	if(in_array(_::$path[0],array('banner')))
+	{
+		if(is_numeric(_::$path[1]))
+		{
+			$mod='update';
+		}
+		else
+		{
+			$mod='home';
+		}
+		require_once(__DIR__.'/boyz.admin.'._::$path[0].'.'.$mod.'.php');
+	}
+	else
+	{
+		_::move('/');
+	}
+}
+else
+{
+	_::move('/');
+}
+?>

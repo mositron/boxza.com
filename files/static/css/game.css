@@ -1,0 +1,257 @@
+@import url('forum.theme.css');
+
+
+body{background:#000 url(../images/game/bg.png) 0px 0px repeat;}
+
+._ct{box-shadow:none;}
+
+
+.head-logo h1 a {width:330px; height:95px; background:url(../images/game/icon.png) 0px 0px no-repeat;}
+
+.hd-a{height:28px; line-height:28px; font-weight:normal; padding:0px 8px; background:#f0f0f0; border-radius:4px;}
+
+.hbar.navbar .brand{margin-left:0px; text-shadow:none; color:#fff;}
+.hbar.navbar,.navbar{margin:0px -5px;}
+.navbar-inner{padding-left:5px; padding-right:5px;min-height:36px;background:#404041; margin:0px; border-radius:0px;background-image: -webkit-linear-gradient(top,#404041,#2A2728);background-image: -moz-linear-gradient(top,#404041,#2A2728);background-image: -ms-linear-gradient(top,#404041,#2A2728);background-image: -o-linear-gradient(top,#404041,#2A2728);background-image: linear-gradient(top,#404041,#2A2728);}
+.navbar .nav > li > a{color:#fff; font-weight:normal; border-right:1px solid #2A2728; text-shadow:none;}
+.navbar .nav > li > a:hover{ background:#404041; color:#fff;}
+
+.navbar-inner2{background:#f5f5f5; color:#333; text-shadow:1px 1px 0px #fff; border-bottom:1px solid #e0e0e0; min-height:32px}
+.navbar-inner2 .nav > li > a{color:#000; border-right:1px solid #e0e0e0;}
+.navbar-inner2 .nav > li > a:hover{ background:#ececec; color:#444;}
+
+.hb{font-size:14px; font-weight:normal;height:30px; line-height:30px; color:#000; margin:0px 0px 5px 0px; padding:0px 5px; background:#0E2237; color:#D0D2D3; background-image: -webkit-linear-gradient(top,#0E2237,#03121E);background-image: -moz-linear-gradient(top,#0E2237,#03121E);background-image: -ms-linear-gradient(top,#0E2237,#03121E);background-image: -o-linear-gradient(top,#0E2237,#03121E);background-image: linear-gradient(top,#0E2237,#03121E);}
+.hb a{color:#D0D2D3; }
+.hb small{font-size:12px; font-style:normal; color:#D0D2D3}
+.hb small a{color:#D0D2D3}
+.hb i{display:none; width:25px; height:25px;vertical-align:middle}
+
+
+._box {margin-bottom: 10px;padding: 5px 0px 5px 5px;}
+
+
+.breadcrumb{background:#2A819E;box-shadow:none;border:none; margin:0px -5px 5px; padding:5px 10px; border-radius:0px;background-image: -webkit-linear-gradient(top,#2A819E 0%,#14C2F7 45%);background-image: -moz-linear-gradient(top,#2A819E 0%,#14C2F7 45%);background-image: -ms-linear-gradient(top,#2A819E 0%,#14C2F7 45%);background-image: -o-linear-gradient(top,#2A819E 0%,#14C2F7 45%);background-image: linear-gradient(top,#2A819E 0%,#14C2F7 45%);}
+.breadcrumb a{color:#fff; text-shadow:1px 1px 0px #2A819E;}
+
+.pagination{margin:0px}
+.error{background:#fff; color:#f00;}
+
+.container{margin-bottom:0px;}
+.dropdown-menu > li{display:block}
+
+.forum-home h3,.forum_cp{ text-indent:10px;margin:5px 0px 0px; border-radius:3px; box-shadow:0px 0px 5px #ccc; background:#302D2E; color:#fff; background-image: -webkit-linear-gradient(top,#302D2E,#49494A);background-image: -moz-linear-gradient(top,#302D2E,#49494A);background-image: -ms-linear-gradient(top,#302D2E,#49494A);background-image: -o-linear-gradient(top,#302D2E,#49494A);background-image: linear-gradient(top,#302D2E,#49494A); font-size:14px; height:30px; line-height:30px;}
+.forum-home h3.l1,.forum_cp{background-image: -webkit-linear-gradient(top,#1780BF,#1CA0D4);background-image: -moz-linear-gradient(top,#1780BF,#1CA0D4);background-image: -ms-linear-gradient(top,#1780BF,#1CA0D4);background-image: -o-linear-gradient(top,#1780BF,#1CA0D4);background-image: linear-gradient(top,#1780BF,#1CA0D4); font-size:14px; height:30px; line-height:30px;}
+.forum-home h3 a,.forum-home h3 small,.forum_cp a,.forum_cp small{color:#fff;} 
+
+/*
+
+.nav-ga{
+background:#A6A8AB;
+background-image: -webkit-linear-gradient(top,#A6A8AB,#F1F1F2);
+background-image: -moz-linear-gradient(top,#A6A8AB,#F1F1F2);
+background-image: -ms-linear-gradient(top,#A6A8AB,#F1F1F2);
+background-image: -o-linear-gradient(top,#A6A8AB,#F1F1F2);
+background-image: linear-gradient(top,#A6A8AB,#F1F1F2);
+height:95px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+margin:0px 0px 5px;
+}
+.nav-ga li{ float:left}
+.nav-ga li a{display:block; width:136px; height:95px; text-align:center; border-left:1px solid #BBBDBF; border-right:1px solid #F1F1F2; color:#58595B; text-decoration:none;}
+.nav-ga li a:hover{
+background:#F1F1F2;
+background-image: -webkit-linear-gradient(top,#F1F1F2,#A6A8AB);
+background-image: -moz-linear-gradient(top,#F1F1F2,#A6A8AB);
+background-image: -ms-linear-gradient(top,#F1F1F2,#A6A8AB);
+background-image: -o-linear-gradient(top,#F1F1F2,#A6A8AB);
+background-image: linear-gradient(top,#F1F1F2,#A6A8AB);
+}
+.nav-ga li.l1 a{border-left:none;border-bottom-left-radius: 5px;}
+.nav-ga li.l7 a{border-right:none}
+.nav-ga i{background:url(../images/game/icon.png) 0px 0px no-repeat; vertical-align:text-top; display:block; margin:0px auto; width:96px; height:70px;}
+.nav-ga .l1 i{background-position:-96px -108px;}
+.nav-ga .l2 i{background-position:-192px -108px;}
+.nav-ga .l3 i{background-position:-288px -108px;}
+.nav-ga .l4 i{background-position:-384px -108px;}
+.nav-ga .l5 i{background-position:-480px -108px;}
+.nav-ga .l6 i{background-position:-576px -108px;}
+.nav-ga .l7 i{background-position:-672px -108px;}
+.nav-ga li a span{display:block; text-align:center; font-size:12px}
+*/
+
+.pf{width:908px; border:1px solid #E6E7E7; border-radius:5px; background-color:#fff; margin:10px 0px 0px 60px; min-height:600px;}
+.pf-l{width:720px; margin:0px 0px 10px 0px; min-height:800px; overflow:hidden}
+.pf-r{ width:245px; padding:5px 0px 5px 0px; }
+.pf-f{width:220px; margin:10px 0px 0px 0px;}
+.pf-fa{width:210px;border:1px solid #E6E7E7; background:#fff;border-radius:5px; position:fixed; top:50px; overflow:auto;}
+.pf-lo{padding-bottom:20px}
+
+._box {margin-bottom: 10px;padding: 5px 0px 5px 5px;}
+
+
+.error{background:#fff; color:#f00;}
+
+
+table{background:none;}
+
+.hh{margin: 8px 0px 0px;background: #BBBDBF;height: 30px;line-height: 30px;color: #333;position: relative;border-top-left-radius: 5px;border-top-right-radius: 5px;}
+.hh div{display: block;background: url(../images/game/icon.png) 0px -196px no-repeat;height: 44px;width: 250px;position: absolute;top: -8px;line-height: 46px;padding-left: 127px;overflow: hidden;}
+.hh a{color:#333;}
+.hn{margin: 8px 0px 0px;background: #33CC00;height: 30px;line-height: 30px;color: #333;position: relative;border-top-left-radius: 5px;border-top-right-radius: 5px;}
+.hn div{display: block;background: url(../images/game/icon.png) 0px -244px no-repeat;height: 44px;width: 250px;position: absolute;top: -8px;line-height: 46px;padding-left: 127px;overflow: hidden;}
+.hn a{color:#333;}
+.hc{margin: 8px 0px 0px;background: #00CCFF;height: 30px;line-height: 30px;color: #333;position: relative;border-top-left-radius: 5px;border-top-right-radius: 5px;}
+.hc div{display: block;background: url(../images/game/icon.png) 0px -244px no-repeat;height: 44px;width: 250px;position: absolute;top: -8px;line-height: 46px;padding-left: 127px;overflow: hidden;}
+.hc a{color:#333;}
+
+.gh{background:#fff; padding-bottom:10px; margin:10px 0px 0px;}
+.gh li{text-align:center; margin:0px 0px 5px}
+.gh li.t{float:left; width:105px;}
+.gh li p{white-space:nowrap;text-overflow:ellipsis; overflow:hidden; margin:0px; height:20px; line-height:20px;}
+.gh li.t p{width:105px; text-align:left; white-space:nowrap; height:16px; line-height:16px;text-overflow:ellipsis; overflow:hidden}
+.gh li > a{display:block; text-align:center;}
+.gh li a img{width:164px;}
+.gh li.t a img{width:105px;}
+
+
+
+.gc{background:#fff; padding-bottom:10px; margin:5px 0px 0px;}
+.gc li{text-align:center;margin:0px 0px 5px; line-height:20px;}
+.gc li > a{display:block; text-align:center;}
+.gc li p{white-space:nowrap; margin:0px; height:20px; line-height:20px;text-overflow:ellipsis; overflow:hidden}
+.ha{margin: 8px 5px 0px 5px;background: #E6E7E8;height: 30px;line-height: 30px;color: #111;position: relative;border-radius: 5px;}
+.ha a{color:#111;}
+.ha i{vertical-align:text-top;display:inline-block; width:68px; height:40px; background:url(../images/game/icon.png) 0px 0px no-repeat; margin:-12px 2px 0px 0px}
+.ha i.c27{background-position:0px -300px;}
+.ha i.c95{background-position:-68px -300px;}
+.ha i.c5{background-position:-136px -300px;}
+.ha i.c20{background-position:-204px -300px;}
+.ha i.c37{background-position:-272px -300px;}
+.ha i.c52{background-position:-340px -300px;}
+.ha i.c82{background-position:-408px -300px;}
+
+.bc1,.bc2{margin-bottom:0px !important;}
+.bc1 .ha{margin-right:0px}
+.bc2 .ha{margin-left:0px}
+
+.nav-cate li{float:left; padding:2px 10px;}
+.nav-cate li a{color:#333;}
+
+.sc{padding-bottom:5px;}
+.sc h3{background:#30A0E8; height:35px; line-height:35px; overflow:hidden; margin:0px 0px 5px 0px; padding:0px 0px 0px 5px; color:#fff; font-size:16px;
+background-image: -webkit-linear-gradient(top,#30A0E8,#168EC3);
+background-image: -moz-linear-gradient(top,#30A0E8,#168EC3);
+background-image: -ms-linear-gradient(top,#30A0E8,#168EC3);
+background-image: -o-linear-gradient(top,#30A0E8,#168EC3);
+background-image: linear-gradient(top,#30A0E8,#168EC3);
+}
+.sc h3 i{vertical-align:text-top;display:inline-block; width:36px; height:24px; background:url(../images/movie/movie-image.png) -499px -450px no-repeat; margin:-4px 2px 0px 0px}
+.sc h3 a{color:#fff;}
+.sc h3 small{ font-size:16px}
+
+.sc .t{ width:180px;text-align:center;margin:0px 0px 0px 5px; float:left;background:url(../images/movie/movie-image.png) -452px -495px no-repeat;}
+.sc .t > div{width:162px; margin:0px auto;padding:5px 0px 0px 0px;}
+.sc .t > div > p{ height:20px; line-height:20px; color:#333; text-align:center; margin-bottom:15px; font-size:16px}
+.sc .t div div{background:#fff; padding:5px 0px;}
+.sc .t div div img{width:150px; height:150px;}
+.sc ul{float:right; width:530px;}
+.sc ul li{float:left; width:60px; height:70px; text-align:center; margin:5px 0px 0px 5px; font-size:10px;}
+.sc ul li div > a{line-height:0px; display:block;}
+.sc ul li a{ color:#555;}
+
+
+.nav-ft{margin: 5px 5px 0px 5px;padding-top: 5px;padding-bottom: 5px; border-radius:5px; background:#eee;}
+.nav-ft > li h3{margin:5px 5px 5px 10px;}
+.nav-ft > li ul{margin:0px 5px 0px 5px; padding:0px 5px 5px 10px; border-top:1px solid #eee; list-style:inside circle}
+.nav-ft > li ul li{line-height:24px; height:24px;}
+.nav-ft > li ul li a{color:#333;}
+
+.hforum thead tr{background:#f0f0f0; height:30px; line-height:30px; font-weight:bold;}
+.hforum tr.l0{background:#fff}
+.hforum tr.l1{background:#f9f9f9}
+.hforum i.i0{ width:17px; height:15px; display:inline-block;background:url(../images/football/icon.png) -440px -150px no-repeat;}
+.hforum i.i1{ width:17px; height:17px; display:inline-block;background:url(../images/football/icon.png) -420px -150px no-repeat;}
+.hforum a{color:#333;}
+.hforum td{color:#555}
+.hforum .ticon{width:17px; vertical-align:middle; text-align:center;}
+
+.hforum .tcate,.hforum .tcate p{width:100px;}
+.hforum .ttitle,.hforum .ttitle p{width:240px;}
+.hforum .ttitle2,.hforum .ttitle2 p{width:200px;}
+.hforum .tpost,.hforum .tpost p{width:100px; text-align:center;}
+.hforum .tview{width:50px; text-align:center; vertical-align:middle; color:#74C7FA;}
+.hforum .treply{width:50px; text-align:center; vertical-align:middle; color:#F6921E;}
+.hforum .ttime,.hforum .ttime p{width:150px; text-align:center;}
+.hforum p{overflow:hidden; white-space:nowrap; height:16px; line-height:16px;text-overflow:ellipsis;}
+
+
+.hforum2 thead tr{background:#f0f0f0; height:30px; line-height:30px; font-weight:bold;}
+.hforum2 tr.l0{background:#fff}
+.hforum2 tr.l1{background:#f9f9f9}
+.hforum2 i.i0{ width:17px; height:15px; display:inline-block;background:url(../images/football/icon.png) -440px -150px no-repeat;}
+.hforum2 i.i1{ width:17px; height:17px; display:inline-block;background:url(../images/football/icon.png) -420px -150px no-repeat;}
+.hforum2 a{color:#333;}
+.hforum2 td{color:#555}
+.hforum2 .ticon{width:17px; vertical-align:middle; text-align:center;}
+
+.hforum2 .tcate,.hforum2 .tcate p{width:100px;}
+.hforum2 .ttitle2,.hforum2 .ttitle2 p{width:200px;}
+.hforum2 .tpost,.hforum2 .tpost p{width:100px; text-align:center;}
+.hforum2 p{overflow:hidden; white-space:nowrap; height:16px; line-height:16px;text-overflow:ellipsis;}
+
+.forum-home-list{padding:0px; margin:0px 0px 10px;}
+.forum-home-list li{margin:0px;}
+.forum-home-list li > span{display:block; float:left; width:120px; margin:0px 0px 0px;}
+.forum-home-list li > span a{width:114px; height:88px; display:block; background:#E6E7E8; line-height:0px;}
+.forum-home-list li > span a img{width:110px; height:84px;margin:2px;}
+.forum-home-list li > div{margin:0px 0px 0px 124px;}
+.forum-home-list li > div div{max-height:34px; overflow:hidden; color:#26A9E0;}
+.forum-home-list li p{margin:0px;}
+.forum-home-list li h4{width:230px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.forum-home-list li h4 a{color:#000;}
+
+.forum-home h3,.forum_cp{ text-indent:10px;margin:5px 0px 0px; border-radius:3px; box-shadow:0px 0px 5px #ccc; background:#302D2E; color:#fff; background-image: -webkit-linear-gradient(top,#302D2E,#49494A);background-image: -moz-linear-gradient(top,#302D2E,#49494A);background-image: -ms-linear-gradient(top,#302D2E,#49494A);background-image: -o-linear-gradient(top,#302D2E,#49494A);background-image: linear-gradient(top,#302D2E,#49494A); font-size:14px; height:30px; line-height:30px;}
+.forum-home h3.l1,.forum_cp{background-image: -webkit-linear-gradient(top,#1780BF,#1CA0D4);background-image: -moz-linear-gradient(top,#1780BF,#1CA0D4);background-image: -ms-linear-gradient(top,#1780BF,#1CA0D4);background-image: -o-linear-gradient(top,#1780BF,#1CA0D4);background-image: linear-gradient(top,#1780BF,#1CA0D4); font-size:14px; height:30px; line-height:30px;}
+.forum-home h3 a,.forum-home h3 small,.forum_cp a,.forum_cp small{color:#fff;} 
+
+
+
+.forum_stats{padding:10px; border:1px solid #ddd; background:#f9f9f9; line-height:1.8em; margin:5px 0px;}
+.forum_stats a{text-shadow:1px 1px 0px #fff;}
+
+.petrank{margin:0px 0px 5px 0px;}
+.petrank h4{height:26px; line-height:26px; padding:0px 5px 0px 10px; background:#f0f0f0; color:#000; text-shadow:1px 1px 0px #fff;}
+.petrank ul{margin:0px;}
+.petrank li img{vertical-align:middle;}
+.petrank li .i{float:left;}
+.petrank li p{margin:0px 0px 0px 37px; height:18px; line-height:18px; text-overflow:ellipsis; overflow:hidden;white-space:nowrap;}
+.petrank li{border-bottom:1px dashed #ddd; padding:2px 5px;vertical-align:middle;}
+.petrank li > i{float: left;height: 34px;}
+
+
+
+.guildrank{margin:0px 0px 5px 0px;}
+.guildrank h4{height:26px; line-height:26px; padding:0px 5px 0px 10px; background:#f0f0f0; color:#000; text-shadow:1px 1px 0px #fff;}
+.guildrank ul{margin:0px;}
+.guildrank li.l1{background:#f8f8f8;}
+.guildrank li p{margin:0px 0px 0px 3px; height:18px; line-height:18px; text-overflow:ellipsis; overflow:hidden;white-space:nowrap;}
+.guildrank li{border-bottom:1px dashed #ddd; padding:2px 5px;vertical-align:middle;}
+.guildrank li strong{color:#F60;}
+.guildrank li span{font-size:11px;}
+
+
+
+.bcd{margin:0px}
+.bcd ul{margin-left:-5px; margin-bottom:5px;}
+.bcd li{background:#fff;margin:5px 0px 0px 5px}
+.bcd li a{display:block; color:#58595B; overflow:hidden;line-height:0px;height:127px}
+.bcd li a.i1{height:235px;}
+.bcd li p{line-height:19px;font-size:13px; text-indent:5px; color:#555; }
+
+@media (max-width: 767px) {
+  .bcd li a{ height:auto !important;}
+  .bcd li a > img{float:left; margin-right:10px;}
+}
+
+

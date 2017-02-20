@@ -1,0 +1,139 @@
+@import url('forum.theme.css');
+
+body{background:#333 url(../images/racing/bg.png) left top repeat fixed; color:#f0f0f0;}
+
+._hd {border-bottom: 1px solid #0DB3EA;}
+._hd-bt{margin-bottom:42px;}
+._ct{box-shadow:none; background:#222;}
+._ct-forum{width:auto; max-width:1170px;background:none;}
+._ct-forum ._ct-in{margin:0px 10px;}
+
+.lg{padding:5px 0px 0px 0px; margin:0px auto; width:980px; position:relative;}
+.lg > a {display:block; width:330px; height:95px; /*background:url(../images/game/icon.png) 0px 0px no-repeat; */margin:10px 0px 5px;}
+.lg div {position: absolute;right: 5px;top: 20px;width: 600px;height: 85px; text-align:right;}
+.lg-forum{max-width:1160px; width:auto;}
+
+.pf{width:908px; border:1px solid #E6E7E7; border-radius:5px; background-color:#fff; margin:10px 0px 0px 60px; min-height:600px;}
+.pf-l{width: 720px;margin: 5px 0px 5px 5px;min-height:800px; overflow:hidden}
+.pf-r{ width:250px; padding:5px 0px 5px 0px; border-left:1px solid #161616}
+.pf-lo{padding-bottom:20px}
+
+._box {margin-bottom: 10px;padding: 5px 0px 5px 5px;}
+
+.cp {background:#f5f5f5;border-top: 1px solid #00ADEE;height: 22px;line-height: 22px;padding-left: 5px;border-bottom: 5px solid #DDD;font-size: 12px;}
+.cp span {float: right;display: block;width: 100px;text-align: center;background:#00ADEE;height: 24px;line-height: 24px;margin: -1px -5px -1px 6px;}
+.cp p{clear:both}
+.cp,.cp a{color: #333;text-shadow: 1px 1px 0px #fff;}
+.cp span a {color:#fff;text-shadow: none;display: block;text-decoration: none;}
+.cp span a:hover{background-color:#0099D2}
+
+
+.error{background:#fff; color:#f00;}
+
+
+.navbar .brand{color:#fff;}
+.navbar .nav > li > a{color:#eee; padding:11px 10px 9px}
+
+
+.breadcrumb .dropdown-menu li{display:block;}
+
+
+
+.bn{height:285px; position:relative; margin-bottom:10px;}
+.bn .dbn{ position:absolute; left:50px; bottom:25px; z-index:1}
+.bn .dbn .btn{margin-right:10px;}
+.bn .tbn{text-shadow:1px 1px 0px #fff;}
+.bn .tbn{position:absolute; left:50px; top:135px; z-index:1; font-size:18px; width:400px; line-height:1.8em}
+.bn .tbn strong{ }
+.bn .tbn i{font-size:20px; color:#FC4700; margin:0px 5px;}
+.bn img{border-radius:5px;}
+
+
+.nav-cate li{list-style: inside circle; height:18px; line-height:18px;overflow:hidden; width:140px; float:left}
+
+
+._ft{background:#222; padding:5px 0px}
+._ft a{color: #CCC;}
+
+
+
+.navbar{margin:0px;}
+
+
+.breadcrumb{margin: 5px 0px;background: #444;border: 1px solid #222;}
+.breadcrumb>li{ text-shadow:none;margin: 0px 5px; color:#777;}
+
+
+.forum_bstats{ margin:5px 0px 0px; padding:10px; border:1px solid #222; background:#333; color:#aaa;}
+.forum_cp{color:#ccc;}
+
+
+.forum_level_10{ color:#999 !important;}
+
+.forum_view .syntaxhighlighter, .forum_view pre {font-size: 12px;padding: 5px 10px; width:auto !important;}
+
+.schedule{ text-align:center;}
+.schedule h3{background:#F6921E; padding:3px; text-align:center; color:#fff;}
+.schedule h4{background:#282828; padding:3px; text-align:center; color:#F6921E}
+.schedule table{background:#202020;border-collapse: separate; border-spacing:1px;}
+.schedule th{text-align:center; background:#2c2c2c;}
+.schedule th.sc1{width:80px !important;}
+.schedule th.sc2{width:200px !important;}
+.schedule td{text-align:center; background:#333;}
+
+
+.mn-global{ background:#222; margin:5px 0px 0px; padding:5px;}
+.mn-global .mn-global-mn a{color:#eee;}
+.mn-global .mn-global-mn a:hover{background-color:#222;}
+
+/*   HACK FORUM  */
+table{background:none;}
+table th,table td { background:none;}
+
+
+.hb{font-size:14px; font-weight:normal;height:30px; line-height:30px; color:#fff; margin:0px 0px 5px 0px; padding:0px 5px; background:#000; }
+
+
+
+
+.forum{ color:#ccc; background:#333;}
+.forum .fhead {
+color: #FFF;
+background: #59BCF1;
+background-image: -webkit-linear-gradient(top,#59BCF1,#17A6BF);
+background-image: -moz-linear-gradient(top,#59BCF1,#17A6BF);
+background-image: -ms-linear-gradient(top,#59BCF1,#17A6BF);
+background-image: -o-linear-gradient(top,#59BCF1,#17A6BF);
+background-image: linear-gradient(top,#59BCF1,#17A6BF);
+}
+.forum td {border: 1px solid #222; background:#333;}
+.forum .bar th { background:#444; font-size:10px; color:#CCC;}
+
+.forum_lsub{padding: 2px 5px;background: #292929;margin: 2px 0px 0px; color:#888;}
+.forum_lsub a{color:#ccc; font-weight:bold; font-size:12px;}
+
+
+
+.forum_topic {background: #383838;color: #FFF;}
+.forum_topic td.ticon,.forum_topic td.ttitle,.forum_topic td.tpost, .forum_topic td.tview, .forum_topic td.ttime{border: 1px solid #222;}
+.forum_topic .ttitle a {color: #FFF;}
+.forum_topic td.l0{ background:#303030;}
+
+
+.hforum{background:#333; margin-bottom:5px;}
+.hforum thead tr{background:#1A1718; height:30px; line-height:30px; font-weight:bold;}
+.hforum tr.l0{background:#1E1E1E}
+.hforum tr.l1{background:#191919}
+.hforum i.i0{ width:17px; height:15px; display:inline-block;background:url(../images/football/icon.png) -440px -150px no-repeat;}
+.hforum i.i1{ width:17px; height:17px; display:inline-block;background:url(../images/football/icon.png) -420px -150px no-repeat;}
+.hforum a{color:#D0D2D3;}
+.hforum td{color:#929497}
+.hforum .ticon{width:17px; vertical-align:middle; text-align:center;}
+.hforum .ttitle,.hforum .ttitle p{width:300px;}
+
+.hforum .tcate,.hforum .tcate p{width:100px; text-align:center; margin:0px auto;}
+.hforum .tpost,.hforum .tpost p{width:100px; text-align:center; margin:0px auto;}
+.hforum .tview{width:50px; text-align:center; vertical-align:middle; color:#74C7FA;}
+.hforum .treply{width:50px; text-align:center; vertical-align:middle; color:#F6921E;}
+.hforum .ttime,.hforum .ttime p{width:150px; text-align:center; margin:0px auto;}
+.hforum p{overflow:hidden; white-space:nowrap; height:16px; line-height:16px;text-overflow:ellipsis;}

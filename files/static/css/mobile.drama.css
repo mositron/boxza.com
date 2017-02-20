@@ -1,0 +1,49 @@
+
+html,body,div,p,h1,h2,h3,h4,h5,h6 {margin: 0px;padding: 0px;border: 0px;}
+body{ font-family:Tahoma; font-size: 16px; line-height: 1.6em; color: #555; background:#e8e8e8; padding:0px;margin:0px; padding-top:53px;}
+a{ text-decoration:none; color:#09F}
+.clear{clear:both;}
+
+.apps-list{list-style:none;margin:5px; padding:0px;}
+.apps-list li{border-bottom:1px solid #ccc; overflow:hidden; background:#fff;}
+.apps-list li:nth-child(odd){ background:#f4f4f4;}
+.apps-list li a{height:62px;display:block;color: #333; text-decoration: none; padding:0px 5px;}
+.apps-list li a img{float:left; width:50px; height:50px; background:#ccc; margin:5px 10px 0px 0px;border-radius:4px; border:1px solid #000;}
+.apps-list h1{font-size:24px; color:#333; padding:10px 0px 0px; margin:0px;}
+.apps-list h2{font-size:14px; color:#888; font-weight:normal; margin:0px;}
+
+
+.bar{height:50px; line-height:50px; background:#2D2D2D; position:fixed; width:100%; left:0px; top:0px;border-bottom: 3px solid #8fd345;}
+.bar>div{position:relative;}
+.bar-back,.bar-refresh,.bar-print{width:40px; height:40px; display:inline-block;position:absolute;top:5px; background:url(http://s0.boxza.com/static/images/mobile/football.png) 0px 0px no-repeat; border-radius:4px;}
+.bar-back{ left:5px;}
+.bar-refresh{right:10px; background-position:-40px 0px;}
+.bar-print{right:55px; background-position:-80px 0px;}
+.bar-title{ margin:0px 55px; text-align:center; color:#fff; font-size:26px; line-height:50px; height:50px;}
+.bar-title span {width: 1px;height: 1px;overflow: hidden;display: inline-block;}
+
+.tabs{height:50px;overflow: scroll;overflow-y: hidden;-webkit-overflow-scrolling: touch;white-space:nowrap; background:#555; margin:0px; padding:0px; list-style:none; text-align:center;}
+.tabs li{display:inline-block; height:50px;}
+.tabs li a{display:inline-block; height:50px;min-width:100px;text-align:center;}
+.tabs li a.active{border-bottom: 5px solid #8fd345;height: 45px;}
+.tabs li a span{display:block; height:30px; line-height:30px; margin:10px 0px; font-size:18px; border-left:1px solid #6b6b6b; color:#f3f3f3;padding:0px 30px;}
+.tabs li:first-child a span{border-left:none;}
+
+
+.tv-list{list-style:none;margin:0px; padding:0px;text-shadow:1px 1px 0px #fff;}
+.tv-list li{border-bottom:1px solid #ccc; overflow:hidden;}
+.tv-list li:nth-child(even){background:#f7f7f7;}
+.tv-list li a{height:62px;display:block;color:#090; text-decoration: none; padding:0px 5px;}
+.tv-list a>img{float: left;margin: 5px 10px 5px 0px;width: 60px;height: 60px;}
+.tv-list h1{font-size:24px; color:#444; padding:10px 0px 5px; margin:0px;}
+.tv-list h2{font-size:14px; color:#888; font-weight:normal; margin:0px;}
+
+.football-bar{padding: 5px 20px;background: #fff;margin: 0px;height: 32px;line-height: 32px; border-bottom:1px solid #ccc;}
+
+.view-list{padding: 5px;margin: 0px;background: #fff;}
+.view-list > li{height:40px; overflow:hidden; border-bottom:1px solid #eee;}
+.view-list > li:nth-child(even) {background: #f9f9f9;}
+.view-list > li>a{height:40px; line-height:40px; overflow:hidden; display:block; text-indent:10px; color:#333;}
+
+.view-list > li ul a{display:block; height:40px; line-height:40px; padding:0px 0px 0px 10px; overflow:hidden; border-top:1px dashed #eee; color:#666;}
+

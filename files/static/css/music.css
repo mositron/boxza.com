@@ -1,0 +1,39 @@
+
+
+.head-logo h1 a {width:415px; height:60px; background:none; }
+
+.song td a{color:#555;}
+table.song tr td.div{width:100px; font-size:12px}
+table.song tr td.tm{width:100px; text-align:center; font-size:12px}
+.song td div{display:block;overflow:hidden;white-space:nowrap; width:100px; text-overflow:ellipsis; font-weight:normal;}
+.song td.i{width:20px;vertical-align:middle; text-align:center;}
+table.song td.i  img{width:16px !important; height:16px !important;}
+
+.bm{border:1px solid #f0f0f0; background:#fcfcfc; padding:0px 5px 5px; margin-bottom:5px; color:#ccc;}
+.bm h4{ background:#f6f6f6; height:24px; line-height:24px; margin:0px -5px; padding:0px 10px; color:#222; text-shadow:1px 1px 0px #fff;}
+
+
+
+@media only screen and (max-width: 767px) {
+	table.song th:nth-child(3),
+	table.song td:nth-child(3),
+	table.song th:nth-child(5),
+	table.song td:nth-child(5){display: none;}
+}
+
+
+.hd-a {height: 28px;line-height: 28px;background: #f0f0f0;padding: 0px 8px;margin: 0px;font-size: 16px;text-shadow: 1px 1px 0px #fff;}
+.hd-a a{ color:#444;}
+
+
+.bcd{margin:0px}
+.bcd ul{margin-left:-5px; margin-bottom:5px;}
+.bcd li{background:#fff;margin:5px 0px 0px 5px}
+.bcd li a{display:block; color:#58595B; overflow:hidden;line-height:0px;height:127px}
+.bcd li a.i1{height:235px;}
+.bcd li p{line-height:19px;font-size:13px; text-indent:5px; color:#555; }
+
+@media (max-width: 767px) {
+  .bcd li a{ height:auto !important;}
+  .bcd li a > img{float:left; margin-right:10px;}
+}

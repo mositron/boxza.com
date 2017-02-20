@@ -1,0 +1,82 @@
+body{background:#fff url(../images/asiangames/bg.jpg) center 0px no-repeat}
+._hd-bt{margin-bottom:42px;}
+._ct{background:#fff; box-shadow:none;}
+
+
+
+.head-logo h1 a {width:250px; height:90px; background:url(../images/asiangames/icon.png) 0px 0px no-repeat;}
+
+.hbar .brand{color: #fff;text-shadow: none; margin-left:0px;}
+.hbar .navbar-inner{padding-left:5px; padding-right:5px;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px; background:#004A8F; margin-bottom:5px; box-shadow:none;}
+.hbar.navbar .nav > li > a{color: #fff;border:none;text-shadow:none;font-size: 15px; padding-left:12px; padding-right:12px;}
+.hbar.navbar .nav > li:last-child a{border:none}
+.hbar.navbar .nav > li a:hover,.hbar.navbar .nav > li a.active{color:#58595B; background:#D0D2D3;background-image: -webkit-linear-gradient(top,#D0D2D3 0%,#E6E7E8 20%,#E6E7E8 80%,#BBBDBF 100%);background-image: -moz-linear-gradient(top,#D0D2D3 0%,#E6E7E8 20%,#E6E7E8 80%,#BBBDBF 100%);background-image: -ms-linear-gradient(top,#D0D2D3 0%,#E6E7E8 20%,#E6E7E8 80%,#BBBDBF 100%);background-image: -o-linear-gradient(top,#D0D2D3 0%,#E6E7E8 20%,#E6E7E8 80%,#BBBDBF 100%);background-image: linear-gradient(top,#D0D2D3 0%,#E6E7E8 20%,#E6E7E8 80%,#BBBDBF 100%);}
+._box {margin-bottom: 10px;padding: 5px 0px 5px 5px;}
+
+i.ic{ width:24px; height:24px; display:inline-block; background:url(../images/asiangames/icon.png) 0px -150px no-repeat; vertical-align:text-top; display:none;}
+i.ic-1{background-position:-24px -150px}
+i.ic-2{background-position:-48px -150px}
+i.ic-3{background-position:-72px -150px}
+i.ic-4{background-position:-96px -150px}
+i.ic-5{background-position:-120px -150px}
+i.ic-6{background-position:-144px -150px}
+i.ic-7{background-position:-168px -150px}
+
+
+.error{background:#fff; color:#f00;}
+
+.container{margin-bottom:-1px;}
+.dropdown-menu > li{display:block}
+
+
+.bcd{margin:0px 0px 5px 0px}
+.bcd ul{margin-left:-5px;}
+.bcd li{margin:5px 0px 0px 5px}
+.bcd li a{display:block; color:#58595B; overflow:hidden;line-height:0px;height:130px}
+.bcd li a.i1{height:auto;}
+.bcd li a.i1 img{margin:15px auto}
+.bcd li p{line-height: 18px;font-size: 13px;text-indent: 5px;color: #555;max-height: 53px;overflow: hidden;margin-top: 5px; margin-bottom:0px;}
+
+@media (max-width: 767px) {
+  .bcd li a{ height:auto !important;}
+  .bcd li a.i1 > img{width:100px; height:73px; margin:0px;}
+  .bcd li a > img{float:left; margin-right:10px !important;}
+}
+
+.news-box-1{background:#E9EFF4;}
+.news-box-1 .thumbnails{margin-bottom:0px;}
+
+.news-list-1 h3{height:32px; line-height:32px; padding:0px 10px; margin:0px; color:#004A8F;border-bottom: 5px solid #3DC4F2;}
+.news-list-1 h3 .i1{ width:41px; height:38px; display:inline-block; vertical-align:middle; background:url(../images/asiangames/icon.png) -120px -153px no-repeat;}
+.news-list-1 ul{}
+
+.news-list-1 .news-border li{margin:0px !important; border-top:1px solid #fff; border-bottom:1px solid #ccc;}
+.news-list-1 .news-border li:first-child{border-top:none;}
+.news-list-1 .news-border li:last-child{border-bottom:none;}
+
+.news-left a{height:auto !important; padding:9px;}
+
+.news-left a:after{clear:both; display:block; content:"";}
+.news-left a>img{float:left; margin-right:5px;}
+
+.news-list-2{ background:#fff; margin:0px;}
+.news-list-2 h3{margin: 2px 2px 0px 2px;color:#fff;height: 30px;line-height: 30px;font-size:14px;background: #EE2D3D;}
+.news-list-2 h3 .i1{ width:52px; height:47px; display:inline-block; vertical-align:middle; background:url(../images/asiangames/icon.png) -65px -153px no-repeat;margin: -14px 0px -3px;}
+
+.news-list-2 li{margin:0px !important; border-bottom:1px dashed #ccc;}
+.news-list-2 li:last-child{border:none;}
+
+
+
+.news-box-2 h3{margin:0px;color:#231F20;height:40px;line-height:40px; font-weight:normal; padding-left:5px; border-bottom:1px solid #ccc;}
+.news-box-2 h3 .i1{ width:19px; height:16px; display:inline-block; vertical-align:middle; background:url(../images/asiangames/icon.png) -99px -105px no-repeat;}
+
+
+
+.bcd-hot h3{margin:0px; padding-left:5px; color:#fff;height: 30px;line-height: 30px; font-weight:normal;background: #87C440;}
+.bcd-hot h3 .i1{ width:25px; height:19px; display:inline-block; vertical-align:middle; background:url(../images/asiangames/icon.png) -1px -129px no-repeat;}
+
+.bcd-all h3{padding:0px 10px;margin: 0px;color:#000000;height: 30px;line-height: 30px; font-weight:normal; border-bottom: 5px solid #004A8F;}
+.bcd-all h3 .i1{ width:27px; height:27px; display:inline-block; vertical-align:middle; background:url(../images/asiangames/icon.png) -28px -125px no-repeat;}
+
+/*

@@ -1,0 +1,220 @@
+
+html,body,div,p,h1,h2,h3,h4,h5,h6 {margin: 0px;padding: 0px;border: 0px;}
+body{ font-family:Tahoma; font-size: 16px; line-height: 1.6em; color: #555; background:#e8e8e8; padding:0px;margin:0px; padding-top:53px;}
+a{ text-decoration:none; color:#09F}
+.clear{clear:both;}
+
+.apps-list{list-style:none;margin:5px; padding:0px;}
+.apps-list li{border-bottom:1px solid #ccc; overflow:hidden; background:#fff;}
+.apps-list li:nth-child(odd){ background:#f4f4f4;}
+.apps-list li a{height:62px;display:block;color: #333; text-decoration: none; padding:0px 5px;}
+.apps-list li a img{float:left; width:50px; height:50px; background:#ccc; margin:5px 10px 0px 0px;border-radius:4px; border:1px solid #000;}
+.apps-list h1{font-size:24px; color:#333; padding:10px 0px 5px; margin:0px;}
+.apps-list h2{font-size:14px; color:#888; font-weight:normal; margin:0px;}
+
+
+.bar{height:50px; line-height:50px; background:#2D2D2D; position:fixed; width:100%; left:0px; top:0px;border-bottom: 3px solid #8fd345;}
+.bar>div{position:relative;}
+.bar-back,.bar-refresh,.bar-print{width:40px; height:40px; display:inline-block;position:absolute;top:5px; background:url(http://s0.boxza.com/static/images/mobile/football.png) 0px 0px no-repeat; border-radius:4px;}
+.bar-back{ left:5px;}
+.bar-refresh{right:10px; background-position:-40px 0px;}
+.bar-print{right:55px; background-position:-80px 0px;}
+.bar-title{ margin:0px 55px; text-align:center; color:#fff; font-size:26px; line-height:50px; height:50px;}
+.bar-title span {width: 1px;height: 1px;overflow: hidden;display: inline-block;}
+
+.tabs{height:50px;overflow: scroll;overflow-y: hidden;-webkit-overflow-scrolling: touch;white-space:nowrap; background:#555; margin:0px; padding:0px; list-style:none; text-align:center;}
+.tabs li{display:inline-block; height:50px;}
+.tabs li a{display:inline-block; height:50px;min-width:100px;text-align:center;}
+.tabs li a.active{border-bottom: 5px solid #8fd345;height: 45px;}
+.tabs li a span{display:block; height:30px; line-height:30px; margin:10px 0px; font-size:18px; border-left:1px solid #6b6b6b; color:#f3f3f3;padding:0px 30px;}
+.tabs li:first-child a span{border-left:none;}
+
+
+.home-list{list-style:none;margin:0px; padding:0px;text-shadow:1px 1px 0px #fff;}
+.home-list li{border-bottom:1px solid #ccc; overflow:hidden;}
+.home-list li:nth-child(even){background:#f7f7f7;}
+.home-list li a{height:62px;display:block;color:#090; text-decoration: none; padding:0px 5px;}
+.home-list .icon{display:inline-block; float:left; width:50px; height:50px; background:#ccc; margin:5px 10px 0px 0px;border-radius:4px; border:1px solid #000; background:url(http://s0.boxza.com/static/images/mobile/football.png) 0px 0px no-repeat;}
+.home-list .icon-1{background-position:0px -40px;}
+.home-list .icon-2{background-position:-50px -40px;}
+.home-list .icon-3{background-position:-100px -40px;}
+.home-list .icon-4{background-position:-150px -40px;}
+.home-list .icon-5{background-position:-200px -40px;}
+.home-list .icon-6{background-position:-250px -40px;}
+.home-list .icon-7{background-position:-300px -40px;}
+.home-list .icon-8{background-position:-350px -40px;}
+.home-list .icon-9{background-position:-400px -40px;}
+.home-list .icon-10{background-position:-450px -40px;}
+.home-list h1{font-size:24px; color:#444; padding:10px 0px 5px; margin:0px;}
+.home-list h2{font-size:14px; color:#888; font-weight:normal; margin:0px;}
+
+.football-bar{padding: 5px 20px;background: #fff;margin: 0px;height: 32px;line-height: 32px; border-bottom:1px solid #ccc;}
+
+#radio-bar{background:#8fd345; height:36px; line-height:36px; color:#fff; text-align:center; display:none;}
+#radio-bar a{color:#000;}
+
+.football-news{padding:5px 5px 0px 5px;}
+.football-news ul{margin:0px; padding:0px; list-style:none;}
+.football-news li{background:#fff;margin:0px 0px 5px 0px}
+.football-news li:nth-child(odd) {background: #f5f5f5;}
+.football-news li a{display:block; color:#58595B; overflow:hidden;line-height:0px; text-decoration:none !important;}
+.football-news li p,.football-news li div{line-height: 18px;font-size: 18px;text-indent: 5px;color: #555;max-height: 53px;overflow: hidden;margin-top: 5px;}
+.football-news li div {font-size: 14px;color: #ccc;}
+.football-news li a{ height:auto !important;}
+.football-news li a > img{float:left; margin-right:10px !important; width:100px;}
+
+
+.football-news:after {clear: both;content: "";display: block; height:0px}
+
+.page-nav {text-align: center;margin: 5px;background: #fff;padding: 5px;}
+.page-nav a{display:inline-block; height:40px;line-height: 40px; width:40%; margin:0px 5px; background:#fff; border-radius:5px; border:2px solid #ccc; font-size:22px; color:#444}
+
+
+.news-h1{font-size:24px; padding:5px 10px; margin:0px; line-height:1.4em;}
+.news-detail{padding: 5px;font-size: 16px;line-height: 1.6em; background:#fff;}
+.news-detail img{max-width:100%;}
+
+
+.match-bar{background:#333; color:#8fd345; height:36px; line-height:36px; font-size:18px; text-align:center; margin:0px; padding:0px; border-top:3px solid #8fd345}
+.match a,.score a {color: white;}
+
+.match{width:100%; background:#000;border-collapse: separate;border-spacing: 1px;color:#ccc}
+.match tr th{padding:5px; text-align:center; vertical-align:middle;color:#ccc}
+.match tr td{padding:5px; text-align:center; vertical-align:middle;color:#ccc}
+.match tr td.n{width:auto; text-align:center}
+.match tr td.i{width:32px !important;}
+.match tr td.i i{width:32px !important; height:32px; /*background:#fff;*/ line-height:32px; display:inline-block; text-align:center; vertical-align:middle;}
+
+.match tr td.i2{width:16px !important;}
+.match tr td.t{width:50px !important;}
+.match tr td.r,.match tr td.p{width:60px !important;}
+.match tr td.r a{width:40px !important; height:24px;line-height:24px; color:#F9C041; font-weight:bold; display:inline-block; text-align:center; vertical-align:middle; border-radius:4px; border:1px solid #404041; background:#231F20;background-image: -webkit-linear-gradient(top,#231F20 0%,#404041 65%,#6D6E70 100%);background-image: -moz-linear-gradient(top,#231F20 0%,#404041 65%,#6D6E70 100%);background-image: -ms-linear-gradient(top,#231F20 0%,#404041 65%,#6D6E70 100%);background-image: -o-linear-gradient(top,#231F20 0%,#404041 65%,#6D6E70 100%);background-image: linear-gradient(top,#231F20 0%,#404041 65%,#6D6E70 100%);}
+.match tr td.p span{width:40px !important; height:24px;line-height:24px; color:#74C7FA; font-weight:bold; display:inline-block; text-align:center; vertical-align:middle; border-radius:4px; border:1px solid #404041; background:#231F20;background-image: -webkit-linear-gradient(top,#6D6E70 0%,#404041 65%,#231F20 100%);background-image: -moz-linear-gradient(top,#6D6E70 0%,#404041 65%,#231F20 100%);background-image: -ms-linear-gradient(top,#6D6E70 0%,#404041 65%,#231F20 100%);background-image: -o-linear-gradient(top,#6D6E70 0%,#404041 65%,#231F20 100%);background-image: linear-gradient(top,#6D6E70 0%,#404041 65%,#231F20 100%);}
+.match tr td.p2 span{width:50px !important; height:24px;line-height:24px; color:#F9C041; font-weight:bold; display:inline-block; text-align:center; vertical-align:middle; border-radius:4px; border:1px solid #404041; background:#231F20;background-image: -webkit-linear-gradient(top,#231F20 0%,#404041 65%,#6D6E70 100%);background-image: -moz-linear-gradient(top,#231F20 0%,#404041 65%,#6D6E70 100%);background-image: -ms-linear-gradient(top,#231F20 0%,#404041 65%,#6D6E70 100%);background-image: -o-linear-gradient(top,#231F20 0%,#404041 65%,#6D6E70 100%);background-image: linear-gradient(top,#231F20 0%,#404041 65%,#6D6E70 100%);}
+.match tr td.dt{width:100px !important;}
+.match tr.l0 td{background:#212121;}
+.match tr.l1 td{background:#404041;}
+.match tr td.h{ text-align:center; color:#FAAF40; background:#373737}
+
+.match .league-1{ color:#fff;}
+.match .league-5{ color:#f00;}
+
+
+.score{width:100%; background:#1E1E1E;border-collapse: separate;border-spacing: 1px; color:#fff;}
+.score tr td{padding:1px 0px; width:20px; text-align:center; background:#1E1E1E;}
+.score tr.l0 td{background:#101010;}
+.score tr th{color:#74C7FA; font-weight:bold;}
+.score tr .p{color:#F05A28 !important; width:80px;}
+.score tr .gd {color: #FFC000;background: #161616; width:70px;}
+.score tr td.n{width:auto; text-align:left}
+.score tr td.i{width:16px !important;}
+.score tr td i{width:16px !important; height:16px; /*background:#fff; */line-height:16px; display:inline-block; text-align:center; vertical-align:middle;}
+.score tr td.l{ text-align:right; padding:1px 3px; width:10px;}
+.score tr td.n p{width:115px; overflow:hidden; white-space:nowrap; height:16px; line-height:16px;text-overflow:ellipsis; text-indent:5px;}
+.score tr td.n2 a{color:#0F0}
+.score2 tr td{width:50px; vertical-align:middle;}
+.score2 tr td.i{width:32px !important;}
+.score2 tr td i{width:32px !important; height:32px; line-height:32px;}
+.score2 tr td.n p{text-indent:5px; width:200px;}
+
+
+
+.football-tabs{height:50px;overflow: scroll;overflow-y: hidden;-webkit-overflow-scrolling: touch;white-space:nowrap; background:#666; margin:0px; padding:0px; list-style:none; text-align:center;}
+.football-tabs li{display:inline-block; height:50px;}
+.football-tabs li a{display:inline-block; height:50px;min-width:100px;text-align:center; line-height:50px; color:#fff;}
+.football-tabs li a.active{border-bottom: 5px solid #8fd345;height: 45px;}
+.football-tabs li a span{display:block; height:30px; line-height:30px; margin:10px 0px; font-size:18px; border-left:1px solid #6b6b6b; color:#f3f3f3;padding:0px 30px;}
+.football-tabs li:first-child a span{border-left:none;}
+
+.football-analyze ul{ margin:0px; padding:0px; list-style:none;}
+.football-analyze li{background:#f5f5f5;}
+.football-analyze li:nth-child(even){background:#fff;}
+.football-analyze li a{display: block;color: #000;padding: 5px 0px 5px 10px;}
+
+
+
+
+.kinfo{width:100%;background-color:rgba(255,255,255,0.1); margin:0px auto;border:2px solid #000}
+.kinfo{border-collapse: separate;border-spacing: 1px;}
+.kinfo th{background-color:transparent; font-weight:bold; padding:5px;}
+.kinfo td{vertical-align:middle; text-align:center; background-color:transparent; border-bottom:1px solid #111;}
+
+.tinfo{width:100%; background-color:transparent;}
+.tinfo td{font-size:88px; text-align:center; height:110px; line-height:110px; font-weight:bold;}
+.tinfo td.i1{text-align:center; line-height:0px;width:120px; padding:0px; line-height:0px;vertical-align:middle;}
+.tinfo td.i2{text-align:center; line-height:0px;width:120px; padding:0px; line-height:0px; vertical-align:middle;}
+.kinfo td.n{width:350px; text-align:center}
+.kinfo td.ty{text-align:center; width:80px;}
+.kinfo td.m{text-align:center;}
+
+
+
+.kdetail{width:100%;background-color:rgba(255,255,255,0.1); margin:0px auto;border:2px solid #000}
+.kdetail{border-collapse: separate;border-spacing: 1px;}
+.kdetail th{background-color:transparent; font-weight:bold; padding:5px;}
+.kdetail td{vertical-align:middle; text-align:center; background-color:transparent; border-bottom:1px solid #111;}
+.kdetail td.n{width:300px; text-align:center}
+.kdetail td.m{text-align:center;}
+
+
+
+.mview{ margin:0px; background:#000; color:#ddd; padding:5px;}
+.mview > .in{background-color:#000;background-color:rgba(0,0,0,0.8);}
+
+
+.mv{font-size:16px;margin:0px; font-size:14px; text-align:center; font-weight:normal;height:40px; line-height:40px; color:#000; padding:0px 10px; border-radius:5px; background:#FFD431; background-image: -webkit-linear-gradient(top,#FFD431 0%,#F5B516 50%,#EB633B 100%);background-image: -moz-linear-gradient(top,#FFD431 0%,#F5B516 50%,#EB633B 100%);background-image: -ms-linear-gradient(top,#FFD431 0%,#F5B516 50%,#EB633B 100%);background-image: -o-linear-gradient(top,#FFD431 0%,#F5B516 50%,#EB633B 100%);background-image: linear-gradient(top,#FFD431 0%,#F5B516 50%,#EB633B 100%);}
+.mv strong{display:inline-block; float:left; height:40px; line-height:40px; font-size:22px;}
+.mv p{display:inline-block; float:right; height:40px; line-height:40px; font-size:14px;}
+
+
+.bvs{padding:10px;}
+.bvs h2{margin:0px 0px 0px 0px; font-size:18px; height:30px; text-align:center; line-height:30px; text-shadow:1px 1px 0px #999;}
+.bvs h3{margin:0px 0px 0px 0px; font-size:14px; height:26px; text-align:center; line-height:26px; text-shadow:1px 1px 0px #333;}
+.bvs h2 a{color:#000;}
+.bvs h3 a{color:#E6E7E8}
+.bvs span{ display:inline-block; width:440px;}
+.bvs .left{text-align:right; float:right;}
+.bvs .right{text-align:left; float:left}
+
+.hpy{font-size:16px; font-weight:normal;height:30px; text-align:center; line-height:30px; color:#000; padding:0px 5px; background:#8fd345; color:#fff; }
+.hs{font-size:14px; font-weight:normal;height:30px; line-height:30px; color:#000; padding:0px 5px; background:#FAAF40; background-image: -webkit-linear-gradient(top,#FAAF40 0%,#FAAF40 70%,#EB633B 100%);background-image: -moz-linear-gradient(top,#FAAF40 0%,#FAAF40 70%,#EB633B 100%);background-image: -ms-linear-gradient(top,#FAAF40 0%,#FAAF40 70%,#EB633B 100%);background-image: -o-linear-gradient(top,#FAAF40 0%,#FAAF40 70%,#EB633B 100%);background-image: linear-gradient(top,#FAAF40 0%,#FAAF40 70%,#EB633B 100%);}
+.hs a{color:#000; }
+.hs small{font-size:12px; font-style:normal; color:#000}
+.hs small a{color:#000}
+
+
+
+
+i.icon-red{display:inline-block; width:16px !important; height:19px !important;background:url(http://s0.boxza.com/static/images/mobile/football.png) -104px -100px no-repeat; vertical-align:middle; margin:0px !important}
+i.icon-yellow{display:inline-block; width:16px !important; height:19px !important;background:url(http://s0.boxza.com/static/images/mobile/football.png) -124px -100px no-repeat; vertical-align:middle; margin:0px !important}
+i.icon-goal{display:inline-block; width:18px !important; height:17px !important;background:url(http://s0.boxza.com/static/images/mobile/football.png) -44px -100px no-repeat; vertical-align:middle; margin:0px !important}
+i.icon-goal1{display:inline-block; width:18px !important; height:17px !important;background:url(http://s0.boxza.com/static/images/mobile/football.png) -64px -100px no-repeat; vertical-align:middle; margin:0px !important}
+i.icon-goal2{display:inline-block; width:18px !important; height:17px !important;background:url(http://s0.boxza.com/static/images/mobile/football.png) -84px -100px no-repeat; vertical-align:middle; margin:0px !important}
+i.icon-change{display:inline-block; width:17px !important; height:12px !important;background:url(http://s0.boxza.com/static/images/mobile/football.png) -144px -100px no-repeat; vertical-align:middle; margin:0px !important}
+i.icon-out{display:inline-block; width:17px !important; height:18px !important;background:url(http://s0.boxza.com/static/images/mobile/football.png) -164px -100px no-repeat; vertical-align:middle; margin:0px !important}
+i.icon-in{display:inline-block; width:17px !important; height:18px !important;background:url(http://s0.boxza.com/static/images/mobile/football.png) -184px -100px no-repeat; vertical-align:middle; margin:0px !important}
+
+
+.flex-video {position: relative;padding-top: 25px;padding-bottom: 67.5%;height: 0;margin-bottom: 16px;overflow: hidden;}
+.flex-video.widescreen { padding-bottom: 57.25%; }
+.flex-video.vimeo { padding-top: 0; }
+.flex-video iframe,.flex-video object,.flex-video embed {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
+@media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
+  .flex-video { padding-top: 0; }
+}
+
+
+@media (max-width: 767px) {
+
+
+}
+
+@media (max-width: 460px){
+.football-list h1{font-size:18px;}
+.football-list strong{font-size:14px}
+.football-list > div{ font-size:16px;}
+}
+
+@media (max-width: 320px){
+	
+}

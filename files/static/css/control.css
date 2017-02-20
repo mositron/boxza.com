@@ -1,0 +1,22 @@
+
+
+._ct{color: #555; box-shadow:0px 0px 5px #ccc;border-top-left-radius: 4px;border-top-right-radius: 4px; background:#fff; padding:5px;}
+
+
+.lg{padding:5px 0px 0px 0px; margin:0px auto; width:980px; position:relative;}
+.lg > a {display:block; width:415px; /*height:71px; background:url(../images/news/icon.png) 0px 0px no-repeat; */margin:25px 0px 0px 0px;}
+
+.pf-r{width:750px; margin:5px 5px 5px 0px; min-height:500px; float:right;}
+.pf-l{ width:215px; padding:5px 0px 5px 5px; float:left;}
+
+
+.nav-ft{margin: 5px 5px 0px 5px;padding-top: 5px;padding-bottom: 5px; border-radius:5px; background:#eee;}
+.nav-ft > li h3{margin:5px 5px 5px 10px;}
+.nav-ft > li ul{margin:0px 5px 0px 5px; padding:0px 5px 5px 10px; border-top:1px solid #eee; list-style:inside circle}
+.nav-ft > li ul li{line-height:24px; height:24px;}
+.nav-ft > li ul li a{color:#333;}
+
+.mmenu h3{ height:30px; line-height:30px; padding:0px 10px; background:#eee; text-shadow:1px 1px 0px #fff; margin:0px;}
+.mmenu li a{display:block; height:26px; line-height:26px; padding:0px 0px 0px 10px; background:#f7f7f7; color:#333;text-shadow: 1px 1px 0px #fff;border-bottom: 1px dashed #ddd; font-size:14px; text-decoration:none;}
+.mmenu li a i{margin-right:5px;}
+.mmenu li a:hover{background:#f0f0f0;}

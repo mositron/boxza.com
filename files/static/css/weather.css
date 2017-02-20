@@ -1,0 +1,68 @@
+
+body{background:#fff url(../images/entertain/bg.png) 0px 0px repeat;}
+
+.head-logo h1 a {width:300px; height:0px; background:none}
+
+.ent-nav{ background:#FBB040; height:32px; overflow:hidden; margin:0px -5px 3px; border-radius:5px}
+.ent-nav h4{height:24px; line-height:24px; font-size:14px; margin:4px; padding:0px 5px;background:#F15A29; color:#fff; background-image: -webkit-linear-gradient(top,#F15A29,#F7941E);background-image: -moz-linear-gradient(top,#F15A29,#F7941E);background-image: -ms-linear-gradient(top,#F15A29,#F7941E);background-image: -o-linear-gradient(top,#F15A29,#F7941E);background-image: linear-gradient(top,#F15A29,#F7941E); border-bottom-left-radius:5px; border-bottom-right-radius:5px; float:left;}
+.ent-nav ul{list-style:none; margin:6px 0px 0px 0px; float:left;}
+.ent-nav ul li{color:#231F20; float:left; margin:0px 0px 0px 20px;}
+.ent-nav ul li a{color:#000; text-shadow:1px 1px 0px #FFED98}
+
+
+.hbar.navbar .nav>li>a{padding-left:15px; padding-right:15px;}
+
+.container{margin-bottom:-1px;}
+.dropdown-menu > li{display:block}
+
+
+
+
+
+.row-weather h3{background: #f0f0f0;padding: 5px 8px;margin:5px  2px 5px;border-radius: 4px; text-shadow:1px 1px 0px #fff;}
+.row-weather ul{margin:0px;}
+.row-weather li:nth-child(4n+1){margin-left:0px; clear:both;}
+
+.icn-wt{ display:inline-block; width:64px; height:64px; background:url(../images/weather/icon.png) -64px -64px no-repeat;}
+.icn-wt1{background-position:0px 0px}
+.icn-wt2{background-position:-64px 0px}
+.icn-wt3{background-position:-128px 0px}
+.icn-wt4{background-position:-192px 0px}
+.icn-wt5{background-position:-256px 0px}
+.icn-wt6{background-position:-320px 0px}
+.icn-wt7{background-position:-384px 0px}
+.icn-wt8{background-position:-448px 0px}
+.icn-wt9{background-position:-512px 0px}
+.icn-wt10{background-position:-576px 0px}
+.icn-wt11{background-position:-640px 0px}
+.icn-wt12{background-position:-704px 0px}
+.row-weather li>div{text-align:center; border:1px solid #f0f0f0; margin:0px 1px 5px; padding:5px 2px 2px; border-radius:4px;}
+.row-weather li p{margin:5px 0px; text-align:center; font-size:16px;}
+
+
+
+
+.bcd{margin:0px}
+.bcd ul{margin-left:-5px; margin-bottom:5px;}
+.bcd li{background:#fff;margin:5px 0px 0px 5px}
+.bcd li a{display:block; color:#58595B; overflow:hidden;line-height:0px;height:127px}
+.bcd li a.i1{height:235px;}
+.bcd li p{line-height:19px;font-size:13px; text-indent:5px; color:#555; }
+
+@media (max-width: 767px) {
+  .bcd li a{ height:auto !important;}
+  .bcd li a > img{float:left; margin-right:10px;}
+}
+
+
+.tbweather thead th,.tbweather tbody td{text-align:center; vertical-align:middle;}
+@media only screen and (max-width: 767px) {
+	table.tbweather th:nth-child(2),
+	table.tbweather th:nth-child(3),
+	table.tbweather th:nth-child(4),
+	table.tbweather th:nth-child(5),
+	table.tbweather td:nth-child(2),
+	table.tbweather td:nth-child(3),
+	table.tbweather td:nth-child(4),
+	table.tbweather td:nth-child(5){display: none;}
+}

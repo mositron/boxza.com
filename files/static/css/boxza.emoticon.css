@@ -1,0 +1,14 @@
+
+.bz-emoticon-popup{text-align:center;position:absolute;top:0px;left:0px; right:0px; bottom:0px; overflow:hidden;background:rgba(255, 255, 255, 0.7) left top repeat; z-index:199999; display:none}
+.bz-emoticon-popup-ct{display: table;height: 100%;table-layout: fixed;width: 100%;}
+.bz-emoticon-popup-in{display: table-cell;text-align: center;vertical-align: middle;width: 100%;}
+.bz-emoticon-popup-wr{display: inline-block;outline: none;text-align: left;position:relative}
+.bz-emoticon-popup-wl{ margin:20px 0px; zoom:1; background-color:#fff; padding:1px 1px 5px; border:1px solid #eee;}
+.bz-emoticon-pemo{ margin:20px;}
+.bz-emoticon-pemo li{float:left; list-style:none;}
+
+
+.news-emo{margin:0px 10px 0px 150px;}
+.news-emo a img{height:50px;}
+.news-emo div{padding:5px 10px; background:#f8f8f8; color:#333; text-shadow:1px 1px 0px #fff;}
+.news-emo div a{color:#333;}
