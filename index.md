@@ -2,6 +2,8 @@
 
 This is Boxza.com source code. (including bugs)
 
+start script from "php/sub/global/global.php"
+
 **Requirement**
 - PHP 5.4 (ext: php-common php-cli php-pear php-pecl-memcache php-gd php-mbstring php-mcrypt php-xml php-pecl-apc php-pecl-mongo php-xmlrpc)
 - MongoDB
