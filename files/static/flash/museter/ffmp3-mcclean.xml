@@ -1,8 +1,0 @@
-﻿<ffmp3-skin folder="http://s0.boxza.com/static/flash/museter">
-  <bg image="bg.png" x="0" y="0" />
-  <play image="play.gif" x="8" y="29" clickimage="playclick.jpg" />
-  <stop image="stop.jpg" x="40" y="29" clickimage="stopclick.jpg" />
-  <text x="13" y="9" width="154" height="17" color="#ffffff" font="Arial" size="11" />
-  <volume mode="holder" x="71" y="33" width="100" height="17" holderImage="holder.png" />
-  <status imagePlay="statusplay.png" imageStop="statusstop.png" x="13" y="34" />
-</ffmp3-skin>
